@@ -10,17 +10,30 @@
  h1 .sub{color:#7fb2e5;font-size:12px;letter-spacing:2px;display:block;font-weight:700}
  h2{color:#7fb2e5;font-size:15px;margin:24px 0 8px;border-left:4px solid #3b6ea5;padding-left:8px}
  ul{list-style:none;padding:0;margin:0}
- li{background:#171d26;border:1px solid #2a3240;border-radius:10px;padding:12px 16px;margin:8px 0}
- li:hover{border-color:#3b6ea5}
- a{color:#e8edf5;text-decoration:none;font-weight:700}
- a:hover{color:#7fb2e5}
- .op{font-weight:700} .buy{color:#ff8f86} .sell{color:#7fb2e5} .hold{color:#e6c07b}
- .meta{color:#8b95a7;font-size:12px}
+ li{margin:10px 0}
+ a.card{display:block;background:#171d26;border:1px solid #2a3240;border-radius:12px;
+        padding:14px 16px;text-decoration:none;color:#e8edf5;transition:border-color .15s}
+ a.card:hover,a.card:active{border-color:#3b6ea5;background:#1a222e}
+ .pick{display:inline-block;color:#7fb2e5;font-size:11px;font-weight:700;letter-spacing:1px;
+       background:#16233a;border:1px solid #22304a;border-radius:20px;padding:2px 10px;margin-bottom:7px}
+ .row1{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+ .stock{font-weight:700;font-size:16px}
+ .op{font-weight:700;font-size:12px;border-radius:20px;padding:2px 10px}
+ .buy{color:#ff8f86;background:#2a1d1d} .sell{color:#7fb2e5;background:#16233a} .hold{color:#e6c07b;background:#2a2417}
+ .row2{color:#9aa5b5;font-size:13.5px;margin-top:5px}
+ .cta{color:#7fb2e5;font-size:12.5px;font-weight:700;margin-top:9px;padding-top:9px;
+      border-top:1px dashed #2a3240;display:flex;justify-content:space-between;align-items:center}
  .foot{color:#6b7480;font-size:11px;margin-top:30px;border-top:1px solid #2a3240;padding-top:12px}
 </style></head><body>
 <h1><span class="sub">STOCK AGENT</span>📊 리서치 리포트</h1>
 <h2>2026-07-16</h2><ul>
-<li><a href="reports/2026-07-16/KR_009150.html">[KR] 삼성전기 (009150)</a> — <span class="op buy">매수</span> · 목표 ₩1,467,975 (+15.0%)</li>
+<li><a class="card" href="reports/2026-07-16/KR_009150.html">
+  <span class="pick">DAILY PICK - 한국</span>
+  <div class="row1"><span class="stock">삼성전기 (009150)</span>
+    <span class="op buy">매수</span></div>
+  <div class="row2">목표 ₩1,467,975 (+15.0%)</div>
+  <div class="cta"><span>카드를 누르면 전체 리포트가 열립니다</span><span>리포트 보기 ›</span></div>
+</a></li>
 </ul>
 <div class="foot">본 리포트는 AI(멀티 에이전트)가 공개 데이터를 바탕으로 자동 생성한 참고 자료이며,
 투자 권유가 아닙니다. 투자 판단의 책임은 투자자 본인에게 있습니다.</div></body></html>
