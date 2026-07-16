@@ -1,7 +1,7 @@
 {
   "tool_name": "PowerShell",
-  "tool_input_preview": "{\"command\":\"& \\\"C:\\\\Users\\\\admin\\\\Desktop\\\\JH\\\\StockAgent\\\\.venv\\\\Scripts\\\\python.exe\\\" \\\"C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-admin-Desktop-JH-StockAgent\\\\ce38cbf3-27f4-4a1b-a010-...",
-  "error": "Exit code 1\n=== ���� �� ===\r\n�ǰ� �ż� / ���簡 1,277,000 / ��¿��� +15.0% / EPS 9,786 / PER 132.73\r\n�����: EPS 9,786�� �� Ÿ�� PER 150�� = ��ǥ�ְ� 1,467,975��\r\n�ż�����: 1,187,610�� ~ 1,264,230�� / ����: 1,128,230\r\n\r\n=== �˻� ===\r\n����� ��ġ: 9,786��150.0=1,467,900 vs ǥ�� 1,467,975 �� OK\r\n��¿���: ��� +15.0% vs ǥ�� +15.0% �� OK\r\nPER �˻�: 1,277,000/9,786 = 130.5 vs ǥ�� 132.73 �� ����(�ҽ� ������ ����)\r\n�ż� ���<���簡: 1,264,230 < 1,277,000 �� OK(�߰ݸż� ����)\r\n����=�ϴ�-5%: 1,128,230 vs ǥ�� 1,128,230 �� OK\r\n\r\n==...",
-  "timestamp": "2026-07-16T06:46:32.930Z",
+  "tool_input_preview": "{\"command\":\"$env:PYTHONIOENCODING='utf-8'\\n& \\\"C:\\\\Users\\\\admin\\\\Desktop\\\\JH\\\\StockAgent\\\\.venv\\\\Scripts\\\\python.exe\\\" -c \\\"\\nimport sys, types\\nsys.path.insert(0, r'C:\\\\Users\\\\admin\\\\Desktop\\\\JH\\\\Sto...",
+  "error": "Exit code 1\n  File \"<string>\", line 23\r\n    print(f'전송: {ok} / 길이: {captured[\" len\\]}자\r\n                                     ^\r\nSyntaxError: unterminated string literal (detected at line 23)",
+  "timestamp": "2026-07-16T07:43:17.522Z",
   "retry_count": 1
 }
