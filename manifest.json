@@ -58,5 +58,15 @@
   "target": 1988601.12,
   "upside": 12.7,
   "path": "reports/2026-07-20/KR_000660.html"
+ },
+ {
+  "date": "2026-07-21",
+  "market": "US",
+  "ticker": "DDOG",
+  "name": "Datadog, Inc.",
+  "opinion": "중립",
+  "target": 252.18,
+  "upside": -4.2,
+  "path": "reports/2026-07-21/US_DDOG.html"
  }
 ]
