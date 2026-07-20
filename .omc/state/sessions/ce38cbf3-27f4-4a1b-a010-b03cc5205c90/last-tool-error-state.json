@@ -1,7 +1,7 @@
 {
   "tool_name": "PowerShell",
-  "tool_input_preview": "{\"command\":\"$env:PYTHONIOENCODING='utf-8'\\n& \\\"C:\\\\Users\\\\admin\\\\Desktop\\\\JH\\\\StockAgent\\\\.venv\\\\Scripts\\\\python.exe\\\" -c \\\"\\nimport sys, types\\nsys.path.insert(0, r'C:\\\\Users\\\\admin\\\\Desktop\\\\JH\\\\Sto...",
-  "error": "Exit code 1\n  File \"<string>\", line 23\r\n    print(f'전송: {ok} / 길이: {captured[\" len\\]}자\r\n                                     ^\r\nSyntaxError: unterminated string literal (detected at line 23)",
-  "timestamp": "2026-07-16T07:43:17.522Z",
+  "tool_input_preview": "{\"command\":\"\\\"===== 스케줄러 실행 이력 =====\\\"\\nGet-ScheduledTask -TaskName \\\"StockAgent_KR_Best\\\",\\\"StockAgent_US_Best\\\" | ForEach-Object {\\n  $i = $_ | Get-ScheduledTaskInfo\\n  \\\"{0}: 마지막 실행 {1} / 결과 {2} / ...",
+  "error": "Exit code 143\nCommand timed out after 2m 0s\n===== 스케줄러 실행 이력 =====\r\nStockAgent_KR_Best: 마지막 실행 2026-07-17 금 오후 3:40:00 / 결과 0 / 다음 2026-07-20 월 오후 3:40:00\r\nStockAgent_US_Best: 마지막 실행 2026-07-18 토 오전 6:30:00 / 결과 0 / 다음 2026-07-21 화 오전 6:30:00\r\n\n===== 최근 산출물 (금~일) =====\r\n  2026-07-17\\2026-07-17_KR_삼성전기_009150.html (105KB)\r\n  2026-07-17\\2026-07-17_KR_삼성전기_009150.pdf (237KB)\r\n  2026-07-17\\2026-07-17_US_Datadog__Inc._DDOG.html (151KB)\r\n  2026-07-17\\2026-07-17_US_Datadog__Inc._DDOG.pdf (269KB)\r\n  202...",
+  "timestamp": "2026-07-20T02:53:08.271Z",
   "retry_count": 1
 }

@@ -38,5 +38,15 @@
   "target": 249.94,
   "upside": -3.4,
   "path": "reports/2026-07-18/US_DDOG.html"
+ },
+ {
+  "date": "2026-07-20",
+  "market": "KR",
+  "ticker": "009150",
+  "name": "삼성전기",
+  "opinion": "매수",
+  "target": 1467975.0,
+  "upside": 15.1,
+  "path": "reports/2026-07-20/KR_009150.html"
  }
 ]
