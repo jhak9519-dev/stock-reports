@@ -48,5 +48,15 @@
   "target": 1467975.0,
   "upside": 15.1,
   "path": "reports/2026-07-20/KR_009150.html"
+ },
+ {
+  "date": "2026-07-20",
+  "market": "KR",
+  "ticker": "000660",
+  "name": "SK하이닉스",
+  "opinion": "매수",
+  "target": 1988601.12,
+  "upside": 12.7,
+  "path": "reports/2026-07-20/KR_000660.html"
  }
 ]
