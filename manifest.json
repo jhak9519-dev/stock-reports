@@ -68,15 +68,5 @@
   "target": 252.18,
   "upside": -4.2,
   "path": "reports/2026-07-21/US_DDOG.html"
- },
- {
-  "date": "2026-07-21",
-  "market": "KR",
-  "ticker": "000000",
-  "name": "테스트전자",
-  "opinion": "매수",
-  "target": 141.51045359522172,
-  "upside": 20.0,
-  "path": "reports/2026-07-21/KR_000000.html"
  }
 ]
