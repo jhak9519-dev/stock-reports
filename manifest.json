@@ -78,5 +78,15 @@
   "target": 2109122.4,
   "upside": 15.9,
   "path": "reports/2026-07-21/KR_000660.html"
+ },
+ {
+  "date": "2026-07-21",
+  "market": "KR",
+  "ticker": "009150",
+  "name": "삼성전기",
+  "opinion": "매수",
+  "target": 1565840.0,
+  "upside": 19.5,
+  "path": "reports/2026-07-21/KR_009150.html"
  }
 ]
