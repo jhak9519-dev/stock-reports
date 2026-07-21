@@ -88,5 +88,15 @@
   "target": 1565840.0,
   "upside": 19.5,
   "path": "reports/2026-07-21/KR_009150.html"
+ },
+ {
+  "date": "2026-07-22",
+  "market": "US",
+  "ticker": "MU",
+  "name": "Micron Technology, Inc.",
+  "opinion": "매수",
+  "target": 1194.21,
+  "upside": 23.0,
+  "path": "reports/2026-07-22/US_MU.html"
  }
 ]
