@@ -118,5 +118,16 @@
   "upside": 10.3,
   "buy": 613609.0,
   "path": "reports/2026-07-22/KR_034730.html"
+ },
+ {
+  "date": "2026-07-23",
+  "market": "US",
+  "ticker": "DELL",
+  "name": "Dell Technologies Inc.",
+  "opinion": "매수",
+  "target": 502.8,
+  "upside": 13.8,
+  "buy": 407.69,
+  "path": "reports/2026-07-23/US_DELL.html"
  }
 ]
