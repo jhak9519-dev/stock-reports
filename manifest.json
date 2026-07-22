@@ -107,5 +107,16 @@
   "upside": 22.6,
   "path": "reports/2026-07-22/US_MU.html",
   "buy": 931.99
+ },
+ {
+  "date": "2026-07-22",
+  "market": "KR",
+  "ticker": "034730",
+  "name": "SK",
+  "opinion": "중립",
+  "target": 688200.0,
+  "upside": 10.3,
+  "buy": 613609.0,
+  "path": "reports/2026-07-22/KR_034730.html"
  }
 ]
