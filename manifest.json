@@ -129,5 +129,16 @@
   "upside": 13.8,
   "buy": 407.69,
   "path": "reports/2026-07-23/US_DELL.html"
+ },
+ {
+  "date": "2026-07-23",
+  "market": "KR",
+  "ticker": "034730",
+  "name": "SK",
+  "opinion": "매수",
+  "target": 752000.0,
+  "upside": 14.5,
+  "buy": 632115.0,
+  "path": "reports/2026-07-23/KR_034730.html"
  }
 ]
