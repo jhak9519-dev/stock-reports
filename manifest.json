@@ -151,5 +151,16 @@
   "upside": 15.9,
   "buy": 624275.0,
   "path": "reports/2026-07-27/KR_000810.html"
+ },
+ {
+  "date": "2026-07-28",
+  "market": "US",
+  "ticker": "GEN",
+  "name": "Gen Digital Inc.",
+  "opinion": "매수",
+  "target": 29.83,
+  "upside": 11.6,
+  "buy": 25.34,
+  "path": "reports/2026-07-28/US_GEN.html"
  }
 ]
