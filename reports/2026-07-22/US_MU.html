@@ -30,6 +30,8 @@
   .opinion-cell .k { font-size: 8pt; color: #888; }
   .opinion-cell .v { font-size: 14pt; font-weight: 800; margin-top: 2px; }
   .buy { color: #c0504d; } .hold { color: #d9a441; } .sell { color: #2e75b6; }
+  .hold-ret { font-size: 10pt; font-weight: 700; border-radius: 20px; padding: 2px 10px; vertical-align: middle; }
+  .hold-ret.buy { background: #fdeceb; } .hold-ret.sell { background: #eaf1f8; }
 
   .block { margin-bottom: 16px; }   /* 주제 블록 — 웹에선 카드로 스타일됨 */
   h2.section {
@@ -44,8 +46,16 @@
   img.chart { width: 100%; margin: 8px 0; border: 1px solid #eee; border-radius: 4px; }
 
   table.metrics { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 9.5pt; }
-  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; }
-  table.metrics td.k { background: #f7f7f7; color: #555; width: 22%; }
+  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; vertical-align: top; }
+  /* 항목명(키) 칸은 글자 길이에 맞게 최소폭으로 줄이고, 값 칸이 남는 폭을 차지 */
+  table.metrics td.k { background: #f7f7f7; color: #555; white-space: nowrap; width: 1%; }
+  /* 고정 배분 표(일자별 수급·시나리오): colgroup 비율을 그대로 사용 */
+  table.fixed { table-layout: fixed; }
+  table.fixed td { overflow: hidden; text-overflow: ellipsis; word-break: keep-all; }
+  table.fixed td.k { white-space: normal; }          /* 헤더는 줄바꿈 허용(잘림 방지) */
+  table.fixed td.num { white-space: nowrap; text-align: right; }
+  table.fixed td.dt { white-space: nowrap; text-align: center; }
+  table.scen td.cond { white-space: normal; font-size: 8.5pt; color: #444; }
 
   .risks { background: #fff6f5; border: 1px solid #f0d8d5; border-radius: 5px; padding: 10px 12px; }
   .disclaimer {
@@ -56,7 +66,7 @@
 
 <div class="header">
   <div class="eyebrow">STOCK AGENT · 리서치 리포트</div>
-  <div class="title">Micron Technology, Inc. <span style="font-size:12pt;color:#8b95a7;">(MU)</span> <span class="hold-ret" style="font-weight:700;border-radius:20px;padding:2px 10px;font-size:0.72em;color:#ff8f86;background:#2a1d1d">매수가 대비 +2.9%</span></div>
+  <div class="title">Micron Technology, Inc. <span style="font-size:12pt;color:#8b95a7;">(MU)</span></div>
   <div class="subtitle">Technology · S&P500 (미국)</div>
   <div class="meta-row">
     <div>발행일 <b>2026-07-22</b></div>
@@ -123,8 +133,8 @@
 
 <table class="metrics">
   <tr><td class="k">추세 강도</td><td>4/10 (지표 신호 가중 종합)</td></tr><tr><td class="k">이동평균 배열</td><td>혼조 배열 — 추세 전환 구간 가능성</td></tr><tr><td class="k">볼린저밴드(20,2σ)</td><td>%b 0.43 · 밴드 중간권 — 중립</td></tr><tr><td class="k">일목균형표</td><td>주가가 구름대 위 — 강세 구간 · 전환선<기준선(악화)</td></tr><tr><td class="k">RSI(14)</td><td>51.0 · 중립권</td></tr><tr><td class="k">MACD(12,26,9)</td><td>시그널 하회 — 하락 모멘텀</td></tr>
-  <tr><td class="k">저항선 (위)</td><td>20일선 $997.90 · 볼린저 상단 $1,202.18 · 52주 최고 $1,213.37</td></tr>
-  <tr><td class="k">지지선 (아래)</td><td>일목 구름 상단 $914.99 · 60일선 $880.57 · 볼린저 하단 $793.61 · 일목 구름 하단 $700.28</td></tr>
+  <tr><td class="k">저항선 (위)</td><td>20일선 $997.90<br>볼린저 상단 $1,202.18<br>52주 최고 $1,213.37</td></tr>
+  <tr><td class="k">지지선 (아래)</td><td>일목 구름 상단 $914.99<br>60일선 $880.57<br>볼린저 하단 $793.61<br>일목 구름 하단 $700.28</td></tr>
 </table>
 
 <div class="body-text">주가는 <b>60일선($880.57) 위, 20일선($997.90) 아래</b>에 위치한 혼조 배열로, 20일선 회복 여부가 단기 방향의 관건입니다. 일목균형표상 구름대 위 강세 구도가 유지되고 있으나 전환선이 기준선을 하회했고 MACD도 시그널 아래로, 단기 모멘텀 지표는 약세 쪽입니다. RSI 51·볼린저 %b 0.43의 중립권을 감안하면 추세 붕괴보다는 급등 후 기간 조정에 가깝다고 판단되며, <b>$880 안팎 60일선 지지가 유지되는 한 상승 추세 훼손은 아니라는 시각</b>이 우세합니다. 반대로 60일선 이탈 시 조정 폭이 깊어질 수 있어 조건부 대응이 필요합니다.</div>
@@ -139,24 +149,17 @@
 </table>
 
 
-<table class="metrics" style="margin-top:6px;">
-  <tr><td class="k">일자</td><td class="k">종가</td><td class="k">등락률</td><td class="k">거래량</td></tr>
-  
-  <tr><td class="k">07/21</td><td>$970.82</td><td class="buy">+12.17%</td><td>49.0M</td></tr>
-  
-  <tr><td class="k">07/20</td><td>$865.46</td><td class="buy">+1.94%</td><td>37.7M</td></tr>
-  
-  <tr><td class="k">07/17</td><td>$848.95</td><td class="sell">-0.50%</td><td>63.3M</td></tr>
-  
-  <tr><td class="k">07/16</td><td>$853.20</td><td class="sell">-5.65%</td><td>46.7M</td></tr>
-  
-  <tr><td class="k">07/15</td><td>$904.28</td><td class="sell">-8.02%</td><td>54.8M</td></tr>
-  
-  <tr><td class="k">07/14</td><td>$983.12</td><td class="buy">+4.92%</td><td>30.8M</td></tr>
-  
-  <tr><td class="k">07/13</td><td>$937.00</td><td class="sell">-4.32%</td><td>35.5M</td></tr>
-  
-</table>
+<table class="metrics fixed daily" style="margin-top:6px;">
+  <colgroup><col style="width:26%"><col style="width:24%"><col style="width:22%"><col style="width:28%"></colgroup>
+  <tr><td class="k dt">일자</td><td class="k num">종가</td><td class="k num">등락률</td><td class="k num">거래량</td></tr>
+  <tr><td class="dt">07/21</td><td class="num">$970.82</td><td class="num buy">+12.17%</td><td class="num">49.0M</td></tr>
+  <tr><td class="dt">07/20</td><td class="num">$865.46</td><td class="num buy">+1.94%</td><td class="num">37.7M</td></tr>
+  <tr><td class="dt">07/17</td><td class="num">$848.95</td><td class="num sell">-0.50%</td><td class="num">63.3M</td></tr>
+  <tr><td class="dt">07/16</td><td class="num">$853.20</td><td class="num sell">-5.65%</td><td class="num">46.7M</td></tr>
+  <tr><td class="dt">07/15</td><td class="num">$904.28</td><td class="num sell">-8.02%</td><td class="num">54.8M</td></tr>
+  <tr><td class="dt">07/14</td><td class="num">$983.12</td><td class="num buy">+4.92%</td><td class="num">30.8M</td></tr>
+  <tr><td class="dt">07/13</td><td class="num">$937.00</td><td class="num sell">-4.32%</td><td class="num">35.5M</td></tr>
+  </table>
 <div style="font-size:8pt;color:#7d8698;margin:1px 0 6px;">· 일별 종가·등락률·거래량 · 최근 7거래일 · 상승(빨강)·하락(파랑)</div>
 
 <div style="font-size:8.5pt;color:#7d8698;margin:2px 0 8px;">· 미국은 투자자 유형별 매매 데이터가 공개되지 않아 보유·공매도 지표와 일별 주가·거래량으로 수급을 갈음합니다. 출처: yfinance</div>
@@ -187,16 +190,13 @@
 </p>
 
 
-<table class="metrics">
-  <tr><td class="k">시나리오</td><td class="k">12개월 목표가</td><td class="k">확률</td><td class="k">핵심 조건</td></tr>
-  
-  <tr><td>🚀 강세</td><td>$1,488.30</td><td>30%</td><td style="font-size:8.5pt;">AI 서버·HBM 공급 부족 지속으로 2026 회계연도 EPS 상향 + 사이클 고점 배수(PER 30배) 재평가</td></tr>
-  
-  <tr><td>기본</td><td>$1,190.64</td><td>45%</td><td style="font-size:8.5pt;">메모리 업사이클 유지 속 실적 컨센서스 부합, 성장 프리미엄 반영한 PER 24배 안착</td></tr>
-  
-  <tr><td>📉 약세</td><td>$694.54</td><td>25%</td><td style="font-size:8.5pt;">메모리 가격 피크아웃 신호·데이터센터 투자 둔화로 다운사이클 배수(PER 14배)로 수축</td></tr>
-  
-</table>
+<table class="metrics fixed scen">
+  <colgroup><col style="width:15%"><col style="width:19%"><col style="width:11%"><col style="width:55%"></colgroup>
+  <tr><td class="k dt">시나리오</td><td class="k num">12개월 목표가</td><td class="k num">확률</td><td class="k">핵심 조건</td></tr>
+  <tr><td class="dt">🚀 강세</td><td class="num">$1,488.30</td><td class="num">30%</td><td class="cond">AI 서버·HBM 공급 부족 지속으로 2026 회계연도 EPS 상향 + 사이클 고점 배수(PER 30배) 재평가</td></tr>
+  <tr><td class="dt">기본</td><td class="num">$1,190.64</td><td class="num">45%</td><td class="cond">메모리 업사이클 유지 속 실적 컨센서스 부합, 성장 프리미엄 반영한 PER 24배 안착</td></tr>
+  <tr><td class="dt">📉 약세</td><td class="num">$694.54</td><td class="num">25%</td><td class="cond">메모리 가격 피크아웃 신호·데이터센터 투자 둔화로 다운사이클 배수(PER 14배)로 수축</td></tr>
+  </table>
 
 <p style="font-size:9.5pt;color:#b9c2d0;margin:2px 0 8px;"><b style="color:#7fb2e5;">기대값</b> · 확률가중 기대값 ≈ $1,155.91 (현재가 대비 +19.1%)</p>
 
@@ -274,6 +274,8 @@ h2.section { color: #7fb2e5 !important; border-left-color: #3b6ea5 !important; }
 .opinion-cell { border-right-color: #242c38 !important; min-width: 110px; }
 .opinion-cell .k { color: #8b95a7 !important; }
 .buy { color: #ff8f86 !important; } .hold { color: #e6c07b !important; } .sell { color: #7fb2e5 !important; }
+.hold-ret.buy { color: #ff8f86 !important; background: #2a1d1d !important; }
+.hold-ret.sell { color: #7fb2e5 !important; background: #16233a !important; }
 .summary { background: #16202e !important; border: 1px solid #24344e; border-radius: 8px; padding: 12px 14px !important; }
 .summary b, .body-text b { color: #ff9d94 !important; }
 .bullets { list-style: none !important; padding-left: 0 !important; display: flex; flex-wrap: wrap; gap: 7px; margin: 8px 0 !important; }
@@ -283,8 +285,9 @@ h2.section { color: #7fb2e5 !important; border-left-color: #3b6ea5 !important; }
 .body-text { line-height: 1.85 !important; }
 table.metrics td { border-color: #2a3240 !important; padding: 7px 10px !important; }
 table.metrics td.k { background: #1a222e !important; color: #8b95a7 !important; }
+table.scen td.cond { color: #b9c2d0 !important; }   /* 시나리오 핵심 조건: 다크 배경에서 읽히는 밝은색 */
 .risks { background: #241a1a !important; border-color: #43302f !important; }
-img.chart { background: #fff; border-radius: 8px; border-color: #2a3240 !important; padding: 3px; }
+img.chart { background: #141b24; border-radius: 8px; border-color: #2a3240 !important; padding: 0; }
 .disclaimer { color: #6b7480 !important; border-top-color: #2a3240 !important; }
 a { color: #7fb2e5; }
 @media (max-width: 520px) {

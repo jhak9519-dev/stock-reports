@@ -46,8 +46,16 @@
   img.chart { width: 100%; margin: 8px 0; border: 1px solid #eee; border-radius: 4px; }
 
   table.metrics { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 9.5pt; }
-  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; }
-  table.metrics td.k { background: #f7f7f7; color: #555; width: 22%; }
+  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; vertical-align: top; }
+  /* 항목명(키) 칸은 글자 길이에 맞게 최소폭으로 줄이고, 값 칸이 남는 폭을 차지 */
+  table.metrics td.k { background: #f7f7f7; color: #555; white-space: nowrap; width: 1%; }
+  /* 고정 배분 표(일자별 수급·시나리오): colgroup 비율을 그대로 사용 */
+  table.fixed { table-layout: fixed; }
+  table.fixed td { overflow: hidden; text-overflow: ellipsis; word-break: keep-all; }
+  table.fixed td.k { white-space: normal; }          /* 헤더는 줄바꿈 허용(잘림 방지) */
+  table.fixed td.num { white-space: nowrap; text-align: right; }
+  table.fixed td.dt { white-space: nowrap; text-align: center; }
+  table.scen td.cond { white-space: normal; font-size: 8.5pt; color: #444; }
 
   .risks { background: #fff6f5; border: 1px solid #f0d8d5; border-radius: 5px; padding: 10px 12px; }
   .disclaimer {
@@ -58,7 +66,7 @@
 
 <div class="header">
   <div class="eyebrow">STOCK AGENT · 리서치 리포트</div>
-  <div class="title">Dell Technologies Inc. <span style="font-size:12pt;color:#8b95a7;">(DELL)</span> <span class="hold-ret" style="font-weight:700;border-radius:20px;padding:2px 10px;font-size:0.72em;color:#ff8f86;background:#2a1d1d">매수가 대비 +8.4%</span></div>
+  <div class="title">Dell Technologies Inc. <span style="font-size:12pt;color:#8b95a7;">(DELL)</span> <span class="hold-ret buy">매수가 대비 +8.4%</span></div>
   <div class="subtitle">Technology · S&P500 (미국)</div>
   <div class="meta-row">
     <div>발행일 <b>2026-07-23</b></div>
@@ -131,8 +139,8 @@
 
 <table class="metrics">
   <tr><td class="k">추세 강도</td><td>6/10 (지표 신호 가중 종합)</td></tr><tr><td class="k">이동평균 배열</td><td>혼조 배열 — 추세 전환 구간 가능성</td></tr><tr><td class="k">볼린저밴드(20,2σ)</td><td>%b 0.79 · 밴드 중간권 — 중립</td></tr><tr><td class="k">일목균형표</td><td>주가가 구름대 위 — 강세 구간 · 전환선=기준선</td></tr><tr><td class="k">RSI(14)</td><td>57.7 · 중립권</td></tr><tr><td class="k">MACD(12,26,9)</td><td>시그널 하회 — 하락 모멘텀</td></tr>
-  <tr><td class="k">저항선 (위)</td><td>볼린저 상단 $458.66 · 52주 최고 $465.19</td></tr>
-  <tr><td class="k">지지선 (아래)</td><td>20일선 $417.77 · 일목 구름 상단 $380.12 · 볼린저 하단 $376.88 · 60일선 $348.96</td></tr>
+  <tr><td class="k">저항선 (위)</td><td>볼린저 상단 $458.66<br>52주 최고 $465.19</td></tr>
+  <tr><td class="k">지지선 (아래)</td><td>20일선 $417.77<br>일목 구름 상단 $380.12<br>볼린저 하단 $376.88<br>60일선 $348.96</td></tr>
 </table>
 
 <div class="body-text">일목균형표상 주가가 구름대 위에 있어 <b>중기 추세는 강세</b>가 유지되고 있으며, 볼린저 %b 0.79·RSI 57.7은 과열 직전의 중립권입니다. 다만 MACD가 시그널을 하회해 단기 모멘텀은 둔화 신호를 보내며, 이동평균 혼조 배열과 함께 지표가 엇갈립니다. 3개월 +108% 급등 이후라는 위치를 감안하면 추세 지표보다 모멘텀 둔화 쪽에 무게를 둔 보수적 접근이 합리적입니다. 핵심 지지선은 <b>20일선 417.77달러</b>, 그 아래 60일선 348.96달러이며 저항은 52주 고점 465.19달러입니다. 20일선을 지키면 고점 재도전, 이탈 시 조정 심화 가능성을 열어둔 조건부 대응이 필요합니다.</div>
@@ -147,24 +155,17 @@
 </table>
 
 
-<table class="metrics" style="margin-top:6px;">
-  <tr><td class="k">일자</td><td class="k">종가</td><td class="k">등락률</td><td class="k">거래량</td></tr>
-  
-  <tr><td class="k">07/22</td><td>$441.80</td><td class="buy">+9.32%</td><td>7.2M</td></tr>
-  
-  <tr><td class="k">07/21</td><td>$404.15</td><td class="buy">+6.01%</td><td>5.3M</td></tr>
-  
-  <tr><td class="k">07/20</td><td>$381.25</td><td class="sell">-3.65%</td><td>4.7M</td></tr>
-  
-  <tr><td class="k">07/17</td><td>$395.69</td><td class="buy">+1.27%</td><td>7.3M</td></tr>
-  
-  <tr><td class="k">07/16</td><td>$390.73</td><td class="sell">-5.16%</td><td>6.4M</td></tr>
-  
-  <tr><td class="k">07/15</td><td>$412.00</td><td class="sell">-9.80%</td><td>13.0M</td></tr>
-  
-  <tr><td class="k">07/14</td><td>$456.79</td><td class="buy">+7.12%</td><td>7.2M</td></tr>
-  
-</table>
+<table class="metrics fixed daily" style="margin-top:6px;">
+  <colgroup><col style="width:26%"><col style="width:24%"><col style="width:22%"><col style="width:28%"></colgroup>
+  <tr><td class="k dt">일자</td><td class="k num">종가</td><td class="k num">등락률</td><td class="k num">거래량</td></tr>
+  <tr><td class="dt">07/22</td><td class="num">$441.80</td><td class="num buy">+9.32%</td><td class="num">7.2M</td></tr>
+  <tr><td class="dt">07/21</td><td class="num">$404.15</td><td class="num buy">+6.01%</td><td class="num">5.3M</td></tr>
+  <tr><td class="dt">07/20</td><td class="num">$381.25</td><td class="num sell">-3.65%</td><td class="num">4.7M</td></tr>
+  <tr><td class="dt">07/17</td><td class="num">$395.69</td><td class="num buy">+1.27%</td><td class="num">7.3M</td></tr>
+  <tr><td class="dt">07/16</td><td class="num">$390.73</td><td class="num sell">-5.16%</td><td class="num">6.4M</td></tr>
+  <tr><td class="dt">07/15</td><td class="num">$412.00</td><td class="num sell">-9.80%</td><td class="num">13.0M</td></tr>
+  <tr><td class="dt">07/14</td><td class="num">$456.79</td><td class="num buy">+7.12%</td><td class="num">7.2M</td></tr>
+  </table>
 <div style="font-size:8pt;color:#7d8698;margin:1px 0 6px;">· 일별 종가·등락률·거래량 · 최근 7거래일 · 상승(빨강)·하락(파랑)</div>
 
 <div style="font-size:8.5pt;color:#7d8698;margin:2px 0 8px;">· 미국은 투자자 유형별 매매 데이터가 공개되지 않아 보유·공매도 지표와 일별 주가·거래량으로 수급을 갈음합니다. 출처: yfinance</div>
@@ -195,16 +196,13 @@
 </p>
 
 
-<table class="metrics">
-  <tr><td class="k">시나리오</td><td class="k">12개월 목표가</td><td class="k">확률</td><td class="k">핵심 조건</td></tr>
-  
-  <tr><td>🚀 강세</td><td>$560.00</td><td>30%</td><td style="font-size:8.5pt;">AI 서버 수주 잔고 가속·마진 개선으로 EPS 상향, PER 44배 이상 리레이팅</td></tr>
-  
-  <tr><td>기본</td><td>$502.80</td><td>45%</td><td style="font-size:8.5pt;">AI 서버 성장 지속 속 매출 두 자릿수 성장 유지, PER 40배 유지</td></tr>
-  
-  <tr><td>📉 약세</td><td>$380.00</td><td>25%</td><td style="font-size:8.5pt;">데이터센터 투자 둔화·경쟁 심화로 성장률 하향, PER 30배로 디레이팅</td></tr>
-  
-</table>
+<table class="metrics fixed scen">
+  <colgroup><col style="width:15%"><col style="width:19%"><col style="width:11%"><col style="width:55%"></colgroup>
+  <tr><td class="k dt">시나리오</td><td class="k num">12개월 목표가</td><td class="k num">확률</td><td class="k">핵심 조건</td></tr>
+  <tr><td class="dt">🚀 강세</td><td class="num">$560.00</td><td class="num">30%</td><td class="cond">AI 서버 수주 잔고 가속·마진 개선으로 EPS 상향, PER 44배 이상 리레이팅</td></tr>
+  <tr><td class="dt">기본</td><td class="num">$502.80</td><td class="num">45%</td><td class="cond">AI 서버 성장 지속 속 매출 두 자릿수 성장 유지, PER 40배 유지</td></tr>
+  <tr><td class="dt">📉 약세</td><td class="num">$380.00</td><td class="num">25%</td><td class="cond">데이터센터 투자 둔화·경쟁 심화로 성장률 하향, PER 30배로 디레이팅</td></tr>
+  </table>
 
 <p style="font-size:9.5pt;color:#b9c2d0;margin:2px 0 8px;"><b style="color:#7fb2e5;">기대값</b> · 확률가중 기대값 ≈ $489.26 (현재가 대비 +10.7%)</p>
 
@@ -293,8 +291,9 @@ h2.section { color: #7fb2e5 !important; border-left-color: #3b6ea5 !important; }
 .body-text { line-height: 1.85 !important; }
 table.metrics td { border-color: #2a3240 !important; padding: 7px 10px !important; }
 table.metrics td.k { background: #1a222e !important; color: #8b95a7 !important; }
+table.scen td.cond { color: #b9c2d0 !important; }   /* 시나리오 핵심 조건: 다크 배경에서 읽히는 밝은색 */
 .risks { background: #241a1a !important; border-color: #43302f !important; }
-img.chart { background: #fff; border-radius: 8px; border-color: #2a3240 !important; padding: 3px; }
+img.chart { background: #141b24; border-radius: 8px; border-color: #2a3240 !important; padding: 0; }
 .disclaimer { color: #6b7480 !important; border-top-color: #2a3240 !important; }
 a { color: #7fb2e5; }
 @media (max-width: 520px) {

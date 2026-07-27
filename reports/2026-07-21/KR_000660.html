@@ -30,7 +30,10 @@
   .opinion-cell .k { font-size: 8pt; color: #888; }
   .opinion-cell .v { font-size: 14pt; font-weight: 800; margin-top: 2px; }
   .buy { color: #c0504d; } .hold { color: #d9a441; } .sell { color: #2e75b6; }
+  .hold-ret { font-size: 10pt; font-weight: 700; border-radius: 20px; padding: 2px 10px; vertical-align: middle; }
+  .hold-ret.buy { background: #fdeceb; } .hold-ret.sell { background: #eaf1f8; }
 
+  .block { margin-bottom: 16px; }   /* 주제 블록 — 웹에선 카드로 스타일됨 */
   h2.section {
     font-size: 12.5pt; color: #1f4e79; border-left: 4px solid #1f4e79;
     padding-left: 8px; margin: 20px 0 8px;
@@ -43,8 +46,16 @@
   img.chart { width: 100%; margin: 8px 0; border: 1px solid #eee; border-radius: 4px; }
 
   table.metrics { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 9.5pt; }
-  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; }
-  table.metrics td.k { background: #f7f7f7; color: #555; width: 22%; }
+  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; vertical-align: top; }
+  /* 항목명(키) 칸은 글자 길이에 맞게 최소폭으로 줄이고, 값 칸이 남는 폭을 차지 */
+  table.metrics td.k { background: #f7f7f7; color: #555; white-space: nowrap; width: 1%; }
+  /* 고정 배분 표(일자별 수급·시나리오): colgroup 비율을 그대로 사용 */
+  table.fixed { table-layout: fixed; }
+  table.fixed td { overflow: hidden; text-overflow: ellipsis; word-break: keep-all; }
+  table.fixed td.k { white-space: normal; }          /* 헤더는 줄바꿈 허용(잘림 방지) */
+  table.fixed td.num { white-space: nowrap; text-align: right; }
+  table.fixed td.dt { white-space: nowrap; text-align: center; }
+  table.scen td.cond { white-space: normal; font-size: 8.5pt; color: #444; }
 
   .risks { background: #fff6f5; border: 1px solid #f0d8d5; border-radius: 5px; padding: 10px 12px; }
   .disclaimer {
@@ -55,7 +66,7 @@
 
 <div class="header">
   <div class="eyebrow">STOCK AGENT · 리서치 리포트</div>
-  <div class="title">SK하이닉스 <span style="font-size:12pt;color:#8b95a7;">(000660)</span> <span class="hold-ret" style="font-weight:700;border-radius:20px;padding:2px 10px;font-size:0.72em;color:#ff8f86;background:#2a1d1d">매수가 대비 +9.8%</span></div>
+  <div class="title">SK하이닉스 <span style="font-size:12pt;color:#8b95a7;">(000660)</span></div>
   <div class="subtitle">반도체·전자부품 · KOSPI/KOSDAQ (한국)</div>
   <div class="meta-row">
     <div>발행일 <b>2026-07-21</b></div>
@@ -117,8 +128,8 @@
 
 <table class="metrics">
   <tr><td class="k">추세 강도</td><td>0/10 (지표 신호 가중 종합)</td></tr><tr><td class="k">이동평균 배열</td><td>혼조 배열 — 추세 전환 구간 가능성</td></tr><tr><td class="k">볼린저밴드(20,2σ)</td><td>%b 0.17 · 하단 밴드 근접 — 약세 속 반등 관찰 구간</td></tr><tr><td class="k">일목균형표</td><td>주가가 구름대 안 — 방향 탐색 구간 · 전환선<기준선(악화)</td></tr><tr><td class="k">RSI(14)</td><td>40.7 · 중립권</td></tr><tr><td class="k">MACD(12,26,9)</td><td>시그널 하회 — 하락 모멘텀</td></tr>
-  <tr><td class="k">저항선 (위)</td><td>60일선 2,055,658원 · 일목 구름 상단 2,056,500원 · 20일선 2,271,375원 · 52주 최고 2,919,000원</td></tr>
-  <tr><td class="k">지지선 (아래)</td><td>일목 구름 하단 1,606,500원 · 볼린저 하단 1,591,831원 · 120일선 1,498,304원 · 52주 최저 245,000원</td></tr>
+  <tr><td class="k">저항선 (위)</td><td>60일선 2,055,658원<br>일목 구름 상단 2,056,500원<br>20일선 2,271,375원<br>52주 최고 2,919,000원</td></tr>
+  <tr><td class="k">지지선 (아래)</td><td>일목 구름 하단 1,606,500원<br>볼린저 하단 1,591,831원<br>120일선 1,498,304원<br>52주 최저 245,000원</td></tr>
 </table>
 
 <div class="body-text">주가가 20일선(약 227.1만원)과 60일선(약 205.6만원)을 모두 밑돌고 추세 강도 0/10, MACD 시그널 하회로 <b>단기 하락 모멘텀이 우위</b>입니다. 다만 볼린저 %b 0.17로 하단 밴드에 근접했고 RSI 40.7이 과매도 전 중립권이어서 낙폭 과대 반등 시도가 나올 수 있는 구간입니다. 1차 지지는 <b>175만~180만원대</b>, 반등 시 1차 저항은 60일선 부근 205만원 내외로 판단합니다. 일목 구름대 안 방향 탐색 국면인 만큼, 20일선 회복 전까지는 추세 전환보다 기술적 반등 관점의 조건부 접근이 유효합니다.</div>
@@ -127,27 +138,20 @@
 
 <h2 class="section">수급 동향 (투자자별 매매)</h2>
 <table class="metrics">
-  <tr><td class="k">개인 순매수 (최근 20거래일)</td><td>+231,030.0억</td></tr><tr><td class="k">외국인 순매수</td><td>-211,670.6억  (보유율 52.40%)</td></tr><tr><td class="k">기관 순매수</td><td>-26,147.5억</td></tr><tr><td class="k">연기금</td><td>89억원 순매수 상위 포착 (기준일 2026-07-20)</td></tr>
+  <tr><td class="k">개인 순매수 (최근 20거래일)</td><td>+231,030.0억</td></tr><tr><td class="k">외국인 순매수</td><td>-211,670.6억<br><span style="color:#8b95a7;">보유율 52.40%</span></td></tr><tr><td class="k">기관 순매수</td><td>-26,147.5억</td></tr><tr><td class="k">연기금</td><td>89억원 순매수 상위 포착 (기준일 2026-07-20)</td></tr>
 </table>
 
-<table class="metrics" style="margin-top:6px;">
-  <tr><td class="k">일자</td><td class="k">종가</td><td class="k">등락률</td><td class="k">개인</td><td class="k">외국인</td><td class="k">기관</td></tr>
-  
-  <tr><td class="k">07/20</td><td>1,764,000원</td><td class="sell">-4.23%</td><td class="buy">+3,191.0</td><td class="buy">+5,849.4</td><td class="sell">-9,297.0</td></tr>
-  
-  <tr><td class="k">07/16</td><td>1,842,000원</td><td class="sell">-11.53%</td><td class="buy">+19,666.2</td><td class="sell">-8,650.7</td><td class="sell">-11,582.2</td></tr>
-  
-  <tr><td class="k">07/15</td><td>2,082,000원</td><td class="buy">+8.83%</td><td class="sell">-12,135.2</td><td class="buy">+6,894.4</td><td class="buy">+5,536.7</td></tr>
-  
-  <tr><td class="k">07/14</td><td>1,913,000원</td><td class="buy">+3.69%</td><td class="sell">-25,964.8</td><td class="buy">+12,712.7</td><td class="buy">+13,346.4</td></tr>
-  
-  <tr><td class="k">07/13</td><td>1,845,000원</td><td class="sell">-15.37%</td><td class="buy">+26,579.6</td><td class="sell">-13,001.2</td><td class="sell">-14,422.9</td></tr>
-  
-  <tr><td class="k">07/10</td><td>2,180,000원</td><td class="sell">-0.27%</td><td class="buy">+11,992.0</td><td class="sell">-16,760.8</td><td class="buy">+4,451.4</td></tr>
-  
-  <tr><td class="k">07/09</td><td>2,186,000원</td><td class="buy">+5.30%</td><td class="sell">-3,928.8</td><td class="sell">-4,579.3</td><td class="buy">+8,839.4</td></tr>
-  
-</table>
+<table class="metrics fixed daily" style="margin-top:6px;">
+  <colgroup><col style="width:17%"><col style="width:17%"><col style="width:14%"><col style="width:17.3%"><col style="width:17.3%"><col style="width:17.4%"></colgroup>
+  <tr><td class="k dt">일자</td><td class="k num">종가</td><td class="k num">등락률</td><td class="k num">개인</td><td class="k num">외국인</td><td class="k num">기관</td></tr>
+  <tr><td class="dt">07/20</td><td class="num">1,764,000원</td><td class="num sell">-4.23%</td><td class="num buy">+3,191.0</td><td class="num buy">+5,849.4</td><td class="num sell">-9,297.0</td></tr>
+  <tr><td class="dt">07/16</td><td class="num">1,842,000원</td><td class="num sell">-11.53%</td><td class="num buy">+19,666.2</td><td class="num sell">-8,650.7</td><td class="num sell">-11,582.2</td></tr>
+  <tr><td class="dt">07/15</td><td class="num">2,082,000원</td><td class="num buy">+8.83%</td><td class="num sell">-12,135.2</td><td class="num buy">+6,894.4</td><td class="num buy">+5,536.7</td></tr>
+  <tr><td class="dt">07/14</td><td class="num">1,913,000원</td><td class="num buy">+3.69%</td><td class="num sell">-25,964.8</td><td class="num buy">+12,712.7</td><td class="num buy">+13,346.4</td></tr>
+  <tr><td class="dt">07/13</td><td class="num">1,845,000원</td><td class="num sell">-15.37%</td><td class="num buy">+26,579.6</td><td class="num sell">-13,001.2</td><td class="num sell">-14,422.9</td></tr>
+  <tr><td class="dt">07/10</td><td class="num">2,180,000원</td><td class="num sell">-0.27%</td><td class="num buy">+11,992.0</td><td class="num sell">-16,760.8</td><td class="num buy">+4,451.4</td></tr>
+  <tr><td class="dt">07/09</td><td class="num">2,186,000원</td><td class="num buy">+5.30%</td><td class="num sell">-3,928.8</td><td class="num sell">-4,579.3</td><td class="num buy">+8,839.4</td></tr>
+  </table>
 <div style="font-size:8pt;color:#7d8698;margin:1px 0 6px;">· 종가·등락률과 투자자별 순매수 추정(억원) · 최근 7거래일 · 상승/순매수(빨강)·하락/순매도(파랑)</div>
 
 <div style="font-size:8.5pt;color:#7d8698;margin:2px 0 8px;">· 순매수 금액은 주식수×당일 종가 추정치(출처: 네이버증권). 연기금은 일별 매매 상위 목록 기준(출처: judal.co.kr) — 목록에 없으면 대규모 매매 없음으로 해석.</div>
@@ -174,16 +178,13 @@
 </p>
 
 
-<table class="metrics">
-  <tr><td class="k">시나리오</td><td class="k">12개월 목표가</td><td class="k">확률</td><td class="k">핵심 조건</td></tr>
-  
-  <tr><td>🚀 강세</td><td>2,700,000원</td><td>25%</td><td style="font-size:8.5pt;">HBM4 공급 계약 확대(엔비디아+AMD)와 2026년 증익 컨센서스 상향으로 PER 45배 재평가</td></tr>
-  
-  <tr><td>기본</td><td>2,109,122원</td><td>50%</td><td style="font-size:8.5pt;">AI 메모리 수요 견조 지속, 2025년 이익 수준 유지 전제 PER 35배 정상화</td></tr>
-  
-  <tr><td>📉 약세</td><td>1,350,000원</td><td>25%</td><td style="font-size:8.5pt;">메모리 사이클 피크아웃 확인·HBM 경쟁 심화로 이익 추정 하향, PER 22배 수준으로 디레이팅</td></tr>
-  
-</table>
+<table class="metrics fixed scen">
+  <colgroup><col style="width:15%"><col style="width:19%"><col style="width:11%"><col style="width:55%"></colgroup>
+  <tr><td class="k dt">시나리오</td><td class="k num">12개월 목표가</td><td class="k num">확률</td><td class="k">핵심 조건</td></tr>
+  <tr><td class="dt">🚀 강세</td><td class="num">2,700,000원</td><td class="num">25%</td><td class="cond">HBM4 공급 계약 확대(엔비디아+AMD)와 2026년 증익 컨센서스 상향으로 PER 45배 재평가</td></tr>
+  <tr><td class="dt">기본</td><td class="num">2,109,122원</td><td class="num">50%</td><td class="cond">AI 메모리 수요 견조 지속, 2025년 이익 수준 유지 전제 PER 35배 정상화</td></tr>
+  <tr><td class="dt">📉 약세</td><td class="num">1,350,000원</td><td class="num">25%</td><td class="cond">메모리 사이클 피크아웃 확인·HBM 경쟁 심화로 이익 추정 하향, PER 22배 수준으로 디레이팅</td></tr>
+  </table>
 
 <p style="font-size:9.5pt;color:#b9c2d0;margin:2px 0 8px;"><b style="color:#7fb2e5;">기대값</b> · 확률가중 기대값 ≈ 2,067,061원 (현재가 대비 +13.5%)</p>
 
@@ -229,10 +230,16 @@
 html { background: #0f1319; }
 body {
   background: #0f1319 !important; color: #cfd6e1 !important;
-  max-width: 840px !important; margin: 0 auto !important;
-  padding: 24px 20px 44px !important; font-size: 14.5px !important; line-height: 1.75 !important;
+  max-width: 820px !important; margin: 0 auto !important;
+  padding: 40px 28px 64px !important; font-size: 14.5px !important; line-height: 1.8 !important;
 }
-.header { border-bottom-color: #3b6ea5 !important; }
+/* 주제별 카드 — 각 블록을 넉넉한 여백의 카드로 */
+.block {
+  background: #141b24 !important; border: 1px solid #232d3a !important; border-radius: 14px !important;
+  padding: 20px 24px !important; margin: 0 0 20px !important;
+}
+.block > h2.section:first-child { margin-top: 4px !important; }
+.header { border-bottom-color: #3b6ea5 !important; padding-bottom: 14px !important; margin-bottom: 22px !important; }
 .eyebrow { color: #7fb2e5 !important; }
 .title { color: #e8edf5 !important; }
 .subtitle, .meta-row { color: #8b95a7 !important; }
@@ -242,12 +249,20 @@ h2.section { color: #7fb2e5 !important; border-left-color: #3b6ea5 !important; }
 .opinion-cell { border-right-color: #242c38 !important; min-width: 110px; }
 .opinion-cell .k { color: #8b95a7 !important; }
 .buy { color: #ff8f86 !important; } .hold { color: #e6c07b !important; } .sell { color: #7fb2e5 !important; }
-.summary { background: #161f2c !important; border: 1px solid #22304a; }
+.hold-ret.buy { color: #ff8f86 !important; background: #2a1d1d !important; }
+.hold-ret.sell { color: #7fb2e5 !important; background: #16233a !important; }
+.summary { background: #16202e !important; border: 1px solid #24344e; border-radius: 8px; padding: 12px 14px !important; }
 .summary b, .body-text b { color: #ff9d94 !important; }
-table.metrics td { border-color: #2a3240 !important; }
-table.metrics td.k { background: #171d26 !important; color: #8b95a7 !important; }
+.bullets { list-style: none !important; padding-left: 0 !important; display: flex; flex-wrap: wrap; gap: 7px; margin: 8px 0 !important; }
+.bullets li { background: #1b2431 !important; border: 1px solid #2a3849; border-radius: 8px; padding: 5px 11px !important; margin: 0 !important; font-size: 13px; color: #c5d0de; }
+.risks .bullets { display: block; }
+.risks .bullets li { display: list-item; background: none !important; border: none; padding: 2px 0 2px 4px !important; }
+.body-text { line-height: 1.85 !important; }
+table.metrics td { border-color: #2a3240 !important; padding: 7px 10px !important; }
+table.metrics td.k { background: #1a222e !important; color: #8b95a7 !important; }
+table.scen td.cond { color: #b9c2d0 !important; }   /* 시나리오 핵심 조건: 다크 배경에서 읽히는 밝은색 */
 .risks { background: #241a1a !important; border-color: #43302f !important; }
-img.chart { background: #fff; border-radius: 8px; border-color: #2a3240 !important; padding: 3px; }
+img.chart { background: #141b24; border-radius: 8px; border-color: #2a3240 !important; padding: 0; }
 .disclaimer { color: #6b7480 !important; border-top-color: #2a3240 !important; }
 a { color: #7fb2e5; }
 @media (max-width: 520px) {

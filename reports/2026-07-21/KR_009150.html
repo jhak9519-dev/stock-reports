@@ -30,7 +30,10 @@
   .opinion-cell .k { font-size: 8pt; color: #888; }
   .opinion-cell .v { font-size: 14pt; font-weight: 800; margin-top: 2px; }
   .buy { color: #c0504d; } .hold { color: #d9a441; } .sell { color: #2e75b6; }
+  .hold-ret { font-size: 10pt; font-weight: 700; border-radius: 20px; padding: 2px 10px; vertical-align: middle; }
+  .hold-ret.buy { background: #fdeceb; } .hold-ret.sell { background: #eaf1f8; }
 
+  .block { margin-bottom: 16px; }   /* 주제 블록 — 웹에선 카드로 스타일됨 */
   h2.section {
     font-size: 12.5pt; color: #1f4e79; border-left: 4px solid #1f4e79;
     padding-left: 8px; margin: 20px 0 8px;
@@ -43,8 +46,16 @@
   img.chart { width: 100%; margin: 8px 0; border: 1px solid #eee; border-radius: 4px; }
 
   table.metrics { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 9.5pt; }
-  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; }
-  table.metrics td.k { background: #f7f7f7; color: #555; width: 22%; }
+  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; vertical-align: top; }
+  /* 항목명(키) 칸은 글자 길이에 맞게 최소폭으로 줄이고, 값 칸이 남는 폭을 차지 */
+  table.metrics td.k { background: #f7f7f7; color: #555; white-space: nowrap; width: 1%; }
+  /* 고정 배분 표(일자별 수급·시나리오): colgroup 비율을 그대로 사용 */
+  table.fixed { table-layout: fixed; }
+  table.fixed td { overflow: hidden; text-overflow: ellipsis; word-break: keep-all; }
+  table.fixed td.k { white-space: normal; }          /* 헤더는 줄바꿈 허용(잘림 방지) */
+  table.fixed td.num { white-space: nowrap; text-align: right; }
+  table.fixed td.dt { white-space: nowrap; text-align: center; }
+  table.scen td.cond { white-space: normal; font-size: 8.5pt; color: #444; }
 
   .risks { background: #fff6f5; border: 1px solid #f0d8d5; border-radius: 5px; padding: 10px 12px; }
   .disclaimer {
@@ -55,7 +66,7 @@
 
 <div class="header">
   <div class="eyebrow">STOCK AGENT · 리서치 리포트</div>
-  <div class="title">삼성전기 <span style="font-size:12pt;color:#8b95a7;">(009150)</span> <span class="hold-ret" style="font-weight:700;border-radius:20px;padding:2px 10px;font-size:0.72em;color:#ff8f86;background:#2a1d1d">매수가 대비 +15.1%</span></div>
+  <div class="title">삼성전기 <span style="font-size:12pt;color:#8b95a7;">(009150)</span></div>
   <div class="subtitle">반도체·전자부품 · KOSPI/KOSDAQ (한국)</div>
   <div class="meta-row">
     <div>발행일 <b>2026-07-21</b></div>
@@ -120,8 +131,8 @@
 
 <table class="metrics">
   <tr><td class="k">추세 강도</td><td>0/10 (지표 신호 가중 종합)</td></tr><tr><td class="k">이동평균 배열</td><td>혼조 배열 — 추세 전환 구간 가능성</td></tr><tr><td class="k">볼린저밴드(20,2σ)</td><td>%b 0.20 · 밴드 중간권 — 중립</td></tr><tr><td class="k">일목균형표</td><td>주가가 구름대 안 — 방향 탐색 구간 · 전환선<기준선(악화)</td></tr><tr><td class="k">RSI(14)</td><td>38.8 · 중립권</td></tr><tr><td class="k">MACD(12,26,9)</td><td>시그널 하회 — 하락 모멘텀</td></tr>
-  <tr><td class="k">저항선 (위)</td><td>60일선 1,503,617원 · 일목 구름 상단 1,672,000원 · 20일선 1,707,100원 · 52주 최고 2,270,000원</td></tr>
-  <tr><td class="k">지지선 (아래)</td><td>일목 구름 하단 1,294,250원 · 볼린저 하단 1,034,987원 · 120일선 961,871원 · 52주 최저 134,500원</td></tr>
+  <tr><td class="k">저항선 (위)</td><td>60일선 1,503,617원<br>일목 구름 상단 1,672,000원<br>20일선 1,707,100원<br>52주 최고 2,270,000원</td></tr>
+  <tr><td class="k">지지선 (아래)</td><td>일목 구름 하단 1,294,250원<br>볼린저 하단 1,034,987원<br>120일선 961,871원<br>52주 최저 134,500원</td></tr>
 </table>
 
 <div class="body-text">주가(131.0만원)가 <b>20일선(170.7만원)·60일선(150.4만원)을 모두 하회</b>해 단기 추세는 하락 우위이며, MACD 시그널 하회로 하락 모멘텀이 이어지고 있습니다. 일목균형표상 구름대 안 방향 탐색 구간에 전환선이 기준선을 밑돌아 지표 다수가 약세를 가리키는 만큼, RSI 38.8의 중립 신호보다는 <b>추세 지표의 약세를 더 신뢰</b>할 국면입니다. 볼린저 %b 0.20으로 밴드 하단 접근에 따른 기술적 반등 여지는 있으나, 20일선 회복 전까지는 하락 변동성 구간으로 보고 60일선(150만원대) 회복 여부를 추세 전환의 1차 확인 신호로 삼는 것이 유효합니다.</div>
@@ -130,27 +141,20 @@
 
 <h2 class="section">수급 동향 (투자자별 매매)</h2>
 <table class="metrics">
-  <tr><td class="k">개인 순매수 (최근 20거래일)</td><td>+562.5억</td></tr><tr><td class="k">외국인 순매수</td><td>+4,414.2억  (보유율 39.81%)</td></tr><tr><td class="k">기관 순매수</td><td>-4,562.3억</td></tr><tr><td class="k">연기금</td><td>148억원 순매도 상위 포착 (기준일 2026-07-20)</td></tr>
+  <tr><td class="k">개인 순매수 (최근 20거래일)</td><td>+562.5억</td></tr><tr><td class="k">외국인 순매수</td><td>+4,414.2억<br><span style="color:#8b95a7;">보유율 39.81%</span></td></tr><tr><td class="k">기관 순매수</td><td>-4,562.3억</td></tr><tr><td class="k">연기금</td><td>148억원 순매도 상위 포착 (기준일 2026-07-20)</td></tr>
 </table>
 
-<table class="metrics" style="margin-top:6px;">
-  <tr><td class="k">일자</td><td class="k">종가</td><td class="k">등락률</td><td class="k">개인</td><td class="k">외국인</td><td class="k">기관</td></tr>
-  
-  <tr><td class="k">07/20</td><td>1,275,000원</td><td class="sell">-0.16%</td><td class="buy">+246.1</td><td class="sell">-508.3</td><td class="buy">+236.8</td></tr>
-  
-  <tr><td class="k">07/16</td><td>1,277,000원</td><td class="sell">-9.62%</td><td class="buy">+885.2</td><td class="sell">-697.9</td><td class="sell">-182.3</td></tr>
-  
-  <tr><td class="k">07/15</td><td>1,413,000원</td><td class="buy">+12.14%</td><td class="sell">-1,015.2</td><td class="buy">+612.4</td><td class="buy">+338.8</td></tr>
-  
-  <tr><td class="k">07/14</td><td>1,260,000원</td><td class="sell">-2.25%</td><td class="sell">-296.5</td><td class="buy">+525.6</td><td class="sell">-207.4</td></tr>
-  
-  <tr><td class="k">07/13</td><td>1,289,000원</td><td class="sell">-18.62%</td><td class="buy">+2,778.3</td><td class="sell">-1,267.6</td><td class="sell">-1,495.0</td></tr>
-  
-  <tr><td class="k">07/10</td><td>1,584,000원</td><td class="buy">+6.10%</td><td class="buy">+171.4</td><td class="buy">+1,486.9</td><td class="sell">-1,707.4</td></tr>
-  
-  <tr><td class="k">07/09</td><td>1,493,000원</td><td class="buy">+0.95%</td><td class="sell">-401.6</td><td class="buy">+1,921.3</td><td class="sell">-1,485.0</td></tr>
-  
-</table>
+<table class="metrics fixed daily" style="margin-top:6px;">
+  <colgroup><col style="width:17%"><col style="width:17%"><col style="width:14%"><col style="width:17.3%"><col style="width:17.3%"><col style="width:17.4%"></colgroup>
+  <tr><td class="k dt">일자</td><td class="k num">종가</td><td class="k num">등락률</td><td class="k num">개인</td><td class="k num">외국인</td><td class="k num">기관</td></tr>
+  <tr><td class="dt">07/20</td><td class="num">1,275,000원</td><td class="num sell">-0.16%</td><td class="num buy">+246.1</td><td class="num sell">-508.3</td><td class="num buy">+236.8</td></tr>
+  <tr><td class="dt">07/16</td><td class="num">1,277,000원</td><td class="num sell">-9.62%</td><td class="num buy">+885.2</td><td class="num sell">-697.9</td><td class="num sell">-182.3</td></tr>
+  <tr><td class="dt">07/15</td><td class="num">1,413,000원</td><td class="num buy">+12.14%</td><td class="num sell">-1,015.2</td><td class="num buy">+612.4</td><td class="num buy">+338.8</td></tr>
+  <tr><td class="dt">07/14</td><td class="num">1,260,000원</td><td class="num sell">-2.25%</td><td class="num sell">-296.5</td><td class="num buy">+525.6</td><td class="num sell">-207.4</td></tr>
+  <tr><td class="dt">07/13</td><td class="num">1,289,000원</td><td class="num sell">-18.62%</td><td class="num buy">+2,778.3</td><td class="num sell">-1,267.6</td><td class="num sell">-1,495.0</td></tr>
+  <tr><td class="dt">07/10</td><td class="num">1,584,000원</td><td class="num buy">+6.10%</td><td class="num buy">+171.4</td><td class="num buy">+1,486.9</td><td class="num sell">-1,707.4</td></tr>
+  <tr><td class="dt">07/09</td><td class="num">1,493,000원</td><td class="num buy">+0.95%</td><td class="num sell">-401.6</td><td class="num buy">+1,921.3</td><td class="num sell">-1,485.0</td></tr>
+  </table>
 <div style="font-size:8pt;color:#7d8698;margin:1px 0 6px;">· 종가·등락률과 투자자별 순매수 추정(억원) · 최근 7거래일 · 상승/순매수(빨강)·하락/순매도(파랑)</div>
 
 
@@ -178,16 +182,13 @@
 </p>
 
 
-<table class="metrics">
-  <tr><td class="k">시나리오</td><td class="k">12개월 목표가</td><td class="k">확률</td><td class="k">핵심 조건</td></tr>
-  
-  <tr><td>🚀 강세</td><td>2,006,233원</td><td>30%</td><td style="font-size:8.5pt;">2분기 실적 서프라이즈와 AI 서버향 MLCC·기판 LTA 확대가 확인되며 성장주 리레이팅(PER 205배) 재개, 컨센서스 300만원 경로 복</td></tr>
-  
-  <tr><td>기본</td><td>1,565,840원</td><td>45%</td><td style="font-size:8.5pt;">이익 개선 추세는 유지되나 급등 부담 소화로 완만한 반등, 타깃 PER 160배 수준에서 안착</td></tr>
-  
-  <tr><td>📉 약세</td><td>1,076,515원</td><td>25%</td><td style="font-size:8.5pt;">AI 투자 사이클 둔화 우려와 기관·연기금 매도 지속으로 PER 110배 수준까지 디레이팅</td></tr>
-  
-</table>
+<table class="metrics fixed scen">
+  <colgroup><col style="width:15%"><col style="width:19%"><col style="width:11%"><col style="width:55%"></colgroup>
+  <tr><td class="k dt">시나리오</td><td class="k num">12개월 목표가</td><td class="k num">확률</td><td class="k">핵심 조건</td></tr>
+  <tr><td class="dt">🚀 강세</td><td class="num">2,006,233원</td><td class="num">30%</td><td class="cond">2분기 실적 서프라이즈와 AI 서버향 MLCC·기판 LTA 확대가 확인되며 성장주 리레이팅(PER 205배) 재개, 컨센서스 300만원 경로 복</td></tr>
+  <tr><td class="dt">기본</td><td class="num">1,565,840원</td><td class="num">45%</td><td class="cond">이익 개선 추세는 유지되나 급등 부담 소화로 완만한 반등, 타깃 PER 160배 수준에서 안착</td></tr>
+  <tr><td class="dt">📉 약세</td><td class="num">1,076,515원</td><td class="num">25%</td><td class="cond">AI 투자 사이클 둔화 우려와 기관·연기금 매도 지속으로 PER 110배 수준까지 디레이팅</td></tr>
+  </table>
 
 <p style="font-size:9.5pt;color:#b9c2d0;margin:2px 0 8px;"><b style="color:#7fb2e5;">기대값</b> · 확률가중 기대값 ≈ 1,575,627원 (현재가 대비 +20.3%)</p>
 
@@ -233,10 +234,16 @@
 html { background: #0f1319; }
 body {
   background: #0f1319 !important; color: #cfd6e1 !important;
-  max-width: 840px !important; margin: 0 auto !important;
-  padding: 24px 20px 44px !important; font-size: 14.5px !important; line-height: 1.75 !important;
+  max-width: 820px !important; margin: 0 auto !important;
+  padding: 40px 28px 64px !important; font-size: 14.5px !important; line-height: 1.8 !important;
 }
-.header { border-bottom-color: #3b6ea5 !important; }
+/* 주제별 카드 — 각 블록을 넉넉한 여백의 카드로 */
+.block {
+  background: #141b24 !important; border: 1px solid #232d3a !important; border-radius: 14px !important;
+  padding: 20px 24px !important; margin: 0 0 20px !important;
+}
+.block > h2.section:first-child { margin-top: 4px !important; }
+.header { border-bottom-color: #3b6ea5 !important; padding-bottom: 14px !important; margin-bottom: 22px !important; }
 .eyebrow { color: #7fb2e5 !important; }
 .title { color: #e8edf5 !important; }
 .subtitle, .meta-row { color: #8b95a7 !important; }
@@ -246,12 +253,20 @@ h2.section { color: #7fb2e5 !important; border-left-color: #3b6ea5 !important; }
 .opinion-cell { border-right-color: #242c38 !important; min-width: 110px; }
 .opinion-cell .k { color: #8b95a7 !important; }
 .buy { color: #ff8f86 !important; } .hold { color: #e6c07b !important; } .sell { color: #7fb2e5 !important; }
-.summary { background: #161f2c !important; border: 1px solid #22304a; }
+.hold-ret.buy { color: #ff8f86 !important; background: #2a1d1d !important; }
+.hold-ret.sell { color: #7fb2e5 !important; background: #16233a !important; }
+.summary { background: #16202e !important; border: 1px solid #24344e; border-radius: 8px; padding: 12px 14px !important; }
 .summary b, .body-text b { color: #ff9d94 !important; }
-table.metrics td { border-color: #2a3240 !important; }
-table.metrics td.k { background: #171d26 !important; color: #8b95a7 !important; }
+.bullets { list-style: none !important; padding-left: 0 !important; display: flex; flex-wrap: wrap; gap: 7px; margin: 8px 0 !important; }
+.bullets li { background: #1b2431 !important; border: 1px solid #2a3849; border-radius: 8px; padding: 5px 11px !important; margin: 0 !important; font-size: 13px; color: #c5d0de; }
+.risks .bullets { display: block; }
+.risks .bullets li { display: list-item; background: none !important; border: none; padding: 2px 0 2px 4px !important; }
+.body-text { line-height: 1.85 !important; }
+table.metrics td { border-color: #2a3240 !important; padding: 7px 10px !important; }
+table.metrics td.k { background: #1a222e !important; color: #8b95a7 !important; }
+table.scen td.cond { color: #b9c2d0 !important; }   /* 시나리오 핵심 조건: 다크 배경에서 읽히는 밝은색 */
 .risks { background: #241a1a !important; border-color: #43302f !important; }
-img.chart { background: #fff; border-radius: 8px; border-color: #2a3240 !important; padding: 3px; }
+img.chart { background: #141b24; border-radius: 8px; border-color: #2a3240 !important; padding: 0; }
 .disclaimer { color: #6b7480 !important; border-top-color: #2a3240 !important; }
 a { color: #7fb2e5; }
 @media (max-width: 520px) {

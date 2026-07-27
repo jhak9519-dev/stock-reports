@@ -30,6 +30,8 @@
   .opinion-cell .k { font-size: 8pt; color: #888; }
   .opinion-cell .v { font-size: 14pt; font-weight: 800; margin-top: 2px; }
   .buy { color: #c0504d; } .hold { color: #d9a441; } .sell { color: #2e75b6; }
+  .hold-ret { font-size: 10pt; font-weight: 700; border-radius: 20px; padding: 2px 10px; vertical-align: middle; }
+  .hold-ret.buy { background: #fdeceb; } .hold-ret.sell { background: #eaf1f8; }
 
   .block { margin-bottom: 16px; }   /* 주제 블록 — 웹에선 카드로 스타일됨 */
   h2.section {
@@ -44,8 +46,16 @@
   img.chart { width: 100%; margin: 8px 0; border: 1px solid #eee; border-radius: 4px; }
 
   table.metrics { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 9.5pt; }
-  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; }
-  table.metrics td.k { background: #f7f7f7; color: #555; width: 22%; }
+  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; vertical-align: top; }
+  /* 항목명(키) 칸은 글자 길이에 맞게 최소폭으로 줄이고, 값 칸이 남는 폭을 차지 */
+  table.metrics td.k { background: #f7f7f7; color: #555; white-space: nowrap; width: 1%; }
+  /* 고정 배분 표(일자별 수급·시나리오): colgroup 비율을 그대로 사용 */
+  table.fixed { table-layout: fixed; }
+  table.fixed td { overflow: hidden; text-overflow: ellipsis; word-break: keep-all; }
+  table.fixed td.k { white-space: normal; }          /* 헤더는 줄바꿈 허용(잘림 방지) */
+  table.fixed td.num { white-space: nowrap; text-align: right; }
+  table.fixed td.dt { white-space: nowrap; text-align: center; }
+  table.scen td.cond { white-space: normal; font-size: 8.5pt; color: #444; }
 
   .risks { background: #fff6f5; border: 1px solid #f0d8d5; border-radius: 5px; padding: 10px 12px; }
   .disclaimer {
@@ -56,7 +66,7 @@
 
 <div class="header">
   <div class="eyebrow">STOCK AGENT · 리서치 리포트</div>
-  <div class="title">SK <span style="font-size:12pt;color:#8b95a7;">(034730)</span> <span class="hold-ret" style="font-weight:700;border-radius:20px;padding:2px 10px;font-size:0.72em;color:#ff8f86;background:#2a1d1d">매수가 대비 +6.7%</span></div>
+  <div class="title">SK <span style="font-size:12pt;color:#8b95a7;">(034730)</span></div>
   <div class="subtitle">금융 · KOSPI/KOSDAQ (한국)</div>
   <div class="meta-row">
     <div>발행일 <b>2026-07-22</b></div>
@@ -121,8 +131,8 @@
 
 <table class="metrics">
   <tr><td class="k">추세 강도</td><td>3/10 (지표 신호 가중 종합)</td></tr><tr><td class="k">이동평균 배열</td><td>혼조 배열 — 추세 전환 구간 가능성</td></tr><tr><td class="k">볼린저밴드(20,2σ)</td><td>%b 0.37 · 밴드 중간권 — 중립</td></tr><tr><td class="k">일목균형표</td><td>주가가 구름대 위 — 강세 구간 · 전환선<기준선(악화)</td></tr><tr><td class="k">RSI(14)</td><td>48.4 · 중립권</td></tr><tr><td class="k">MACD(12,26,9)</td><td>시그널 하회 — 하락 모멘텀</td></tr>
-  <tr><td class="k">저항선 (위)</td><td>20일선 671,450원 · 52주 최고 858,000원 · 볼린저 상단 858,137원</td></tr>
-  <tr><td class="k">지지선 (아래)</td><td>일목 구름 상단 609,750원 · 60일선 609,458원 · 일목 구름 하단 508,500원 · 볼린저 하단 484,763원</td></tr>
+  <tr><td class="k">저항선 (위)</td><td>20일선 671,450원<br>52주 최고 858,000원<br>볼린저 상단 858,137원</td></tr>
+  <tr><td class="k">지지선 (아래)</td><td>일목 구름 상단 609,750원<br>60일선 609,458원<br>일목 구름 하단 508,500원<br>볼린저 하단 484,763원</td></tr>
 </table>
 
 <div class="body-text">현재가 624,000원은 <b>20일선(671,450원) 아래, 60일선(609,458원) 위</b>에 위치해 단기 조정 속 중기 상승추세는 유지되는 구도입니다. 일목균형표상 구름대 위 강세 구간이나 전환선이 기준선을 하회하고 MACD도 시그널 아래로, 단기 모멘텀 지표는 약세가 우세합니다. RSI 48.4·%b 0.37의 중립권을 감안하면 방향성 단정보다는 <b>60.9만원(60일선) 지지 확인이 1차 관건</b>이며, 지지 시 20일선 67만원대가 1차 저항, 이탈 시 조정 연장 가능성을 열어둘 필요가 있습니다.</div>
@@ -133,27 +143,20 @@
 <section class="block">
 <h2 class="section">수급 동향 (투자자별 매매)</h2>
 <table class="metrics">
-  <tr><td class="k">개인 순매수 (최근 20거래일)</td><td>-195.9억</td></tr><tr><td class="k">외국인 순매수</td><td>-1,716.6억  (보유율 29.77%)</td></tr><tr><td class="k">기관 순매수</td><td>+1,821.6억</td></tr><tr><td class="k">연기금</td><td>5억원 순매도 상위 포착 (기준일 2026-07-21)</td></tr>
+  <tr><td class="k">개인 순매수 (최근 20거래일)</td><td>-195.9억</td></tr><tr><td class="k">외국인 순매수</td><td>-1,716.6억<br><span style="color:#8b95a7;">보유율 29.77%</span></td></tr><tr><td class="k">기관 순매수</td><td>+1,821.6억</td></tr><tr><td class="k">연기금</td><td>5억원 순매도 상위 포착 (기준일 2026-07-21)</td></tr>
 </table>
 
-<table class="metrics" style="margin-top:6px;">
-  <tr><td class="k">일자</td><td class="k">종가</td><td class="k">등락률</td><td class="k">개인</td><td class="k">외국인</td><td class="k">기관</td></tr>
-  
-  <tr><td class="k">07/21</td><td>596,000원</td><td class="buy">+2.94%</td><td class="sell">-14.1</td><td class="sell">-144.7</td><td class="buy">+158.2</td></tr>
-  
-  <tr><td class="k">07/20</td><td>579,000원</td><td class="sell">-0.17%</td><td class="sell">-88.9</td><td class="sell">-192.1</td><td class="buy">+280.2</td></tr>
-  
-  <tr><td class="k">07/16</td><td>580,000원</td><td class="sell">-4.76%</td><td class="sell">-83.6</td><td class="buy">+107.0</td><td class="sell">-21.6</td></tr>
-  
-  <tr><td class="k">07/15</td><td>609,000원</td><td class="buy">+8.36%</td><td class="sell">-60.5</td><td class="sell">-53.6</td><td class="buy">+117.8</td></tr>
-  
-  <tr><td class="k">07/14</td><td>562,000원</td><td class="sell">-3.60%</td><td class="sell">-27.4</td><td class="sell">-28.1</td><td class="buy">+53.1</td></tr>
-  
-  <tr><td class="k">07/13</td><td>583,000원</td><td class="sell">-11.26%</td><td class="sell">-50.7</td><td class="buy">+170.7</td><td class="sell">-139.6</td></tr>
-  
-  <tr><td class="k">07/10</td><td>657,000원</td><td class="buy">+7.70%</td><td class="sell">-132.7</td><td class="buy">+245.8</td><td class="sell">-101.3</td></tr>
-  
-</table>
+<table class="metrics fixed daily" style="margin-top:6px;">
+  <colgroup><col style="width:17%"><col style="width:17%"><col style="width:14%"><col style="width:17.3%"><col style="width:17.3%"><col style="width:17.4%"></colgroup>
+  <tr><td class="k dt">일자</td><td class="k num">종가</td><td class="k num">등락률</td><td class="k num">개인</td><td class="k num">외국인</td><td class="k num">기관</td></tr>
+  <tr><td class="dt">07/21</td><td class="num">596,000원</td><td class="num buy">+2.94%</td><td class="num sell">-14.1</td><td class="num sell">-144.7</td><td class="num buy">+158.2</td></tr>
+  <tr><td class="dt">07/20</td><td class="num">579,000원</td><td class="num sell">-0.17%</td><td class="num sell">-88.9</td><td class="num sell">-192.1</td><td class="num buy">+280.2</td></tr>
+  <tr><td class="dt">07/16</td><td class="num">580,000원</td><td class="num sell">-4.76%</td><td class="num sell">-83.6</td><td class="num buy">+107.0</td><td class="num sell">-21.6</td></tr>
+  <tr><td class="dt">07/15</td><td class="num">609,000원</td><td class="num buy">+8.36%</td><td class="num sell">-60.5</td><td class="num sell">-53.6</td><td class="num buy">+117.8</td></tr>
+  <tr><td class="dt">07/14</td><td class="num">562,000원</td><td class="num sell">-3.60%</td><td class="num sell">-27.4</td><td class="num sell">-28.1</td><td class="num buy">+53.1</td></tr>
+  <tr><td class="dt">07/13</td><td class="num">583,000원</td><td class="num sell">-11.26%</td><td class="num sell">-50.7</td><td class="num buy">+170.7</td><td class="num sell">-139.6</td></tr>
+  <tr><td class="dt">07/10</td><td class="num">657,000원</td><td class="num buy">+7.70%</td><td class="num sell">-132.7</td><td class="num buy">+245.8</td><td class="num sell">-101.3</td></tr>
+  </table>
 <div style="font-size:8pt;color:#7d8698;margin:1px 0 6px;">· 종가·등락률과 투자자별 순매수 추정(억원) · 최근 7거래일 · 상승/순매수(빨강)·하락/순매도(파랑)</div>
 
 
@@ -181,16 +184,13 @@
 </table>
 
 
-<table class="metrics">
-  <tr><td class="k">시나리오</td><td class="k">12개월 목표가</td><td class="k">확률</td><td class="k">핵심 조건</td></tr>
-  
-  <tr><td>🚀 강세</td><td>802,900원</td><td>25%</td><td style="font-size:8.5pt;">AI 데이터센터 지분가치 현실화·자회사 실적 회복으로 지주 디스카운트 축소(PBR 0.7배 재평가)</td></tr>
-  
-  <tr><td>기본</td><td>688,200원</td><td>50%</td><td style="font-size:8.5pt;">포트폴리오 재평가 기대 유지 속 실적 부진 지속, PBR 0.6배 수준에서 등락</td></tr>
-  
-  <tr><td>📉 약세</td><td>573,500원</td><td>25%</td><td style="font-size:8.5pt;">60일선 이탈과 외국인 매도 지속, 영업이익 추가 감소로 디스카운트 재확대(PBR 0.5배)</td></tr>
-  
-</table>
+<table class="metrics fixed scen">
+  <colgroup><col style="width:15%"><col style="width:19%"><col style="width:11%"><col style="width:55%"></colgroup>
+  <tr><td class="k dt">시나리오</td><td class="k num">12개월 목표가</td><td class="k num">확률</td><td class="k">핵심 조건</td></tr>
+  <tr><td class="dt">🚀 강세</td><td class="num">802,900원</td><td class="num">25%</td><td class="cond">AI 데이터센터 지분가치 현실화·자회사 실적 회복으로 지주 디스카운트 축소(PBR 0.7배 재평가)</td></tr>
+  <tr><td class="dt">기본</td><td class="num">688,200원</td><td class="num">50%</td><td class="cond">포트폴리오 재평가 기대 유지 속 실적 부진 지속, PBR 0.6배 수준에서 등락</td></tr>
+  <tr><td class="dt">📉 약세</td><td class="num">573,500원</td><td class="num">25%</td><td class="cond">60일선 이탈과 외국인 매도 지속, 영업이익 추가 감소로 디스카운트 재확대(PBR 0.5배)</td></tr>
+  </table>
 
 <p style="font-size:9.5pt;color:#b9c2d0;margin:2px 0 8px;"><b style="color:#7fb2e5;">기대값</b> · 확률가중 기대값 ≈ 688,200원 (현재가 대비 +10.3%)</p>
 
@@ -263,6 +263,8 @@ h2.section { color: #7fb2e5 !important; border-left-color: #3b6ea5 !important; }
 .opinion-cell { border-right-color: #242c38 !important; min-width: 110px; }
 .opinion-cell .k { color: #8b95a7 !important; }
 .buy { color: #ff8f86 !important; } .hold { color: #e6c07b !important; } .sell { color: #7fb2e5 !important; }
+.hold-ret.buy { color: #ff8f86 !important; background: #2a1d1d !important; }
+.hold-ret.sell { color: #7fb2e5 !important; background: #16233a !important; }
 .summary { background: #16202e !important; border: 1px solid #24344e; border-radius: 8px; padding: 12px 14px !important; }
 .summary b, .body-text b { color: #ff9d94 !important; }
 .bullets { list-style: none !important; padding-left: 0 !important; display: flex; flex-wrap: wrap; gap: 7px; margin: 8px 0 !important; }
@@ -272,8 +274,9 @@ h2.section { color: #7fb2e5 !important; border-left-color: #3b6ea5 !important; }
 .body-text { line-height: 1.85 !important; }
 table.metrics td { border-color: #2a3240 !important; padding: 7px 10px !important; }
 table.metrics td.k { background: #1a222e !important; color: #8b95a7 !important; }
+table.scen td.cond { color: #b9c2d0 !important; }   /* 시나리오 핵심 조건: 다크 배경에서 읽히는 밝은색 */
 .risks { background: #241a1a !important; border-color: #43302f !important; }
-img.chart { background: #fff; border-radius: 8px; border-color: #2a3240 !important; padding: 3px; }
+img.chart { background: #141b24; border-radius: 8px; border-color: #2a3240 !important; padding: 0; }
 .disclaimer { color: #6b7480 !important; border-top-color: #2a3240 !important; }
 a { color: #7fb2e5; }
 @media (max-width: 520px) {

@@ -46,8 +46,16 @@
   img.chart { width: 100%; margin: 8px 0; border: 1px solid #eee; border-radius: 4px; }
 
   table.metrics { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 9.5pt; }
-  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; }
-  table.metrics td.k { background: #f7f7f7; color: #555; width: 22%; }
+  table.metrics td { border: 1px solid #e5e5e5; padding: 5px 8px; vertical-align: top; }
+  /* 항목명(키) 칸은 글자 길이에 맞게 최소폭으로 줄이고, 값 칸이 남는 폭을 차지 */
+  table.metrics td.k { background: #f7f7f7; color: #555; white-space: nowrap; width: 1%; }
+  /* 고정 배분 표(일자별 수급·시나리오): colgroup 비율을 그대로 사용 */
+  table.fixed { table-layout: fixed; }
+  table.fixed td { overflow: hidden; text-overflow: ellipsis; word-break: keep-all; }
+  table.fixed td.k { white-space: normal; }          /* 헤더는 줄바꿈 허용(잘림 방지) */
+  table.fixed td.num { white-space: nowrap; text-align: right; }
+  table.fixed td.dt { white-space: nowrap; text-align: center; }
+  table.scen td.cond { white-space: normal; font-size: 8.5pt; color: #444; }
 
   .risks { background: #fff6f5; border: 1px solid #f0d8d5; border-radius: 5px; padding: 10px 12px; }
   .disclaimer {
@@ -58,7 +66,7 @@
 
 <div class="header">
   <div class="eyebrow">STOCK AGENT · 리서치 리포트</div>
-  <div class="title">SK <span style="font-size:12pt;color:#8b95a7;">(034730)</span> <span class="hold-ret" style="font-weight:700;border-radius:20px;padding:2px 10px;font-size:0.72em;color:#ff8f86;background:#2a1d1d">매수가 대비 +3.8%</span></div>
+  <div class="title">SK <span style="font-size:12pt;color:#8b95a7;">(034730)</span> <span class="hold-ret buy">매수가 대비 +3.8%</span></div>
   <div class="subtitle">금융 · KOSPI/KOSDAQ (한국)</div>
   <div class="meta-row">
     <div>발행일 <b>2026-07-23</b></div>
@@ -127,8 +135,8 @@
 
 <table class="metrics">
   <tr><td class="k">추세 강도</td><td>4/10 (지표 신호 가중 종합)</td></tr><tr><td class="k">이동평균 배열</td><td>혼조 배열 — 추세 전환 구간 가능성</td></tr><tr><td class="k">볼린저밴드(20,2σ)</td><td>%b 0.46 · 밴드 중간권 — 중립</td></tr><tr><td class="k">일목균형표</td><td>주가가 구름대 위 — 강세 구간 · 전환선<기준선(악화)</td></tr><tr><td class="k">RSI(14)</td><td>52.0 · 중립권</td></tr><tr><td class="k">MACD(12,26,9)</td><td>시그널 하회 — 하락 모멘텀</td></tr>
-  <tr><td class="k">저항선 (위)</td><td>20일선 668,600원 · 볼린저 상단 854,419원 · 52주 최고 858,000원</td></tr>
-  <tr><td class="k">지지선 (아래)</td><td>60일선 613,767원 · 일목 구름 상단 609,750원 · 일목 구름 하단 508,500원 · 볼린저 하단 482,781원</td></tr>
+  <tr><td class="k">저항선 (위)</td><td>20일선 668,600원<br>볼린저 상단 854,419원<br>52주 최고 858,000원</td></tr>
+  <tr><td class="k">지지선 (아래)</td><td>60일선 613,767원<br>일목 구름 상단 609,750원<br>일목 구름 하단 508,500원<br>볼린저 하단 482,781원</td></tr>
 </table>
 
 <div class="body-text">주가가 일목균형표 구름대 위에 있어 중기 강세 구도는 유효하나, MACD 시그널 하회와 전환선&lt;기준선 악화가 겹쳐 단기 모멘텀은 둔화 국면입니다. 핵심 지지는 <b>60일선 613,767원</b>, 1차 저항은 <b>20일선 668,600원</b>이며, RSI 52·볼린저 %b 0.46의 중립 신호를 감안하면 방향성 탐색 구간으로 판단합니다. 급등 후 조정이라는 위치를 고려해 추세 지속 판단은 20일선 회복 여부를 확인한 뒤가 유효하며, 60일선 이탈 시 조정 폭 확대 가능성을 열어둘 필요가 있습니다.</div>
@@ -139,27 +147,20 @@
 <section class="block">
 <h2 class="section">수급 동향 (투자자별 매매)</h2>
 <table class="metrics">
-  <tr><td class="k">개인 순매수 (최근 20거래일)</td><td>-385.1억</td></tr><tr><td class="k">외국인 순매수</td><td>-1,711.3억  (보유율 29.76%)</td></tr><tr><td class="k">기관 순매수</td><td>+2,012.2억</td></tr><tr><td class="k">연기금</td><td>5억원 순매수 상위 포착 (기준일 2026-07-22)</td></tr>
+  <tr><td class="k">개인 순매수 (최근 20거래일)</td><td>-385.1억</td></tr><tr><td class="k">외국인 순매수</td><td>-1,711.3억<br><span style="color:#8b95a7;">보유율 29.76%</span></td></tr><tr><td class="k">기관 순매수</td><td>+2,012.2억</td></tr><tr><td class="k">연기금</td><td>5억원 순매수 상위 포착 (기준일 2026-07-22)</td></tr>
 </table>
 
-<table class="metrics" style="margin-top:6px;">
-  <tr><td class="k">일자</td><td class="k">종가</td><td class="k">등락률</td><td class="k">개인</td><td class="k">외국인</td><td class="k">기관</td></tr>
-  
-  <tr><td class="k">07/22</td><td>624,000원</td><td class="buy">+4.70%</td><td class="sell">-28.5</td><td class="buy">+18.2</td><td class="buy">+12.1</td></tr>
-  
-  <tr><td class="k">07/21</td><td>596,000원</td><td class="buy">+2.94%</td><td class="sell">-14.1</td><td class="sell">-144.7</td><td class="buy">+158.2</td></tr>
-  
-  <tr><td class="k">07/20</td><td>579,000원</td><td class="sell">-0.17%</td><td class="sell">-88.9</td><td class="sell">-192.1</td><td class="buy">+280.2</td></tr>
-  
-  <tr><td class="k">07/16</td><td>580,000원</td><td class="sell">-4.76%</td><td class="sell">-83.6</td><td class="buy">+107.0</td><td class="sell">-21.6</td></tr>
-  
-  <tr><td class="k">07/15</td><td>609,000원</td><td class="buy">+8.36%</td><td class="sell">-60.5</td><td class="sell">-53.6</td><td class="buy">+117.8</td></tr>
-  
-  <tr><td class="k">07/14</td><td>562,000원</td><td class="sell">-3.60%</td><td class="sell">-27.4</td><td class="sell">-28.1</td><td class="buy">+53.1</td></tr>
-  
-  <tr><td class="k">07/13</td><td>583,000원</td><td class="sell">-11.26%</td><td class="sell">-50.7</td><td class="buy">+170.7</td><td class="sell">-139.6</td></tr>
-  
-</table>
+<table class="metrics fixed daily" style="margin-top:6px;">
+  <colgroup><col style="width:17%"><col style="width:17%"><col style="width:14%"><col style="width:17.3%"><col style="width:17.3%"><col style="width:17.4%"></colgroup>
+  <tr><td class="k dt">일자</td><td class="k num">종가</td><td class="k num">등락률</td><td class="k num">개인</td><td class="k num">외국인</td><td class="k num">기관</td></tr>
+  <tr><td class="dt">07/22</td><td class="num">624,000원</td><td class="num buy">+4.70%</td><td class="num sell">-28.5</td><td class="num buy">+18.2</td><td class="num buy">+12.1</td></tr>
+  <tr><td class="dt">07/21</td><td class="num">596,000원</td><td class="num buy">+2.94%</td><td class="num sell">-14.1</td><td class="num sell">-144.7</td><td class="num buy">+158.2</td></tr>
+  <tr><td class="dt">07/20</td><td class="num">579,000원</td><td class="num sell">-0.17%</td><td class="num sell">-88.9</td><td class="num sell">-192.1</td><td class="num buy">+280.2</td></tr>
+  <tr><td class="dt">07/16</td><td class="num">580,000원</td><td class="num sell">-4.76%</td><td class="num sell">-83.6</td><td class="num buy">+107.0</td><td class="num sell">-21.6</td></tr>
+  <tr><td class="dt">07/15</td><td class="num">609,000원</td><td class="num buy">+8.36%</td><td class="num sell">-60.5</td><td class="num sell">-53.6</td><td class="num buy">+117.8</td></tr>
+  <tr><td class="dt">07/14</td><td class="num">562,000원</td><td class="num sell">-3.60%</td><td class="num sell">-27.4</td><td class="num sell">-28.1</td><td class="num buy">+53.1</td></tr>
+  <tr><td class="dt">07/13</td><td class="num">583,000원</td><td class="num sell">-11.26%</td><td class="num sell">-50.7</td><td class="num buy">+170.7</td><td class="num sell">-139.6</td></tr>
+  </table>
 <div style="font-size:8pt;color:#7d8698;margin:1px 0 6px;">· 종가·등락률과 투자자별 순매수 추정(억원) · 최근 7거래일 · 상승/순매수(빨강)·하락/순매도(파랑)</div>
 
 
@@ -188,16 +189,13 @@
 </table>
 
 
-<table class="metrics">
-  <tr><td class="k">시나리오</td><td class="k">12개월 목표가</td><td class="k">확률</td><td class="k">핵심 조건</td></tr>
-  
-  <tr><td>🚀 강세</td><td>778,000원</td><td>25%</td><td style="font-size:8.5pt;">SK하이닉스 HBM 실적 서프라이즈 지속·지분가치 재평가 확대 + 이혼소송 판결이 지배구조 불확실성 해소로 마무리 (PBR 1.45배)</td></tr>
-  
-  <tr><td>기본</td><td>671,000원</td><td>50%</td><td style="font-size:8.5pt;">반도체 호황 유지로 지분가치 프리미엄은 지키되, 본업 이익 둔화로 추가 리레이팅은 제한 (PBR 1.25배)</td></tr>
-  
-  <tr><td>📉 약세</td><td>510,000원</td><td>25%</td><td style="font-size:8.5pt;">메모리 사이클 피크아웃 우려로 하이닉스 조정 + 판결발 지분 매각·오버행 부각 시 지주사 할인 재확대 (PBR 0.95배)</td></tr>
-  
-</table>
+<table class="metrics fixed scen">
+  <colgroup><col style="width:15%"><col style="width:19%"><col style="width:11%"><col style="width:55%"></colgroup>
+  <tr><td class="k dt">시나리오</td><td class="k num">12개월 목표가</td><td class="k num">확률</td><td class="k">핵심 조건</td></tr>
+  <tr><td class="dt">🚀 강세</td><td class="num">778,000원</td><td class="num">25%</td><td class="cond">SK하이닉스 HBM 실적 서프라이즈 지속·지분가치 재평가 확대 + 이혼소송 판결이 지배구조 불확실성 해소로 마무리 (PBR 1.45배)</td></tr>
+  <tr><td class="dt">기본</td><td class="num">671,000원</td><td class="num">50%</td><td class="cond">반도체 호황 유지로 지분가치 프리미엄은 지키되, 본업 이익 둔화로 추가 리레이팅은 제한 (PBR 1.25배)</td></tr>
+  <tr><td class="dt">📉 약세</td><td class="num">510,000원</td><td class="num">25%</td><td class="cond">메모리 사이클 피크아웃 우려로 하이닉스 조정 + 판결발 지분 매각·오버행 부각 시 지주사 할인 재확대 (PBR 0.95배)</td></tr>
+  </table>
 
 <p style="font-size:9.5pt;color:#b9c2d0;margin:2px 0 8px;"><b style="color:#7fb2e5;">기대값</b> · 확률가중 기대값 ≈ 657,500원 (현재가 대비 +0.4%)</p>
 
@@ -281,6 +279,7 @@ h2.section { color: #7fb2e5 !important; border-left-color: #3b6ea5 !important; }
 .body-text { line-height: 1.85 !important; }
 table.metrics td { border-color: #2a3240 !important; padding: 7px 10px !important; }
 table.metrics td.k { background: #1a222e !important; color: #8b95a7 !important; }
+table.scen td.cond { color: #b9c2d0 !important; }   /* 시나리오 핵심 조건: 다크 배경에서 읽히는 밝은색 */
 .risks { background: #241a1a !important; border-color: #43302f !important; }
 img.chart { background: #141b24; border-radius: 8px; border-color: #2a3240 !important; padding: 0; }
 .disclaimer { color: #6b7480 !important; border-top-color: #2a3240 !important; }
