@@ -173,5 +173,16 @@
   "upside": -11.6,
   "buy": 1401400.0,
   "path": "reports/2026-07-28/KR_207940.html"
+ },
+ {
+  "date": "2026-07-29",
+  "market": "US",
+  "ticker": "ADP",
+  "name": "Automatic Data Processing, Inc.",
+  "opinion": "중립",
+  "target": 251.69,
+  "upside": -4.7,
+  "buy": 242.0,
+  "path": "reports/2026-07-29/US_ADP.html"
  }
 ]
