@@ -162,5 +162,16 @@
   "upside": 11.6,
   "buy": 25.34,
   "path": "reports/2026-07-28/US_GEN.html"
+ },
+ {
+  "date": "2026-07-28",
+  "market": "KR",
+  "ticker": "207940",
+  "name": "삼성바이오로직스",
+  "opinion": "중립",
+  "target": null,
+  "upside": null,
+  "buy": 1401400.0,
+  "path": "reports/2026-07-28/KR_207940.html"
  }
 ]
