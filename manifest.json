@@ -169,8 +169,8 @@
   "ticker": "207940",
   "name": "삼성바이오로직스",
   "opinion": "중립",
-  "target": null,
-  "upside": null,
+  "target": 1369665.5,
+  "upside": -11.6,
   "buy": 1401400.0,
   "path": "reports/2026-07-28/KR_207940.html"
  }
