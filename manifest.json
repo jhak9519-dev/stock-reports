@@ -195,5 +195,16 @@
   "upside": 11.3,
   "buy": 563520.0,
   "path": "reports/2026-07-29/KR_000810.html"
+ },
+ {
+  "date": "2026-07-30",
+  "market": "US",
+  "ticker": "PAYX",
+  "name": "Paychex, Inc.",
+  "opinion": "중립",
+  "target": 112.47,
+  "upside": -7.9,
+  "buy": 109.97,
+  "path": "reports/2026-07-30/US_PAYX.html"
  }
 ]
