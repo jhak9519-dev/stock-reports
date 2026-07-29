@@ -184,5 +184,16 @@
   "upside": -4.7,
   "buy": 242.0,
   "path": "reports/2026-07-29/US_ADP.html"
+ },
+ {
+  "date": "2026-07-29",
+  "market": "KR",
+  "ticker": "000810",
+  "name": "삼성화재",
+  "opinion": "중립",
+  "target": 653201.15,
+  "upside": 11.3,
+  "buy": 563520.0,
+  "path": "reports/2026-07-29/KR_000810.html"
  }
 ]
