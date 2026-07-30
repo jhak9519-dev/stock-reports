@@ -8,7 +8,9 @@
   "target": 1467975.0,
   "upside": 15.0,
   "path": "reports/2026-07-16/KR_009150.html",
-  "buy": 1225920.0
+  "buy": 1225920.0,
+  "buy_low": 1187610.0,
+  "buy_high": 1264230.0
  },
  {
   "date": "2026-07-17",
@@ -19,7 +21,9 @@
   "target": 246.58,
   "upside": -6.0,
   "path": "reports/2026-07-17/US_DDOG.html",
-  "buy": 242.2
+  "buy": 242.2,
+  "buy_low": 236.09,
+  "buy_high": 248.31
  },
  {
   "date": "2026-07-17",
@@ -30,7 +34,9 @@
   "target": 1467975.0,
   "upside": 15.0,
   "path": "reports/2026-07-17/KR_009150.html",
-  "buy": 1225920.0
+  "buy": 1225920.0,
+  "buy_low": 1187610.0,
+  "buy_high": 1264230.0
  },
  {
   "date": "2026-07-18",
@@ -41,7 +47,9 @@
   "target": 249.94,
   "upside": -3.4,
   "path": "reports/2026-07-18/US_DDOG.html",
-  "buy": 241.37
+  "buy": 241.37,
+  "buy_low": 232.82,
+  "buy_high": 249.92
  },
  {
   "date": "2026-07-20",
@@ -52,7 +60,9 @@
   "target": 1467975.0,
   "upside": 15.1,
   "path": "reports/2026-07-20/KR_009150.html",
-  "buy": 1224000.0
+  "buy": 1224000.0,
+  "buy_low": 1185750.0,
+  "buy_high": 1262250.0
  },
  {
   "date": "2026-07-20",
@@ -63,7 +73,9 @@
   "target": 1988601.12,
   "upside": 12.7,
   "path": "reports/2026-07-20/KR_000660.html",
-  "buy": 1693440.0
+  "buy": 1693440.0,
+  "buy_low": 1640520.0,
+  "buy_high": 1746360.0
  },
  {
   "date": "2026-07-21",
@@ -84,7 +96,9 @@
   "target": 2109122.4,
   "upside": 15.9,
   "path": "reports/2026-07-21/KR_000660.html",
-  "buy": 1747680.0
+  "buy": 1747680.0,
+  "buy_low": 1693065.0,
+  "buy_high": 1802295.0
  },
  {
   "date": "2026-07-21",
@@ -95,7 +109,9 @@
   "target": 1565840.0,
   "upside": 19.5,
   "path": "reports/2026-07-21/KR_009150.html",
-  "buy": 1257600.0
+  "buy": 1257600.0,
+  "buy_low": 1218300.0,
+  "buy_high": 1296900.0
  },
  {
   "date": "2026-07-22",
@@ -106,7 +122,9 @@
   "target": 1190.64,
   "upside": 22.6,
   "path": "reports/2026-07-22/US_MU.html",
-  "buy": 931.99
+  "buy": 931.99,
+  "buy_low": 902.86,
+  "buy_high": 961.11
  },
  {
   "date": "2026-07-22",
@@ -117,7 +135,9 @@
   "target": 688200.0,
   "upside": 10.3,
   "buy": 613609.0,
-  "path": "reports/2026-07-22/KR_034730.html"
+  "path": "reports/2026-07-22/KR_034730.html",
+  "buy_low": 609458.0,
+  "buy_high": 617760.0
  },
  {
   "date": "2026-07-23",
@@ -128,7 +148,9 @@
   "target": 502.8,
   "upside": 13.8,
   "buy": 407.69,
-  "path": "reports/2026-07-23/US_DELL.html"
+  "path": "reports/2026-07-23/US_DELL.html",
+  "buy_low": 397.62,
+  "buy_high": 417.77
  },
  {
   "date": "2026-07-23",
@@ -139,7 +161,9 @@
   "target": 671000.0,
   "upside": 2.4,
   "buy": 631108.5,
-  "path": "reports/2026-07-23/KR_034730.html"
+  "path": "reports/2026-07-23/KR_034730.html",
+  "buy_low": 613767.0,
+  "buy_high": 648450.0
  },
  {
   "date": "2026-07-27",
@@ -150,7 +174,9 @@
   "target": 747774.0,
   "upside": 15.9,
   "buy": 624275.0,
-  "path": "reports/2026-07-27/KR_000810.html"
+  "path": "reports/2026-07-27/KR_000810.html",
+  "buy_low": 607500.0,
+  "buy_high": 641050.0
  },
  {
   "date": "2026-07-28",
@@ -161,7 +187,9 @@
   "target": 29.83,
   "upside": 11.6,
   "buy": 25.34,
-  "path": "reports/2026-07-28/US_GEN.html"
+  "path": "reports/2026-07-28/US_GEN.html",
+  "buy_low": 24.54,
+  "buy_high": 26.14
  },
  {
   "date": "2026-07-28",
@@ -172,7 +200,9 @@
   "target": 1369665.5,
   "upside": -11.6,
   "buy": 1401400.0,
-  "path": "reports/2026-07-28/KR_207940.html"
+  "path": "reports/2026-07-28/KR_207940.html",
+  "buy_low": 1394100.0,
+  "buy_high": 1408700.0
  },
  {
   "date": "2026-07-29",
@@ -183,7 +213,9 @@
   "target": 251.69,
   "upside": -4.7,
   "buy": 242.0,
-  "path": "reports/2026-07-29/US_ADP.html"
+  "path": "reports/2026-07-29/US_ADP.html",
+  "buy_low": 237.75,
+  "buy_high": 246.26
  },
  {
   "date": "2026-07-29",
@@ -194,7 +226,9 @@
   "target": 653201.15,
   "upside": 11.3,
   "buy": 563520.0,
-  "path": "reports/2026-07-29/KR_000810.html"
+  "path": "reports/2026-07-29/KR_000810.html",
+  "buy_low": 545910.0,
+  "buy_high": 581130.0
  },
  {
   "date": "2026-07-30",
@@ -205,7 +239,9 @@
   "target": 112.47,
   "upside": -7.9,
   "buy": 109.97,
-  "path": "reports/2026-07-30/US_PAYX.html"
+  "path": "reports/2026-07-30/US_PAYX.html",
+  "buy_low": 109.92,
+  "buy_high": 110.02
  },
  {
   "date": "2026-07-30",
@@ -216,6 +252,21 @@
   "target": 681601.2,
   "upside": 10.3,
   "buy": 593280.0,
-  "path": "reports/2026-07-30/KR_000810.html"
+  "path": "reports/2026-07-30/KR_000810.html",
+  "buy_low": 574740.0,
+  "buy_high": 611820.0
+ },
+ {
+  "date": "2026-07-31",
+  "market": "US",
+  "ticker": "HPQ",
+  "name": "HP Inc.",
+  "opinion": "중립",
+  "target": 24.3,
+  "upside": -9.5,
+  "buy": 24.49,
+  "buy_low": 24.17,
+  "buy_high": 24.81,
+  "path": "reports/2026-07-31/US_HPQ.html"
  }
 ]
