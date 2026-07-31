@@ -281,5 +281,18 @@
   "buy_low": 616908.0,
   "buy_high": 625680.0,
   "path": "reports/2026-07-31/KR_000810.html"
+ },
+ {
+  "date": "2026-08-01",
+  "market": "US",
+  "ticker": "HPQ",
+  "name": "HP Inc.",
+  "opinion": "중립",
+  "target": 23.49,
+  "upside": -13.9,
+  "buy": 24.81,
+  "buy_low": 24.54,
+  "buy_high": 25.08,
+  "path": "reports/2026-08-01/US_HPQ.html"
  }
 ]
