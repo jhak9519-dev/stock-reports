@@ -268,5 +268,18 @@
   "buy_low": 24.17,
   "buy_high": 24.81,
   "path": "reports/2026-07-31/US_HPQ.html"
+ },
+ {
+  "date": "2026-07-31",
+  "market": "KR",
+  "ticker": "000810",
+  "name": "삼성화재",
+  "opinion": "매수",
+  "target": null,
+  "upside": null,
+  "buy": 621294.0,
+  "buy_low": 616908.0,
+  "buy_high": 625680.0,
+  "path": "reports/2026-07-31/KR_000810.html"
  }
 ]
