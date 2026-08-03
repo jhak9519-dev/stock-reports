@@ -294,5 +294,18 @@
   "buy_low": 24.54,
   "buy_high": 25.08,
   "path": "reports/2026-08-01/US_HPQ.html"
+ },
+ {
+  "date": "2026-08-03",
+  "market": "KR",
+  "ticker": "105560",
+  "name": "KB금융",
+  "opinion": "매수",
+  "target": 192155.8,
+  "upside": 13.4,
+  "buy": 165293.5,
+  "buy_low": 162782.0,
+  "buy_high": 167805.0,
+  "path": "reports/2026-08-03/KR_105560.html"
  }
 ]
