@@ -320,5 +320,18 @@
   "buy_low": 24.41,
   "buy_high": 25.31,
   "path": "reports/2026-08-04/US_HPQ.html"
+ },
+ {
+  "date": "2026-08-04",
+  "market": "KR",
+  "ticker": "035420",
+  "name": "NAVER",
+  "opinion": "매수",
+  "target": null,
+  "upside": null,
+  "buy": 195652.0,
+  "buy_low": 191659.0,
+  "buy_high": 199645.0,
+  "path": "reports/2026-08-04/KR_035420.html"
  }
 ]
