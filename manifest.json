@@ -333,5 +333,18 @@
   "buy_low": 191659.0,
   "buy_high": 199645.0,
   "path": "reports/2026-08-04/KR_035420.html"
+ },
+ {
+  "date": "2026-08-18",
+  "market": "KR",
+  "ticker": "011200",
+  "name": "HMM",
+  "opinion": "매수",
+  "target": null,
+  "upside": null,
+  "buy": 20722.5,
+  "buy_low": 20385.0,
+  "buy_high": 21060.0,
+  "path": "reports/2026-08-18/KR_011200.html"
  }
 ]
