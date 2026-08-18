@@ -346,5 +346,18 @@
   "buy_low": 20385.0,
   "buy_high": 21060.0,
   "path": "reports/2026-08-18/KR_011200.html"
+ },
+ {
+  "date": "2026-08-18",
+  "market": "US",
+  "ticker": "ZBRA",
+  "name": "Zebra Technologies Corporation",
+  "opinion": "중립",
+  "target": 354.9,
+  "upside": -2.4,
+  "buy": 317.79,
+  "buy_low": 311.31,
+  "buy_high": 324.28,
+  "path": "reports/2026-08-18/US_ZBRA.html"
  }
 ]
