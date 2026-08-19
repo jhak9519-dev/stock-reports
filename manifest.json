@@ -359,5 +359,18 @@
   "buy_low": 311.31,
   "buy_high": 324.28,
   "path": "reports/2026-08-18/US_ZBRA.html"
+ },
+ {
+  "date": "2026-08-19",
+  "market": "KR",
+  "ticker": "207940",
+  "name": "삼성바이오로직스",
+  "opinion": "중립",
+  "target": 1385055.0,
+  "upside": -10.3,
+  "buy": 1462533.5,
+  "buy_low": 1413667.0,
+  "buy_high": 1511400.0,
+  "path": "reports/2026-08-19/KR_207940.html"
  }
 ]
