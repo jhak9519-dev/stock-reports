@@ -385,5 +385,18 @@
   "buy_low": 123030.0,
   "buy_high": 131585.0,
   "path": "reports/2026-09-14/KR_096770.html"
+ },
+ {
+  "date": "2026-09-15",
+  "market": "US",
+  "ticker": "MRNA",
+  "name": "Moderna, Inc.",
+  "opinion": "매도",
+  "target": 125.0,
+  "upside": -14.8,
+  "buy": 134.8,
+  "buy_low": 132.02,
+  "buy_high": 137.57,
+  "path": "reports/2026-09-15/US_MRNA.html"
  }
 ]
