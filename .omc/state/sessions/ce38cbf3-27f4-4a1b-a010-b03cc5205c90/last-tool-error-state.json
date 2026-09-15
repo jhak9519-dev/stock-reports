@@ -1,7 +1,0 @@
-{
-  "tool_name": "PowerShell",
-  "tool_input_preview": "{\"command\":\"$env:PYTHONIOENCODING='utf-8'; & \\\"C:\\\\Users\\\\admin\\\\Desktop\\\\JH\\\\StockAgent\\\\.venv\\\\Scripts\\\\python.exe\\\" \\\"C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-admin-Desktop-JH-Stock...",
-  "error": "Exit code 1\ntrading_flows 키: ['period', 'unit', 'individual', 'foreign', 'institution', 'foreign_hold_ratio', 'daily', 'pension']\r\ndaily 건수: 7\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\admin\\AppData\\Local\\Temp\\claude\\C--Users-admin-Desktop-JH-StockAgent\\ce38cbf3-27f4-4a1b-a010-b03cc5205c90\\scratchpad\\diag_daily.py\", line 21, in <module>\r\n    html = render_html(rep)\r\n  File \"C:\\Users\\admin\\Desktop\\JH\\StockAgent\\stockagent\\report\\html_builder.py\", line 165, in render_html\r\n    return t...",
-  "timestamp": "2026-07-20T23:33:25.193Z",
-  "retry_count": 1
-}
