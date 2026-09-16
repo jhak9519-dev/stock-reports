@@ -437,5 +437,18 @@
   "buy_low": 122670.0,
   "buy_high": 132340.0,
   "path": "reports/2026-09-16/KR_096770.html"
+ },
+ {
+  "date": "2026-09-17",
+  "market": "US",
+  "ticker": "CRM",
+  "name": "Salesforce, Inc.",
+  "opinion": "중립",
+  "target": 262.08,
+  "upside": 4.6,
+  "buy": 232.62,
+  "buy_low": 225.49,
+  "buy_high": 239.75,
+  "path": "reports/2026-09-17/US_CRM.html"
  }
 ]
