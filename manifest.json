@@ -476,5 +476,18 @@
   "buy_low": 218.56,
   "buy_high": 241.59,
   "path": "reports/2026-09-18/US_CRM.html"
+ },
+ {
+  "date": "2026-09-18",
+  "market": "KR",
+  "ticker": "096770",
+  "name": "SK이노베이션",
+  "opinion": "매수",
+  "target": 165000.0,
+  "upside": 20.8,
+  "buy": 128277.5,
+  "buy_low": 122940.0,
+  "buy_high": 133615.0,
+  "path": "reports/2026-09-18/KR_096770.html"
  }
 ]
