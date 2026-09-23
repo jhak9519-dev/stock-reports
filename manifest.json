@@ -554,5 +554,18 @@
   "buy_low": 32950.0,
   "buy_high": 34900.0,
   "path": "reports/2026-09-23/KR_316140.html"
+ },
+ {
+  "date": "2026-09-24",
+  "market": "US",
+  "ticker": "DELL",
+  "name": "Dell Technologies Inc.",
+  "opinion": "중립",
+  "target": 566.94,
+  "upside": 3.1,
+  "buy": 507.94,
+  "buy_low": 494.85,
+  "buy_high": 521.04,
+  "path": "reports/2026-09-24/US_DELL.html"
  }
 ]
