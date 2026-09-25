@@ -606,5 +606,18 @@
   "buy_low": 32952.0,
   "buy_high": 34908.0,
   "path": "reports/2026-09-25/KR_316140.html"
+ },
+ {
+  "date": "2026-09-26",
+  "market": "US",
+  "ticker": "VEEV",
+  "name": "Veeva Systems Inc.",
+  "opinion": "중립",
+  "target": 292.8,
+  "upside": 4.3,
+  "buy": 261.31,
+  "buy_low": 252.61,
+  "buy_high": 270.02,
+  "path": "reports/2026-09-26/US_VEEV.html"
  }
 ]
