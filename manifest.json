@@ -619,5 +619,18 @@
   "buy_low": 252.61,
   "buy_high": 270.02,
   "path": "reports/2026-09-26/US_VEEV.html"
+ },
+ {
+  "date": "2026-09-28",
+  "market": "KR",
+  "ticker": "316140",
+  "name": "우리금융지주",
+  "opinion": "매수",
+  "target": 42728.0,
+  "upside": 17.4,
+  "buy": 34078.0,
+  "buy_low": 33076.0,
+  "buy_high": 35080.0,
+  "path": "reports/2026-09-28/KR_316140.html"
  }
 ]
