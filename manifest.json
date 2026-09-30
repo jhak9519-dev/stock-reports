@@ -684,5 +684,18 @@
   "buy_low": 133920.0,
   "buy_high": 141855.0,
   "path": "reports/2026-09-30/KR_096770.html"
+ },
+ {
+  "date": "2026-10-01",
+  "market": "US",
+  "ticker": "META",
+  "name": "Meta Platforms, Inc.",
+  "opinion": "중립",
+  "target": 795.6,
+  "upside": 9.7,
+  "buy": 667.88,
+  "buy_low": 652.66,
+  "buy_high": 683.09,
+  "path": "reports/2026-10-01/US_META.html"
  }
 ]
