@@ -723,5 +723,18 @@
   "buy_low": 503.82,
   "buy_high": 536.32,
   "path": "reports/2026-10-02/US_DELL.html"
+ },
+ {
+  "date": "2026-10-02",
+  "market": "KR",
+  "ticker": "011200",
+  "name": "HMM",
+  "opinion": "중립",
+  "target": 22842.75,
+  "upside": 6.2,
+  "buy": 21001.5,
+  "buy_low": 20971.0,
+  "buy_high": 21032.0,
+  "path": "reports/2026-10-02/KR_011200.html"
  }
 ]
