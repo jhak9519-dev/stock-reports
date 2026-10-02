@@ -736,5 +736,18 @@
   "buy_low": 20971.0,
   "buy_high": 21032.0,
   "path": "reports/2026-10-02/KR_011200.html"
+ },
+ {
+  "date": "2026-10-03",
+  "market": "US",
+  "ticker": "MSTR",
+  "name": "Strategy Inc",
+  "opinion": "중립",
+  "target": 182.86,
+  "upside": 14.3,
+  "buy": 145.85,
+  "buy_low": 144.01,
+  "buy_high": 147.7,
+  "path": "reports/2026-10-03/US_MSTR.html"
  }
 ]
