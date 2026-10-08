@@ -814,5 +814,18 @@
   "buy_low": 505800.0,
   "buy_high": 539850.0,
   "path": "reports/2026-10-07/KR_006400.html"
+ },
+ {
+  "date": "2026-10-08",
+  "market": "KR",
+  "ticker": "006400",
+  "name": "삼성SDI",
+  "opinion": "중립",
+  "target": 648433.8,
+  "upside": 14.0,
+  "buy": 526550.0,
+  "buy_low": 512100.0,
+  "buy_high": 541000.0,
+  "path": "reports/2026-10-08/KR_006400.html"
  }
 ]
