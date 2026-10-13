@@ -840,5 +840,18 @@
   "buy_low": 354216.0,
   "buy_high": 368975.0,
   "path": "reports/2026-10-13/KR_373220.html"
+ },
+ {
+  "date": "2026-10-14",
+  "market": "US",
+  "ticker": "MRVL",
+  "name": "Marvell Technology, Inc.",
+  "opinion": "중립",
+  "target": 305.0,
+  "upside": 13.5,
+  "buy": 252.49,
+  "buy_low": 241.86,
+  "buy_high": 263.12,
+  "path": "reports/2026-10-14/US_MRVL.html"
  }
 ]
