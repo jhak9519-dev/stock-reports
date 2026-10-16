@@ -918,5 +918,18 @@
   "buy_low": 362700.0,
   "buy_high": 376100.0,
   "path": "reports/2026-10-16/KR_373220.html"
+ },
+ {
+  "date": "2026-10-17",
+  "market": "US",
+  "ticker": "P",
+  "name": "Everpure, Inc.",
+  "opinion": "중립",
+  "target": 127.13,
+  "upside": 2.5,
+  "buy": 119.05,
+  "buy_low": 115.33,
+  "buy_high": 122.77,
+  "path": "reports/2026-10-17/US_P.html"
  }
 ]
