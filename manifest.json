@@ -996,5 +996,18 @@
   "buy_low": 138870.0,
   "buy_high": 151750.0,
   "path": "reports/2026-10-21/KR_096770.html"
+ },
+ {
+  "date": "2026-10-22",
+  "market": "US",
+  "ticker": "PTC",
+  "name": "PTC Inc.",
+  "opinion": "중립",
+  "target": 199.0,
+  "upside": 2.4,
+  "buy": 174.96,
+  "buy_low": 174.94,
+  "buy_high": 174.98,
+  "path": "reports/2026-10-22/US_PTC.html"
  }
 ]
