@@ -1009,5 +1009,18 @@
   "buy_low": 174.94,
   "buy_high": 174.98,
   "path": "reports/2026-10-22/US_PTC.html"
+ },
+ {
+  "date": "2026-10-22",
+  "market": "KR",
+  "ticker": "373220",
+  "name": "LG에너지솔루션",
+  "opinion": "중립",
+  "target": 420107.6,
+  "upside": 7.7,
+  "buy": 374096.0,
+  "buy_low": 362967.0,
+  "buy_high": 385225.0,
+  "path": "reports/2026-10-22/KR_373220.html"
  }
 ]
