@@ -1061,5 +1061,18 @@
   "buy_low": 174.42,
   "buy_high": 180.59,
   "path": "reports/2026-10-24/US_PTC.html"
+ },
+ {
+  "date": "2026-10-26",
+  "market": "KR",
+  "ticker": "011200",
+  "name": "HMM",
+  "opinion": "중립",
+  "target": 24365.6,
+  "upside": 8.1,
+  "buy": 21813.5,
+  "buy_low": 21527.0,
+  "buy_high": 22100.0,
+  "path": "reports/2026-10-26/KR_011200.html"
  }
 ]
