@@ -1087,5 +1087,18 @@
   "buy_low": 207.74,
   "buy_high": 216.4,
   "path": "reports/2026-10-27/US_ACN.html"
+ },
+ {
+  "date": "2026-10-27",
+  "market": "KR",
+  "ticker": "068270",
+  "name": "셀트리온",
+  "opinion": "매수",
+  "target": 223312.0,
+  "upside": 18.4,
+  "buy": 180046.5,
+  "buy_low": 174478.0,
+  "buy_high": 185615.0,
+  "path": "reports/2026-10-27/KR_068270.html"
  }
 ]
