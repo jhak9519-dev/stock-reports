@@ -1100,5 +1100,18 @@
   "buy_low": 174478.0,
   "buy_high": 185615.0,
   "path": "reports/2026-10-27/KR_068270.html"
+ },
+ {
+  "date": "2026-10-28",
+  "market": "US",
+  "ticker": "SHOP",
+  "name": "Shopify Inc.",
+  "opinion": "중립",
+  "target": 133.2,
+  "upside": -19.7,
+  "buy": 159.18,
+  "buy_low": 154.2,
+  "buy_high": 164.15,
+  "path": "reports/2026-10-28/US_SHOP.html"
  }
 ]
