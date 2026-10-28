@@ -20,7 +20,16 @@
    "buy_price": 1206000.0,
    "shares": 1,
    "sell_date": "2026-07-22",
-   "sell_price": 1467975.0
+   "sell_price": 1467975.0,
+   "stop": 1128230.0,
+   "hold_days": null,
+   "alt": {
+    "status": "sold",
+    "expire": null,
+    "reason": "목표가",
+    "sell_date": "2026-07-22",
+    "sell_price": 1467975.0
+   }
   },
   "reports/2026-07-17/KR_009150.html": {
    "date": "2026-07-17",
@@ -42,7 +51,16 @@
    "buy_price": 1206000.0,
    "shares": 1,
    "sell_date": "2026-07-22",
-   "sell_price": 1467975.0
+   "sell_price": 1467975.0,
+   "stop": 1128230.0,
+   "hold_days": null,
+   "alt": {
+    "status": "sold",
+    "expire": null,
+    "reason": "목표가",
+    "sell_date": "2026-07-22",
+    "sell_price": 1467975.0
+   }
   },
   "reports/2026-07-20/KR_009150.html": {
    "date": "2026-07-20",
@@ -64,7 +82,16 @@
    "buy_price": 1262250.0,
    "shares": 1,
    "sell_date": "2026-07-22",
-   "sell_price": 1467975.0
+   "sell_price": 1467975.0,
+   "stop": 1126462.0,
+   "hold_days": null,
+   "alt": {
+    "status": "sold",
+    "expire": null,
+    "reason": "목표가",
+    "sell_date": "2026-07-22",
+    "sell_price": 1467975.0
+   }
   },
   "reports/2026-07-21/KR_000660.html": {
    "date": "2026-07-21",
@@ -121,7 +148,17 @@
    ],
    "buy_price": 938.25,
    "shares": 1,
-   "fx_buy": 1479.719970703125
+   "fx_buy": 1479.719970703125,
+   "stop": 857.72,
+   "hold_days": null,
+   "alt": {
+    "status": "sold",
+    "expire": null,
+    "reason": "손절",
+    "sell_date": "2026-07-29",
+    "sell_price": 833.0,
+    "fx_sell": 1453.1600341796875
+   }
   },
   "reports/2026-07-27/KR_000810.html": {
    "date": "2026-07-27",
@@ -141,7 +178,13 @@
     635000.0
    ],
    "buy_price": 634000.0,
-   "shares": 1
+   "shares": 1,
+   "stop": 534600.0,
+   "hold_days": null,
+   "alt": {
+    "status": "hold",
+    "expire": null
+   }
   },
   "reports/2026-09-15/KR_096770.html": {
    "date": "2026-09-15",
@@ -342,7 +385,7 @@
    ]
   }
  },
- "updated": "2026-10-28 20:31",
- "fx_now": 1340.8299560546875,
+ "updated": "2026-10-28 20:38",
+ "fx_now": 1340.3800048828125,
  "fx_date": "2026-10-28"
 }
