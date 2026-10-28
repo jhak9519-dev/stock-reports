@@ -1,0 +1,345 @@
+{
+ "lots": {
+  "reports/2026-07-16/KR_009150.html": {
+   "date": "2026-07-16",
+   "market": "KR",
+   "ticker": "009150",
+   "name": "삼성전기",
+   "target": 1467975.0,
+   "buy_low": 1187610.0,
+   "buy_high": 1264230.0,
+   "path": "reports/2026-07-16/KR_009150.html",
+   "status": "sold",
+   "last": 1315000.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-07-20",
+   "day_range": [
+    1203000.0,
+    1362000.0
+   ],
+   "buy_price": 1206000.0,
+   "shares": 1,
+   "sell_date": "2026-07-22",
+   "sell_price": 1467975.0
+  },
+  "reports/2026-07-17/KR_009150.html": {
+   "date": "2026-07-17",
+   "market": "KR",
+   "ticker": "009150",
+   "name": "삼성전기",
+   "target": 1467975.0,
+   "buy_low": 1187610.0,
+   "buy_high": 1264230.0,
+   "path": "reports/2026-07-17/KR_009150.html",
+   "status": "sold",
+   "last": 1315000.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-07-20",
+   "day_range": [
+    1203000.0,
+    1362000.0
+   ],
+   "buy_price": 1206000.0,
+   "shares": 1,
+   "sell_date": "2026-07-22",
+   "sell_price": 1467975.0
+  },
+  "reports/2026-07-20/KR_009150.html": {
+   "date": "2026-07-20",
+   "market": "KR",
+   "ticker": "009150",
+   "name": "삼성전기",
+   "target": 1467975.0,
+   "buy_low": 1185750.0,
+   "buy_high": 1262250.0,
+   "path": "reports/2026-07-20/KR_009150.html",
+   "status": "sold",
+   "last": 1315000.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-07-21",
+   "day_range": [
+    1236000.0,
+    1328000.0
+   ],
+   "buy_price": 1262250.0,
+   "shares": 1,
+   "sell_date": "2026-07-22",
+   "sell_price": 1467975.0
+  },
+  "reports/2026-07-21/KR_000660.html": {
+   "date": "2026-07-21",
+   "market": "KR",
+   "ticker": "000660",
+   "name": "SK하이닉스",
+   "target": 2109122.4,
+   "buy_low": 1693065.0,
+   "buy_high": 1802295.0,
+   "path": "reports/2026-07-21/KR_000660.html",
+   "status": "nofill",
+   "last": 1508000.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-07-22",
+   "day_range": [
+    1830000.0,
+    2006000.0
+   ]
+  },
+  "reports/2026-07-21/KR_009150.html": {
+   "date": "2026-07-21",
+   "market": "KR",
+   "ticker": "009150",
+   "name": "삼성전기",
+   "target": 1565840.0,
+   "buy_low": 1218300.0,
+   "buy_high": 1296900.0,
+   "path": "reports/2026-07-21/KR_009150.html",
+   "status": "nofill",
+   "last": 1315000.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-07-22",
+   "day_range": [
+    1340000.0,
+    1479000.0
+   ]
+  },
+  "reports/2026-07-22/US_MU.html": {
+   "date": "2026-07-22",
+   "market": "US",
+   "ticker": "MU",
+   "name": "Micron Technology, Inc.",
+   "target": 1190.64,
+   "buy_low": 902.86,
+   "buy_high": 961.11,
+   "path": "reports/2026-07-22/US_MU.html",
+   "status": "hold",
+   "last": 928.760009765625,
+   "last_date": "2026-10-27",
+   "buy_date": "2026-07-22",
+   "day_range": [
+    936.0599975585938,
+    982.6199951171875
+   ],
+   "buy_price": 938.25,
+   "shares": 1
+  },
+  "reports/2026-07-27/KR_000810.html": {
+   "date": "2026-07-27",
+   "market": "KR",
+   "ticker": "000810",
+   "name": "삼성화재",
+   "target": 747774.0,
+   "buy_low": 607500.0,
+   "buy_high": 641050.0,
+   "path": "reports/2026-07-27/KR_000810.html",
+   "status": "hold",
+   "last": 629000.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-07-28",
+   "day_range": [
+    607000.0,
+    635000.0
+   ],
+   "buy_price": 634000.0,
+   "shares": 1
+  },
+  "reports/2026-09-15/KR_096770.html": {
+   "date": "2026-09-15",
+   "market": "KR",
+   "ticker": "096770",
+   "name": "SK이노베이션",
+   "target": 169574.9,
+   "buy_low": 127530.0,
+   "buy_high": 131955.0,
+   "path": "reports/2026-09-15/KR_096770.html",
+   "status": "nofill",
+   "last": 139800.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-09-16",
+   "day_range": [
+    135600.0,
+    142800.0
+   ]
+  },
+  "reports/2026-09-17/KR_096770.html": {
+   "date": "2026-09-17",
+   "market": "KR",
+   "ticker": "096770",
+   "name": "SK이노베이션",
+   "target": 161866.95,
+   "buy_low": 125460.0,
+   "buy_high": 133045.0,
+   "path": "reports/2026-09-17/KR_096770.html",
+   "status": "nofill",
+   "last": 139800.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-09-18",
+   "day_range": [
+    135300.0,
+    141500.0
+   ]
+  },
+  "reports/2026-09-18/KR_096770.html": {
+   "date": "2026-09-18",
+   "market": "KR",
+   "ticker": "096770",
+   "name": "SK이노베이션",
+   "target": 165000.0,
+   "buy_low": 122940.0,
+   "buy_high": 133615.0,
+   "path": "reports/2026-09-18/KR_096770.html",
+   "status": "nofill",
+   "last": 139800.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-09-21",
+   "day_range": [
+    138000.0,
+    145000.0
+   ]
+  },
+  "reports/2026-09-21/KR_096770.html": {
+   "date": "2026-09-21",
+   "market": "KR",
+   "ticker": "096770",
+   "name": "SK이노베이션",
+   "target": 169574.9,
+   "buy_low": 126630.0,
+   "buy_high": 134165.0,
+   "path": "reports/2026-09-21/KR_096770.html",
+   "status": "nofill",
+   "last": 139800.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-09-22",
+   "day_range": [
+    136500.0,
+    142800.0
+   ]
+  },
+  "reports/2026-09-23/KR_316140.html": {
+   "date": "2026-09-23",
+   "market": "KR",
+   "ticker": "316140",
+   "name": "우리금융지주",
+   "target": 41659.8,
+   "buy_low": 32950.0,
+   "buy_high": 34900.0,
+   "path": "reports/2026-09-23/KR_316140.html",
+   "status": "nofill",
+   "last": 29750.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-09-28",
+   "day_range": [
+    35650.0,
+    36700.0
+   ]
+  },
+  "reports/2026-09-25/KR_316140.html": {
+   "date": "2026-09-25",
+   "market": "KR",
+   "ticker": "316140",
+   "name": "우리금융지주",
+   "target": 41659.8,
+   "buy_low": 32952.0,
+   "buy_high": 34908.0,
+   "path": "reports/2026-09-25/KR_316140.html",
+   "status": "nofill",
+   "last": 29750.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-09-28",
+   "day_range": [
+    35650.0,
+    36700.0
+   ]
+  },
+  "reports/2026-09-28/KR_316140.html": {
+   "date": "2026-09-28",
+   "market": "KR",
+   "ticker": "316140",
+   "name": "우리금융지주",
+   "target": 42728.0,
+   "buy_low": 33076.0,
+   "buy_high": 35080.0,
+   "path": "reports/2026-09-28/KR_316140.html",
+   "status": "nofill",
+   "last": 29750.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-09-29",
+   "day_range": [
+    35750.0,
+    36500.0
+   ]
+  },
+  "reports/2026-10-07/KR_006400.html": {
+   "date": "2026-10-07",
+   "market": "KR",
+   "ticker": "006400",
+   "name": "삼성SDI",
+   "target": 679311.6,
+   "buy_low": 505800.0,
+   "buy_high": 539850.0,
+   "path": "reports/2026-10-07/KR_006400.html",
+   "status": "nofill",
+   "last": 533000.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-10-08",
+   "day_range": [
+    566000.0,
+    591000.0
+   ]
+  },
+  "reports/2026-10-13/KR_373220.html": {
+   "date": "2026-10-13",
+   "market": "KR",
+   "ticker": "373220",
+   "name": "LG에너지솔루션",
+   "target": 477395.0,
+   "buy_low": 354216.0,
+   "buy_high": 368975.0,
+   "path": "reports/2026-10-13/KR_373220.html",
+   "status": "nofill",
+   "last": 373500.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-10-14",
+   "day_range": [
+    409000.0,
+    428000.0
+   ]
+  },
+  "reports/2026-10-23/KR_068270.html": {
+   "date": "2026-10-23",
+   "market": "KR",
+   "ticker": "068270",
+   "name": "셀트리온",
+   "target": 229880.0,
+   "buy_low": 174960.0,
+   "buy_high": 184595.0,
+   "path": "reports/2026-10-23/KR_068270.html",
+   "status": "nofill",
+   "last": 189900.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-10-26",
+   "day_range": [
+    188000.0,
+    196900.0
+   ]
+  },
+  "reports/2026-10-27/KR_068270.html": {
+   "date": "2026-10-27",
+   "market": "KR",
+   "ticker": "068270",
+   "name": "셀트리온",
+   "target": 223312.0,
+   "buy_low": 174478.0,
+   "buy_high": 185615.0,
+   "path": "reports/2026-10-27/KR_068270.html",
+   "status": "nofill",
+   "last": 189900.0,
+   "last_date": "2026-10-28",
+   "buy_date": "2026-10-28",
+   "day_range": [
+    189200.0,
+    194200.0
+   ]
+  }
+ },
+ "updated": "2026-10-28 20:15"
+}

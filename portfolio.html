@@ -1,0 +1,60 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>가상 투자 계좌</title>
+<style>
+ :root{color-scheme:dark}
+ html{background:#0f1319}
+ body{font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif;max-width:760px;margin:0 auto;
+      padding:28px 16px 44px;background:#0f1319;color:#cfd6e1;line-height:1.7}
+ h1{color:#e8edf5;font-size:22px;border-bottom:3px solid #3b6ea5;padding-bottom:10px}
+ h1 .sub{color:#7fb2e5;font-size:12px;letter-spacing:2px;display:block;font-weight:700}
+ h2{color:#7fb2e5;font-size:16px;margin:28px 0 8px;border-left:4px solid #3b6ea5;padding-left:8px}
+ h3{color:#9aa5b5;font-size:13.5px;margin:18px 0 6px}
+ a{color:#7fb2e5}
+ .rule{background:#141b24;border:1px solid #232d3a;border-radius:12px;padding:12px 16px;font-size:13px;color:#9aa5b5}
+ .rule b{color:#cfd6e1}
+ .sum{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+ .cell{flex:1;min-width:100px;background:#171d26;border:1px solid #2a3240;border-radius:12px;padding:10px 12px;text-align:center}
+ .k{color:#8b95a7;font-size:11px} .v{font-size:18px;font-weight:800;margin:2px 0} .n{color:#6b7480;font-size:10.5px}
+ .gain{color:#ff8f86} .loss{color:#7fb2e5} .muted{color:#8b95a7}
+ .tbl{overflow-x:auto} table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:520px}
+ th{color:#8b95a7;font-weight:600;text-align:right;padding:6px 6px;border-bottom:1px solid #2a3240;white-space:nowrap}
+ td{padding:7px 6px;border-bottom:1px solid #1e2631;text-align:right;white-space:nowrap}
+ th:first-child,td:first-child{text-align:left}
+ td a{text-decoration:none}
+ .foot{color:#6b7480;font-size:11px;margin-top:30px;border-top:1px solid #2a3240;padding-top:12px}
+</style></head><body>
+<h1><span class="sub">STOCK AGENT</span>🧾 가상 투자 계좌</h1>
+<p><a href="index.html">‹ 리포트 목록으로</a></p>
+<div class="rule"><b>운용 원칙</b> — 발행된 '오늘의 종목'만, 리포트가 나온 뒤 <b>처음 열리는 장 하루</b>에
+리포트의 <b>매수가 범위 안에서 살 수 있었으면 1주</b> 매수합니다(그날 범위에 안 닿으면 미체결, 다시 사지 않음).
+보유 중 장중 고가가 <b>목표가에 닿으면 즉시 매도</b>합니다. 손절·기간 만료 매도는 하지 않습니다.
+실제 매매가 아닌 리포트 신뢰도 점검용 모의 기록이며, 수수료·세금은 반영하지 않았습니다.</div>
+<h2>🇰🇷 한국 계좌 (원)</h2>
+<div class="sum">
+ <div class="cell"><div class="k">총 손익(실현+평가)</div><div class="v gain">+16.8%</div>
+  <div class="n">+₩724,675 / 누적 매수 ₩4,308,250</div></div>
+ <div class="cell"><div class="k">실현 손익</div><div class="v gain">+₩729,675</div>
+  <div class="n">목표가 매도 3건 · 평균 2일 보유</div></div>
+ <div class="cell"><div class="k">보유 평가손익</div><div class="v loss">-₩5,000</div>
+  <div class="n">보유 1종목 · 평가액 ₩629,000</div></div>
+ <div class="cell"><div class="k">체결률</div><div class="v">23.5%</div>
+  <div class="n">체결 4 · 미체결 13 · 대기 0</div></div>
+</div>
+<h3>보유 중</h3><div class='tbl'><table><tr><th>종목</th><th>매수일</th><th>매수가</th><th>현재가</th><th>손익</th><th>목표가</th><th>목표까지</th></tr><tr><td><a href="reports/2026-07-27/KR_000810.html">삼성화재 <span class="muted">(07-27)</span></a></td><td>2026-07-28</td><td>₩634,000</td><td>₩629,000</td><td class='loss'>-0.8%</td><td>₩747,774</td><td class='muted'>+18.9%</td></tr></table></div>
+<h3>목표가 매도 완료</h3><div class='tbl'><table><tr><th>종목</th><th>매수일</th><th>매수가</th><th>매도일</th><th>매도가</th><th>수익률</th></tr><tr><td><a href="reports/2026-07-20/KR_009150.html">삼성전기 <span class="muted">(07-20)</span></a></td><td>2026-07-21</td><td>₩1,262,250</td><td>2026-07-22</td><td>₩1,467,975</td><td class='gain'>+16.3%</td></tr><tr><td><a href="reports/2026-07-17/KR_009150.html">삼성전기 <span class="muted">(07-17)</span></a></td><td>2026-07-20</td><td>₩1,206,000</td><td>2026-07-22</td><td>₩1,467,975</td><td class='gain'>+21.7%</td></tr><tr><td><a href="reports/2026-07-16/KR_009150.html">삼성전기 <span class="muted">(07-16)</span></a></td><td>2026-07-20</td><td>₩1,206,000</td><td>2026-07-22</td><td>₩1,467,975</td><td class='gain'>+21.7%</td></tr></table></div>
+<h3>미체결 · 대기</h3><div class='tbl'><table><tr><th>종목</th><th>리포트일</th><th>매수가 범위</th><th>매수일 가격대</th><th>사유</th></tr><tr><td><a href="reports/2026-10-27/KR_068270.html">셀트리온 <span class="muted">(10-27)</span></a></td><td>2026-10-27</td><td>₩174,478~185,615</td><td>₩189,200~194,200</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-10-23/KR_068270.html">셀트리온 <span class="muted">(10-23)</span></a></td><td>2026-10-23</td><td>₩174,960~184,595</td><td>₩188,000~196,900</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-10-13/KR_373220.html">LG에너지솔루션 <span class="muted">(10-13)</span></a></td><td>2026-10-13</td><td>₩354,216~368,975</td><td>₩409,000~428,000</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-10-07/KR_006400.html">삼성SDI <span class="muted">(10-07)</span></a></td><td>2026-10-07</td><td>₩505,800~539,850</td><td>₩566,000~591,000</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-09-28/KR_316140.html">우리금융지주 <span class="muted">(09-28)</span></a></td><td>2026-09-28</td><td>₩33,076~35,080</td><td>₩35,750~36,500</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-09-25/KR_316140.html">우리금융지주 <span class="muted">(09-25)</span></a></td><td>2026-09-25</td><td>₩32,952~34,908</td><td>₩35,650~36,700</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-09-23/KR_316140.html">우리금융지주 <span class="muted">(09-23)</span></a></td><td>2026-09-23</td><td>₩32,950~34,900</td><td>₩35,650~36,700</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-09-21/KR_096770.html">SK이노베이션 <span class="muted">(09-21)</span></a></td><td>2026-09-21</td><td>₩126,630~134,165</td><td>₩136,500~142,800</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-09-18/KR_096770.html">SK이노베이션 <span class="muted">(09-18)</span></a></td><td>2026-09-18</td><td>₩122,940~133,615</td><td>₩138,000~145,000</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-09-17/KR_096770.html">SK이노베이션 <span class="muted">(09-17)</span></a></td><td>2026-09-17</td><td>₩125,460~133,045</td><td>₩135,300~141,500</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-09-15/KR_096770.html">SK이노베이션 <span class="muted">(09-15)</span></a></td><td>2026-09-15</td><td>₩127,530~131,955</td><td>₩135,600~142,800</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-07-21/KR_000660.html">SK하이닉스 <span class="muted">(07-21)</span></a></td><td>2026-07-21</td><td>₩1,693,065~1,802,295</td><td>₩1,830,000~2,006,000</td><td class='muted'>그날 저가가 범위 위</td></tr><tr><td><a href="reports/2026-07-21/KR_009150.html">삼성전기 <span class="muted">(07-21)</span></a></td><td>2026-07-21</td><td>₩1,218,300~1,296,900</td><td>₩1,340,000~1,479,000</td><td class='muted'>그날 저가가 범위 위</td></tr></table></div>
+<h2>🇺🇸 미국 계좌 (달러)</h2>
+<div class="sum">
+ <div class="cell"><div class="k">총 손익(실현+평가)</div><div class="v loss">-1.0%</div>
+  <div class="n">-$9.49 / 누적 매수 $938.25</div></div>
+ <div class="cell"><div class="k">실현 손익</div><div class="v ">$0.00</div>
+  <div class="n">목표가 매도 0건</div></div>
+ <div class="cell"><div class="k">보유 평가손익</div><div class="v loss">-$9.49</div>
+  <div class="n">보유 1종목 · 평가액 $928.76</div></div>
+ <div class="cell"><div class="k">체결률</div><div class="v">100.0%</div>
+  <div class="n">체결 1 · 미체결 0 · 대기 0</div></div>
+</div>
+<h3>보유 중</h3><div class='tbl'><table><tr><th>종목</th><th>매수일</th><th>매수가</th><th>현재가</th><th>손익</th><th>목표가</th><th>목표까지</th></tr><tr><td><a href="reports/2026-07-22/US_MU.html">Micron Technology, Inc. <span class="muted">(07-22)</span></a></td><td>2026-07-22</td><td>$938.25</td><td>$928.76</td><td class='loss'>-1.0%</td><td>$1,190.64</td><td class='muted'>+28.2%</td></tr></table></div>
+<div class="foot">갱신: 2026-10-28 20:15 · 가격은 일봉(시가·고가·저가·종가) 기준 추정이며
+실제 체결과 다를 수 있습니다. 투자 권유가 아닙니다.</div></body></html>
