@@ -232,5 +232,24 @@
   "buy_low": 174478.0,
   "buy_high": 185615.0,
   "path": "reports/2026-10-27/KR_068270.html"
+ },
+ {
+  "date": "2026-10-29",
+  "market": "KR",
+  "ticker": "032640",
+  "name": "LG유플러스",
+  "opinion": "매수",
+  "target": 17525.04,
+  "upside": 25.7,
+  "buy": 12898.0,
+  "buy_low": 12495.0,
+  "buy_high": 13301.0,
+  "stop": 11589.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12개월",
+   "reason": "추세는 약세지만 PBR 0.65배·배당 4.7%로 실적 회복 반영에 시간 필요"
+  },
+  "path": "reports/2026-10-29/KR_032640.html"
  }
 ]
