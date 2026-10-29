@@ -139,8 +139,8 @@
    "buy_high": 961.11,
    "path": "reports/2026-07-22/US_MU.html",
    "status": "hold",
-   "last": 983.22998046875,
-   "last_date": "2026-10-28",
+   "last": 934.27001953125,
+   "last_date": "2026-10-29",
    "buy_date": "2026-07-22",
    "day_range": [
     936.0599975585938,
@@ -158,7 +158,8 @@
     "sell_date": "2026-07-29",
     "sell_price": 833.0,
     "fx_sell": 1453.1600341796875
-   }
+   },
+   "slot": null
   },
   "reports/2026-07-27/KR_000810.html": {
    "date": "2026-07-27",
@@ -170,7 +171,7 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 651000.0,
+   "last": 653000.0,
    "last_date": "2026-10-29",
    "buy_date": "2026-07-28",
    "day_range": [
@@ -184,7 +185,8 @@
    "alt": {
     "status": "hold",
     "expire": null
-   }
+   },
+   "slot": null
   },
   "reports/2026-09-15/KR_096770.html": {
    "date": "2026-09-15",
@@ -394,14 +396,30 @@
    "buy_high": 13301.0,
    "path": "reports/2026-10-29/KR_032640.html",
    "status": "wait",
-   "last": 13940.0,
+   "last": 14000.0,
    "last_date": "2026-10-29",
    "stop": 11589.0,
    "hold_days": 360,
+   "alt": null,
+   "slot": null
+  },
+  "reports/2026-10-30/US_picks.html#s-ADSK": {
+   "date": "2026-10-30",
+   "market": "US",
+   "ticker": "ADSK",
+   "name": "Autodesk, Inc.",
+   "target": 277.56,
+   "buy_low": 235.37,
+   "buy_high": 238.15,
+   "path": "reports/2026-10-30/US_picks.html#s-ADSK",
+   "slot": "중기",
+   "status": "wait",
+   "stop": 220.14,
+   "hold_days": 180,
    "alt": null
   }
  },
- "updated": "2026-10-29 15:45",
- "fx_now": 1336.469970703125,
+ "updated": "2026-10-30 06:41",
+ "fx_now": 1338.8399658203125,
  "fx_date": "2026-10-29"
 }
