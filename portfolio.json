@@ -171,8 +171,8 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 653000.0,
-   "last_date": "2026-10-29",
+   "last": 647000.0,
+   "last_date": "2026-10-30",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -396,8 +396,8 @@
    "buy_high": 13301.0,
    "path": "reports/2026-10-29/KR_032640.html",
    "status": "wait",
-   "last": 14000.0,
-   "last_date": "2026-10-29",
+   "last": 14060.0,
+   "last_date": "2026-10-30",
    "stop": 11589.0,
    "hold_days": 360,
    "alt": null,
@@ -419,7 +419,7 @@
    "alt": null
   }
  },
- "updated": "2026-10-30 06:41",
- "fx_now": 1338.8399658203125,
- "fx_date": "2026-10-29"
+ "updated": "2026-10-30 10:56",
+ "fx_now": 1337.6700439453125,
+ "fx_date": "2026-10-30"
 }
