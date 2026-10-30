@@ -273,5 +273,49 @@
    "reason": "영업이익률 개선과 11/28 실적이 재평가 계기, 추세 강도 10/10"
   },
   "path": "reports/2026-10-30/US_picks.html#s-ADSK"
+ },
+ {
+  "date": "2026-10-30",
+  "market": "KR",
+  "ticker": "005830",
+  "name": "DB손해보험",
+  "slot": "중기",
+  "opinion": "매수",
+  "target": 212000.0,
+  "upside": 14.8,
+  "target_12m": 239579.6,
+  "upside_12m": 29.7,
+  "buy": 174573.0,
+  "buy_low": 174418.0,
+  "buy_high": 174728.0,
+  "stop": 158917.0,
+  "position": {
+   "type": "중기",
+   "horizon": "3~6개월",
+   "reason": "PBR 0.80배 저평가에 실적·주주환원이 반영될 때까지 시간이 필요함"
+  },
+  "path": "reports/2026-10-30/KR_picks.html#s-005830"
+ },
+ {
+  "date": "2026-10-30",
+  "market": "KR",
+  "ticker": "032640",
+  "name": "LG유플러스",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 17459.0,
+  "upside": 22.7,
+  "target_12m": 17459.0,
+  "upside_12m": 22.7,
+  "buy": 13167.5,
+  "buy_low": 12756.0,
+  "buy_high": 13579.0,
+  "stop": 11836.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12~18개월",
+   "reason": "이익 반등과 AIDC 성장이 배당 4.6%와 함께 주가에 반영되려면 시간이 필요함"
+  },
+  "path": "reports/2026-10-30/KR_picks.html#s-032640"
  }
 ]

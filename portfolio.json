@@ -171,7 +171,7 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 645000.0,
+   "last": 659000.0,
    "last_date": "2026-10-30",
    "buy_date": "2026-07-28",
    "day_range": [
@@ -395,13 +395,18 @@
    "buy_low": 12495.0,
    "buy_high": 13301.0,
    "path": "reports/2026-10-29/KR_032640.html",
-   "status": "wait",
-   "last": 14060.0,
+   "status": "nofill",
+   "last": 14200.0,
    "last_date": "2026-10-30",
    "stop": 11589.0,
    "hold_days": 360,
    "alt": null,
-   "slot": null
+   "slot": null,
+   "buy_date": "2026-10-30",
+   "day_range": [
+    13850.0,
+    14290.0
+   ]
   },
   "reports/2026-10-30/US_picks.html#s-ADSK": {
    "date": "2026-10-30",
@@ -416,10 +421,46 @@
    "status": "wait",
    "stop": 220.14,
    "hold_days": 180,
+   "alt": null,
+   "last": 241.72999572753906,
+   "last_date": "2026-10-29"
+  },
+  "reports/2026-10-30/KR_picks.html#s-005830": {
+   "date": "2026-10-30",
+   "market": "KR",
+   "ticker": "005830",
+   "name": "DB손해보험",
+   "target": 212000.0,
+   "buy_low": 174418.0,
+   "buy_high": 174728.0,
+   "path": "reports/2026-10-30/KR_picks.html#s-005830",
+   "slot": "중기",
+   "status": "wait",
+   "last": 184700.0,
+   "last_date": "2026-10-30",
+   "stop": 158917.0,
+   "hold_days": 180,
+   "alt": null
+  },
+  "reports/2026-10-30/KR_picks.html#s-032640": {
+   "date": "2026-10-30",
+   "market": "KR",
+   "ticker": "032640",
+   "name": "LG유플러스",
+   "target": 17459.0,
+   "buy_low": 12756.0,
+   "buy_high": 13579.0,
+   "path": "reports/2026-10-30/KR_picks.html#s-032640",
+   "slot": "장기",
+   "status": "wait",
+   "last": 14200.0,
+   "last_date": "2026-10-30",
+   "stop": 11836.0,
+   "hold_days": 540,
    "alt": null
   }
  },
- "updated": "2026-10-30 11:35",
- "fx_now": 1338.5799560546875,
+ "updated": "2026-10-30 16:12",
+ "fx_now": 1333.9000244140625,
  "fx_date": "2026-10-30"
 }
