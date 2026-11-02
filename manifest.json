@@ -317,5 +317,49 @@
    "reason": "이익 반등과 AIDC 성장이 배당 4.6%와 함께 주가에 반영되려면 시간이 필요함"
   },
   "path": "reports/2026-10-30/KR_picks.html#s-032640"
+ },
+ {
+  "date": "2026-11-02",
+  "market": "KR",
+  "ticker": "032640",
+  "name": "LG유플러스",
+  "slot": "중기",
+  "opinion": "매수",
+  "target": 16300.0,
+  "upside": 12.1,
+  "target_12m": 17525.04,
+  "upside_12m": 20.5,
+  "buy": 13458.5,
+  "buy_low": 13038.0,
+  "buy_high": 13879.0,
+  "stop": 12104.0,
+  "position": {
+   "type": "중기",
+   "horizon": "3~6개월",
+   "reason": "일회성 비용 소멸·AIDC 증익이 실적에 반영되는 기간, 저PBR·고배당"
+  },
+  "path": "reports/2026-11-02/KR_picks.html#s-032640"
+ },
+ {
+  "date": "2026-11-02",
+  "market": "KR",
+  "ticker": "086280",
+  "name": "현대글로비스",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 237325.0,
+  "upside": 16.1,
+  "target_12m": 237325.0,
+  "upside_12m": 16.1,
+  "buy": 175991.5,
+  "buy_low": 175410.0,
+  "buy_high": 176573.0,
+  "stop": 158941.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12~18개월",
+   "reason": "선대 확대로 이익 레벨이 오르고 PER 9.9배 저평가 해소 여지"
+  },
+  "path": "reports/2026-11-02/KR_picks.html#s-086280"
  }
 ]

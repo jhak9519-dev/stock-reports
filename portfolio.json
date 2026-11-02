@@ -171,8 +171,8 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 655000.0,
-   "last_date": "2026-10-30",
+   "last": 651000.0,
+   "last_date": "2026-11-02",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -440,12 +440,17 @@
    "buy_high": 174728.0,
    "path": "reports/2026-10-30/KR_picks.html#s-005830",
    "slot": "중기",
-   "status": "wait",
-   "last": 184600.0,
-   "last_date": "2026-10-30",
+   "status": "nofill",
+   "last": 175900.0,
+   "last_date": "2026-11-02",
    "stop": 158917.0,
    "hold_days": 180,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-02",
+   "day_range": [
+    175200.0,
+    184900.0
+   ]
   },
   "reports/2026-10-30/KR_picks.html#s-032640": {
    "date": "2026-10-30",
@@ -457,15 +462,54 @@
    "buy_high": 13579.0,
    "path": "reports/2026-10-30/KR_picks.html#s-032640",
    "slot": "장기",
-   "status": "wait",
-   "last": 14160.0,
-   "last_date": "2026-10-30",
+   "status": "nofill",
+   "last": 14550.0,
+   "last_date": "2026-11-02",
    "stop": 11836.0,
+   "hold_days": 540,
+   "alt": null,
+   "buy_date": "2026-11-02",
+   "day_range": [
+    14150.0,
+    14800.0
+   ]
+  },
+  "reports/2026-11-02/KR_picks.html#s-032640": {
+   "date": "2026-11-02",
+   "market": "KR",
+   "ticker": "032640",
+   "name": "LG유플러스",
+   "target": 16300.0,
+   "buy_low": 13038.0,
+   "buy_high": 13879.0,
+   "path": "reports/2026-11-02/KR_picks.html#s-032640",
+   "slot": "중기",
+   "status": "wait",
+   "last": 14550.0,
+   "last_date": "2026-11-02",
+   "stop": 12104.0,
+   "hold_days": 180,
+   "alt": null
+  },
+  "reports/2026-11-02/KR_picks.html#s-086280": {
+   "date": "2026-11-02",
+   "market": "KR",
+   "ticker": "086280",
+   "name": "현대글로비스",
+   "target": 237325.0,
+   "buy_low": 175410.0,
+   "buy_high": 176573.0,
+   "path": "reports/2026-11-02/KR_picks.html#s-086280",
+   "slot": "장기",
+   "status": "wait",
+   "last": 202000.0,
+   "last_date": "2026-11-02",
+   "stop": 158941.0,
    "hold_days": 540,
    "alt": null
   }
  },
- "updated": "2026-10-31 06:54",
- "fx_now": 1333.43994140625,
- "fx_date": "2026-10-30"
+ "updated": "2026-11-02 16:15",
+ "fx_now": 1343.1400146484375,
+ "fx_date": "2026-11-02"
 }
