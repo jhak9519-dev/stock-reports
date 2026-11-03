@@ -1,5 +1,5 @@
 {
- "cash": 46664.68576479796,
+ "cash": 134528.42669129354,
  "deposits": 11000000.0,
  "holdings": {
   "KR:441680": {
@@ -16,103 +16,99 @@
     }
    ],
    "divs": 0.0,
-   "last": 10300.0,
-   "last_date": "2026-11-02",
+   "last": 10075.0,
+   "last_date": "2026-11-03",
    "ttm_div": 1340.0
   },
   "KR:441800": {
    "market": "KR",
    "ticker": "441800",
    "name": "TIME Korea플러스배당액티브",
-   "shares": 104,
-   "cost": 2490133.4640000006,
+   "shares": 114,
+   "cost": 2730569.5240000007,
    "lots": [
     {
      "date": "2026-11-02",
      "shares": 104,
      "price": 23940.0
+    },
+    {
+     "date": "2026-11-03",
+     "shares": 10,
+     "price": 24040.0
     }
    ],
    "divs": 0.0,
-   "last": 24350.0,
-   "last_date": "2026-11-02",
+   "last": 23860.0,
+   "last_date": "2026-11-03",
    "ttm_div": 2314.0
   },
   "US:SPYI": {
    "market": "US",
    "ticker": "SPYI",
    "name": "NEOS S&P 500 High Income ETF",
-   "shares": 35,
-   "cost": 2483106.280361073,
+   "shares": 38,
+   "cost": 2693203.1517658746,
    "lots": [
     {
      "date": "2026-10-30",
      "shares": 35,
      "price": 52.79999923706055
+    },
+    {
+     "date": "2026-11-02",
+     "shares": 3,
+     "price": 52.61000061035156
     }
    ],
    "divs": 0.0,
-   "last": 52.42499923706055,
-   "last_date": "2026-10-30",
+   "last": 52.189998626708984,
+   "last_date": "2026-11-02",
    "ttm_div": 6.323
   },
   "US:GLAD": {
    "market": "US",
    "ticker": "GLAD",
    "name": "Gladstone Capital",
-   "shares": 96,
-   "cost": 2484396.2711241283,
+   "shares": 105,
+   "cost": 2712024.507792831,
    "lots": [
     {
      "date": "2026-10-30",
      "shares": 96,
      "price": 19.260000228881836
+    },
+    {
+     "date": "2026-11-02",
+     "shares": 9,
+     "price": 19.0
     }
    ],
    "divs": 0.0,
-   "last": 18.969999313354492,
-   "last_date": "2026-10-30",
+   "last": 19.170000076293945,
+   "last_date": "2026-11-02",
    "ttm_div": 1.98
-  }
- },
- "orders": [
-  {
-   "type": "buy",
-   "key": "KR:498400",
+  },
+  "KR:498400": {
    "market": "KR",
    "ticker": "498400",
    "name": "KODEX 200타겟위클리커버드콜",
-   "date": "2026-11-02",
-   "budget": 250000.0
-  },
-  {
-   "type": "buy",
-   "key": "KR:441800",
-   "market": "KR",
-   "ticker": "441800",
-   "name": "TIME Korea플러스배당액티브",
-   "date": "2026-11-02",
-   "budget": 250000.0
-  },
-  {
-   "type": "buy",
-   "key": "US:SPYI",
-   "market": "US",
-   "ticker": "SPYI",
-   "name": "NEOS S&P 500 High Income ETF",
-   "date": "2026-11-02",
-   "budget": 250000.0
-  },
-  {
-   "type": "buy",
-   "key": "US:GLAD",
-   "market": "US",
-   "ticker": "GLAD",
-   "name": "Gladstone Capital",
-   "date": "2026-11-02",
-   "budget": 250000.0
+   "shares": 14,
+   "cost": 233975.09100000004,
+   "lots": [
+    {
+     "date": "2026-11-03",
+     "shares": 14,
+     "price": 16710.0
+    }
+   ],
+   "divs": 0.0,
+   "last": 16510.0,
+   "last_date": "2026-11-03",
+   "ttm_div": 3235.0
   }
- ],
+ },
+ "orders": [],
  "divs": {},
  "events": [
   {
@@ -146,6 +142,22 @@
   {
    "date": "2026-10-30",
    "text": "매수 Gladstone Capital 96주 @ 19.26 (2,484,396원)"
+  },
+  {
+   "date": "2026-11-03",
+   "text": "매수 KODEX 200타겟위클리커버드콜 14주 @ 16,710.00 (233,975원)"
+  },
+  {
+   "date": "2026-11-03",
+   "text": "매수 TIME Korea플러스배당액티브 10주 @ 24,040.00 (240,436원)"
+  },
+  {
+   "date": "2026-11-02",
+   "text": "매수 NEOS S&P 500 High Income ETF 3주 @ 52.61 (210,097원)"
+  },
+  {
+   "date": "2026-11-02",
+   "text": "매수 Gladstone Capital 9주 @ 19.00 (227,628원)"
   }
  ],
  "picks": {
@@ -349,6 +361,6 @@
   }
  },
  "realized": 0.0,
- "fx_now": 1343.280029296875,
- "updated": "2026-11-02 16:17"
+ "fx_now": 1340.489990234375,
+ "updated": "2026-11-03 16:06"
 }
