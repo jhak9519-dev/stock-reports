@@ -171,8 +171,8 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 653000.0,
-   "last_date": "2026-11-02",
+   "last": 651000.0,
+   "last_date": "2026-11-03",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -484,12 +484,17 @@
    "buy_high": 13879.0,
    "path": "reports/2026-11-02/KR_picks.html#s-032640",
    "slot": "중기",
-   "status": "wait",
-   "last": 14590.0,
-   "last_date": "2026-11-02",
+   "status": "nofill",
+   "last": 14480.0,
+   "last_date": "2026-11-03",
    "stop": 12104.0,
    "hold_days": 180,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-03",
+   "day_range": [
+    14290.0,
+    14780.0
+   ]
   },
   "reports/2026-11-02/KR_picks.html#s-086280": {
    "date": "2026-11-02",
@@ -501,15 +506,37 @@
    "buy_high": 176573.0,
    "path": "reports/2026-11-02/KR_picks.html#s-086280",
    "slot": "장기",
-   "status": "wait",
-   "last": 202500.0,
-   "last_date": "2026-11-02",
+   "status": "nofill",
+   "last": 199500.0,
+   "last_date": "2026-11-03",
    "stop": 158941.0,
    "hold_days": 540,
+   "alt": null,
+   "buy_date": "2026-11-03",
+   "day_range": [
+    198100.0,
+    211000.0
+   ]
+  },
+  "reports/2026-11-03/KR_picks.html#s-086280": {
+   "date": "2026-11-03",
+   "market": "KR",
+   "ticker": "086280",
+   "name": "현대글로비스",
+   "target": 246576.0,
+   "buy_low": 172080.0,
+   "buy_high": 176142.0,
+   "path": "reports/2026-11-03/KR_picks.html#s-086280",
+   "slot": "장기",
+   "status": "wait",
+   "last": 199500.0,
+   "last_date": "2026-11-03",
+   "stop": 155300.0,
+   "hold_days": 450,
    "alt": null
   }
  },
- "updated": "2026-11-03 06:51",
- "fx_now": 1345.739990234375,
- "fx_date": "2026-11-02"
+ "updated": "2026-11-03 16:06",
+ "fx_now": 1340.5799560546875,
+ "fx_date": "2026-11-03"
 }

@@ -361,5 +361,27 @@
    "reason": "선대 확대로 이익 레벨이 오르고 PER 9.9배 저평가 해소 여지"
   },
   "path": "reports/2026-11-02/KR_picks.html#s-086280"
+ },
+ {
+  "date": "2026-11-03",
+  "market": "KR",
+  "ticker": "086280",
+  "name": "현대글로비스",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 246576.0,
+  "upside": 22.7,
+  "target_12m": 246576.0,
+  "upside_12m": 22.7,
+  "buy": 174111.0,
+  "buy_low": 172080.0,
+  "buy_high": 176142.0,
+  "stop": 155300.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12~15개월",
+   "reason": "이익 체력 개선 대비 PER 9.8배로 저평가, 운임 사이클 확인까지 보유"
+  },
+  "path": "reports/2026-11-03/KR_picks.html#s-086280"
  }
 ]
