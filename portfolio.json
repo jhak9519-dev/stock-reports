@@ -171,8 +171,8 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 663000.0,
-   "last_date": "2026-11-04",
+   "last": 652000.0,
+   "last_date": "2026-11-05",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -550,12 +550,17 @@
    "buy_high": 164192.0,
    "path": "reports/2026-11-04/KR_picks.html#s-005830",
    "slot": "중기",
-   "status": "wait",
-   "last": 176400.0,
-   "last_date": "2026-11-04",
+   "status": "nofill",
+   "last": 179700.0,
+   "last_date": "2026-11-05",
    "stop": 133905.0,
    "hold_days": 180,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-05",
+   "day_range": [
+    175200.0,
+    184400.0
+   ]
   },
   "reports/2026-11-04/KR_picks.html#s-086280": {
    "date": "2026-11-04",
@@ -567,15 +572,54 @@
    "buy_high": 176445.0,
    "path": "reports/2026-11-04/KR_picks.html#s-086280",
    "slot": "장기",
-   "status": "wait",
-   "last": 202500.0,
-   "last_date": "2026-11-04",
+   "status": "nofill",
+   "last": 199700.0,
+   "last_date": "2026-11-05",
    "stop": 148813.0,
+   "hold_days": 360,
+   "alt": null,
+   "buy_date": "2026-11-05",
+   "day_range": [
+    197000.0,
+    206000.0
+   ]
+  },
+  "reports/2026-11-05/KR_picks.html#s-068270": {
+   "date": "2026-11-05",
+   "market": "KR",
+   "ticker": "068270",
+   "name": "셀트리온",
+   "target": 236000.0,
+   "buy_low": 170126.0,
+   "buy_high": 184010.0,
+   "path": "reports/2026-11-05/KR_picks.html#s-068270",
+   "slot": "단기",
+   "status": "wait",
+   "last": 213500.0,
+   "last_date": "2026-11-05",
+   "stop": 158008.0,
+   "hold_days": 42,
+   "alt": null
+  },
+  "reports/2026-11-05/KR_picks.html#s-161390": {
+   "date": "2026-11-05",
+   "market": "KR",
+   "ticker": "161390",
+   "name": "한국타이어앤테크놀로지",
+   "target": 78336.0,
+   "buy_low": 52509.0,
+   "buy_high": 57445.0,
+   "path": "reports/2026-11-05/KR_picks.html#s-161390",
+   "slot": "장기",
+   "status": "wait",
+   "last": 63500.0,
+   "last_date": "2026-11-05",
+   "stop": 47570.0,
    "hold_days": 360,
    "alt": null
   }
  },
- "updated": "2026-11-05 06:59",
- "fx_now": 1340.9100341796875,
- "fx_date": "2026-11-04"
+ "updated": "2026-11-05 16:13",
+ "fx_now": 1340.6500244140625,
+ "fx_date": "2026-11-05"
 }

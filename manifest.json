@@ -427,5 +427,49 @@
    "reason": "PER 9.8배 저평가·실적 경신 중이나 운임 사이클 고점 가능성은 장기 보유로 상쇄"
   },
   "path": "reports/2026-11-04/KR_picks.html#s-086280"
+ },
+ {
+  "date": "2026-11-05",
+  "market": "KR",
+  "ticker": "068270",
+  "name": "셀트리온",
+  "slot": "단기",
+  "opinion": "매수",
+  "target": 236000.0,
+  "upside": 10.8,
+  "target_12m": 243016.0,
+  "upside_12m": 14.1,
+  "buy": 177068.0,
+  "buy_low": 170126.0,
+  "buy_high": 184010.0,
+  "stop": 158008.0,
+  "position": {
+   "type": "스윙",
+   "horizon": "2~6주",
+   "reason": "추세 강도 9에 순환매·기관 수급이 겹쳐 전고점 회귀 왕복이 유효한 구간"
+  },
+  "path": "reports/2026-11-05/KR_picks.html#s-068270"
+ },
+ {
+  "date": "2026-11-05",
+  "market": "KR",
+  "ticker": "161390",
+  "name": "한국타이어앤테크놀로지",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 78336.0,
+  "upside": 21.6,
+  "target_12m": 78336.0,
+  "upside_12m": 21.6,
+  "buy": 54977.0,
+  "buy_low": 52509.0,
+  "buy_high": 57445.0,
+  "stop": 47570.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12개월 이상",
+   "reason": "PBR 0.59배·배당 3.57%의 구조적 저평가 해소는 1년 이상 걸리는 과정"
+  },
+  "path": "reports/2026-11-05/KR_picks.html#s-161390"
  }
 ]
