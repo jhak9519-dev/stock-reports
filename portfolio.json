@@ -139,8 +139,8 @@
    "buy_high": 961.11,
    "path": "reports/2026-07-22/US_MU.html",
    "status": "hold",
-   "last": 656.3900146484375,
-   "last_date": "2026-11-05",
+   "last": 690.0,
+   "last_date": "2026-11-06",
    "buy_date": "2026-07-22",
    "day_range": [
     936.0599975585938,
@@ -639,7 +639,7 @@
    "path": "reports/2026-11-06/KR_picks.html#s-028050",
    "slot": "단기",
    "status": "wait",
-   "last": 59700.0,
+   "last": 61300.0,
    "last_date": "2026-11-06",
    "stop": 41957.0,
    "hold_days": 56,
@@ -656,7 +656,7 @@
    "path": "reports/2026-11-06/KR_picks.html#s-086280",
    "slot": "중기",
    "status": "wait",
-   "last": 194700.0,
+   "last": 195500.0,
    "last_date": "2026-11-06",
    "stop": 144854.0,
    "hold_days": 180,
@@ -673,14 +673,14 @@
    "path": "reports/2026-11-06/KR_picks.html#s-030200",
    "slot": "장기",
    "status": "wait",
-   "last": 52300.0,
+   "last": 52500.0,
    "last_date": "2026-11-06",
    "stop": 42178.0,
    "hold_days": 360,
    "alt": null
   }
  },
- "updated": "2026-11-06 16:30",
- "fx_now": 1355.5799560546875,
+ "updated": "2026-11-07 07:12",
+ "fx_now": 1363.6500244140625,
  "fx_date": "2026-11-06"
 }
