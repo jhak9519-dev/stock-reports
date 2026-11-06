@@ -171,8 +171,8 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 658000.0,
-   "last_date": "2026-11-05",
+   "last": 602000.0,
+   "last_date": "2026-11-06",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -594,12 +594,17 @@
    "buy_high": 184010.0,
    "path": "reports/2026-11-05/KR_picks.html#s-068270",
    "slot": "단기",
-   "status": "wait",
-   "last": 215000.0,
-   "last_date": "2026-11-05",
+   "status": "nofill",
+   "last": 208500.0,
+   "last_date": "2026-11-06",
    "stop": 158008.0,
    "hold_days": 42,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-06",
+   "day_range": [
+    203500.0,
+    214500.0
+   ]
   },
   "reports/2026-11-05/KR_picks.html#s-161390": {
    "date": "2026-11-05",
@@ -611,15 +616,71 @@
    "buy_high": 57445.0,
    "path": "reports/2026-11-05/KR_picks.html#s-161390",
    "slot": "장기",
-   "status": "wait",
-   "last": 64100.0,
-   "last_date": "2026-11-05",
+   "status": "nofill",
+   "last": 61300.0,
+   "last_date": "2026-11-06",
    "stop": 47570.0,
+   "hold_days": 360,
+   "alt": null,
+   "buy_date": "2026-11-06",
+   "day_range": [
+    60800.0,
+    65800.0
+   ]
+  },
+  "reports/2026-11-06/KR_picks.html#s-028050": {
+   "date": "2026-11-06",
+   "market": "KR",
+   "ticker": "028050",
+   "name": "삼성E&A",
+   "target": 66900.0,
+   "buy_low": 47678.0,
+   "buy_high": 51709.0,
+   "path": "reports/2026-11-06/KR_picks.html#s-028050",
+   "slot": "단기",
+   "status": "wait",
+   "last": 59700.0,
+   "last_date": "2026-11-06",
+   "stop": 41957.0,
+   "hold_days": 56,
+   "alt": null
+  },
+  "reports/2026-11-06/KR_picks.html#s-086280": {
+   "date": "2026-11-06",
+   "market": "KR",
+   "ticker": "086280",
+   "name": "현대글로비스",
+   "target": 221000.0,
+   "buy_low": 160380.0,
+   "buy_high": 177535.0,
+   "path": "reports/2026-11-06/KR_picks.html#s-086280",
+   "slot": "중기",
+   "status": "wait",
+   "last": 194700.0,
+   "last_date": "2026-11-06",
+   "stop": 144854.0,
+   "hold_days": 180,
+   "alt": null
+  },
+  "reports/2026-11-06/KR_picks.html#s-030200": {
+   "date": "2026-11-06",
+   "market": "KR",
+   "ticker": "030200",
+   "name": "KT",
+   "target": 64262.5,
+   "buy_low": 44981.0,
+   "buy_high": 47093.0,
+   "path": "reports/2026-11-06/KR_picks.html#s-030200",
+   "slot": "장기",
+   "status": "wait",
+   "last": 52300.0,
+   "last_date": "2026-11-06",
+   "stop": 42178.0,
    "hold_days": 360,
    "alt": null
   }
  },
- "updated": "2026-11-06 07:04",
- "fx_now": 1357.8800048828125,
- "fx_date": "2026-11-05"
+ "updated": "2026-11-06 16:30",
+ "fx_now": 1355.47998046875,
+ "fx_date": "2026-11-06"
 }

@@ -471,5 +471,71 @@
    "reason": "PBR 0.59배·배당 3.57%의 구조적 저평가 해소는 1년 이상 걸리는 과정"
   },
   "path": "reports/2026-11-05/KR_picks.html#s-161390"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "KR",
+  "ticker": "028050",
+  "name": "삼성E&A",
+  "slot": "단기",
+  "opinion": "매수",
+  "target": 66900.0,
+  "upside": 11.1,
+  "target_12m": 67660.0,
+  "upside_12m": 12.4,
+  "buy": 49693.5,
+  "buy_low": 47678.0,
+  "buy_high": 51709.0,
+  "stop": 41957.0,
+  "position": {
+   "type": "스윙",
+   "horizon": "4~8주",
+   "reason": "추세 강도 10·외국인 순매수이나 지수 급변, 구간 진입 후 전고점 매도"
+  },
+  "path": "reports/2026-11-06/KR_picks.html#s-028050"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "KR",
+  "ticker": "086280",
+  "name": "현대글로비스",
+  "slot": "중기",
+  "opinion": "매수",
+  "target": 221000.0,
+  "upside": 12.0,
+  "target_12m": 253000.0,
+  "upside_12m": 28.2,
+  "buy": 168957.5,
+  "buy_low": 160380.0,
+  "buy_high": 177535.0,
+  "stop": 144854.0,
+  "position": {
+   "type": "중기",
+   "horizon": "3~6개월",
+   "reason": "분기 최대 실적·신조선 인도 효과가 지수 급변 진정 후 반영되는 데 수개월 소요"
+  },
+  "path": "reports/2026-11-06/KR_picks.html#s-086280"
+ },
+ {
+  "date": "2026-11-06",
+  "market": "KR",
+  "ticker": "030200",
+  "name": "KT",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 64262.5,
+  "upside": 20.6,
+  "target_12m": 64262.5,
+  "upside_12m": 20.6,
+  "buy": 46037.0,
+  "buy_low": 44981.0,
+  "buy_high": 47093.0,
+  "stop": 42178.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12개월 이상",
+   "reason": "PBR 0.68배 저평가·배당 4.5%·신사업 리레이팅은 장기에 반영"
+  },
+  "path": "reports/2026-11-06/KR_picks.html#s-030200"
  }
 ]
