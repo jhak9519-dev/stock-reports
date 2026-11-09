@@ -705,7 +705,7 @@
    "path": "reports/2026-11-09/KR_picks.html#s-028050",
    "slot": "단기",
    "status": "wait",
-   "last": 59700.0,
+   "last": 59500.0,
    "last_date": "2026-11-09",
    "stop": 41539.0,
    "hold_days": 42,
@@ -722,7 +722,7 @@
    "path": "reports/2026-11-09/KR_picks.html#s-030200",
    "slot": "장기",
    "status": "wait",
-   "last": 51900.0,
+   "last": 52000.0,
    "last_date": "2026-11-09",
    "stop": 40927.0,
    "hold_days": 360,
@@ -730,6 +730,6 @@
   }
  },
  "updated": "2026-11-09 16:40",
- "fx_now": 1347.9000244140625,
+ "fx_now": 1347.97998046875,
  "fx_date": "2026-11-09"
 }
