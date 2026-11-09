@@ -537,5 +537,49 @@
    "reason": "PBR 0.68배 저평가·배당 4.5%·신사업 리레이팅은 장기에 반영"
   },
   "path": "reports/2026-11-06/KR_picks.html#s-030200"
+ },
+ {
+  "date": "2026-11-09",
+  "market": "KR",
+  "ticker": "028050",
+  "name": "삼성E&A",
+  "slot": "단기",
+  "opinion": "매수",
+  "target": 66900.0,
+  "upside": 12.2,
+  "target_12m": 67660.0,
+  "upside_12m": 13.5,
+  "buy": 49805.0,
+  "buy_low": 47203.0,
+  "buy_high": 52407.0,
+  "stop": 41539.0,
+  "position": {
+   "type": "스윙",
+   "horizon": "3~6주",
+   "reason": "52주 최고 66,900원 재돌파 시도 구간이며 급변장이라 밴드 왕복 매매가 적합"
+  },
+  "path": "reports/2026-11-09/KR_picks.html#s-028050"
+ },
+ {
+  "date": "2026-11-09",
+  "market": "KR",
+  "ticker": "030200",
+  "name": "KT",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 61692.0,
+  "upside": 18.2,
+  "target_12m": 61692.0,
+  "upside_12m": 18.2,
+  "buy": 45462.0,
+  "buy_low": 43849.0,
+  "buy_high": 47075.0,
+  "stop": 40927.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12개월 이상",
+   "reason": "PBR 0.67배·배당 4.6%의 구조적 저평가로 12개월 목표가까지 보유 적합"
+  },
+  "path": "reports/2026-11-09/KR_picks.html#s-030200"
  }
 ]
