@@ -581,5 +581,49 @@
    "reason": "PBR 0.67배·배당 4.6%의 구조적 저평가로 12개월 목표가까지 보유 적합"
   },
   "path": "reports/2026-11-09/KR_picks.html#s-030200"
+ },
+ {
+  "date": "2026-11-10",
+  "market": "KR",
+  "ticker": "005830",
+  "name": "DB손해보험",
+  "slot": "중기",
+  "opinion": "매수",
+  "target": 190000.0,
+  "upside": 10.3,
+  "target_12m": 195810.25,
+  "upside_12m": 13.6,
+  "buy": 154618.5,
+  "buy_low": 146156.0,
+  "buy_high": 163081.0,
+  "stop": 133311.0,
+  "position": {
+   "type": "중기",
+   "horizon": "3~6개월",
+   "reason": "PBR 0.75배·배당 4.4% 저평가가 실적 확인과 함께 수개월에 걸쳐 반영될 구간"
+  },
+  "path": "reports/2026-11-10/KR_picks.html#s-005830"
+ },
+ {
+  "date": "2026-11-10",
+  "market": "KR",
+  "ticker": "161390",
+  "name": "한국타이어앤테크놀로지",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 78336.0,
+  "upside": 23.9,
+  "target_12m": 78336.0,
+  "upside_12m": 23.9,
+  "buy": 54097.0,
+  "buy_low": 50979.0,
+  "buy_high": 57215.0,
+  "stop": 45689.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12~15개월",
+   "reason": "PER 6.5배·PBR 0.57배 저평가, 이익률 유지 시 재평가 여지"
+  },
+  "path": "reports/2026-11-10/KR_picks.html#s-161390"
  }
 ]
