@@ -669,5 +669,27 @@
    "reason": "렌털 기반 이익 성장과 주주환원에 비해 PER 10.6배로 저평가돼 있어 장기 보유가 적합"
   },
   "path": "reports/2026-11-11/KR_picks.html#s-021240"
+ },
+ {
+  "date": "2026-11-12",
+  "market": "US",
+  "ticker": "TPR",
+  "name": "Tapestry, Inc.",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 155.6,
+  "upside": 16.7,
+  "target_12m": 155.6,
+  "upside_12m": 16.7,
+  "buy": 114.04,
+  "buy_low": 111.37,
+  "buy_high": 116.71,
+  "stop": 103.35,
+  "position": {
+   "type": "장기",
+   "horizon": "12~15개월",
+   "reason": "전망 상향과 브랜드 리레이팅이 이익에 반영되기까지 1년 안팎 소요"
+  },
+  "path": "reports/2026-11-12/US_picks.html#s-TPR"
  }
 ]
