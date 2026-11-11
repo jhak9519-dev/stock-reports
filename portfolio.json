@@ -171,8 +171,8 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 601000.0,
-   "last_date": "2026-11-10",
+   "last": 567000.0,
+   "last_date": "2026-11-11",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -748,12 +748,22 @@
    "buy_high": 163081.0,
    "path": "reports/2026-11-10/KR_picks.html#s-005830",
    "slot": "중기",
-   "status": "wait",
-   "last": 171500.0,
-   "last_date": "2026-11-10",
+   "status": "hold",
+   "last": 168800.0,
+   "last_date": "2026-11-11",
    "stop": 133311.0,
    "hold_days": 180,
-   "alt": null
+   "alt": {
+    "status": "hold",
+    "expire": "2027-05-10"
+   },
+   "buy_date": "2026-11-11",
+   "day_range": [
+    163000.0,
+    173500.0
+   ],
+   "buy_price": 163081.0,
+   "shares": 1
   },
   "reports/2026-11-10/KR_picks.html#s-161390": {
    "date": "2026-11-10",
@@ -765,15 +775,54 @@
    "buy_high": 57215.0,
    "path": "reports/2026-11-10/KR_picks.html#s-161390",
    "slot": "장기",
-   "status": "wait",
-   "last": 62800.0,
-   "last_date": "2026-11-10",
+   "status": "nofill",
+   "last": 61900.0,
+   "last_date": "2026-11-11",
    "stop": 45689.0,
    "hold_days": 450,
+   "alt": null,
+   "buy_date": "2026-11-11",
+   "day_range": [
+    60900.0,
+    64200.0
+   ]
+  },
+  "reports/2026-11-11/KR_picks.html#s-086280": {
+   "date": "2026-11-11",
+   "market": "KR",
+   "ticker": "086280",
+   "name": "현대글로비스",
+   "target": 235000.0,
+   "buy_low": 162514.0,
+   "buy_high": 179232.0,
+   "path": "reports/2026-11-11/KR_picks.html#s-086280",
+   "slot": "중기",
+   "status": "wait",
+   "last": 199500.0,
+   "last_date": "2026-11-11",
+   "stop": 146361.0,
+   "hold_days": 180,
+   "alt": null
+  },
+  "reports/2026-11-11/KR_picks.html#s-021240": {
+   "date": "2026-11-11",
+   "market": "KR",
+   "ticker": "021240",
+   "name": "코웨이",
+   "target": 114756.0,
+   "buy_low": 85175.0,
+   "buy_high": 95528.0,
+   "path": "reports/2026-11-11/KR_picks.html#s-021240",
+   "slot": "장기",
+   "status": "wait",
+   "last": 101400.0,
+   "last_date": "2026-11-11",
+   "stop": 76931.0,
+   "hold_days": 360,
    "alt": null
   }
  },
- "updated": "2026-11-11 07:13",
- "fx_now": 1342.7900390625,
- "fx_date": "2026-11-10"
+ "updated": "2026-11-11 16:12",
+ "fx_now": 1334.3800048828125,
+ "fx_date": "2026-11-11"
 }

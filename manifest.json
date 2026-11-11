@@ -625,5 +625,49 @@
    "reason": "PER 6.5배·PBR 0.57배 저평가, 이익률 유지 시 재평가 여지"
   },
   "path": "reports/2026-11-10/KR_picks.html#s-161390"
+ },
+ {
+  "date": "2026-11-11",
+  "market": "KR",
+  "ticker": "086280",
+  "name": "현대글로비스",
+  "slot": "중기",
+  "opinion": "매수",
+  "target": 235000.0,
+  "upside": 17.2,
+  "target_12m": 267124.0,
+  "upside_12m": 33.2,
+  "buy": 170873.0,
+  "buy_low": 162514.0,
+  "buy_high": 179232.0,
+  "stop": 146361.0,
+  "position": {
+   "type": "중기",
+   "horizon": "3~6개월",
+   "reason": "실적 모멘텀은 강하지만 추세가 혼조이고 지수가 급변해 구간 진입을 기다리는 관점"
+  },
+  "path": "reports/2026-11-11/KR_picks.html#s-086280"
+ },
+ {
+  "date": "2026-11-11",
+  "market": "KR",
+  "ticker": "021240",
+  "name": "코웨이",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 114756.0,
+  "upside": 13.2,
+  "target_12m": 114756.0,
+  "upside_12m": 13.2,
+  "buy": 90351.5,
+  "buy_low": 85175.0,
+  "buy_high": 95528.0,
+  "stop": 76931.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12개월",
+   "reason": "렌털 기반 이익 성장과 주주환원에 비해 PER 10.6배로 저평가돼 있어 장기 보유가 적합"
+  },
+  "path": "reports/2026-11-11/KR_picks.html#s-021240"
  }
 ]
