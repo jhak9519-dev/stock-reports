@@ -139,8 +139,8 @@
    "buy_high": 961.11,
    "path": "reports/2026-07-22/US_MU.html",
    "status": "hold",
-   "last": 811.2999877929688,
-   "last_date": "2026-11-11",
+   "last": 798.4400024414062,
+   "last_date": "2026-11-12",
    "buy_date": "2026-07-22",
    "day_range": [
     936.0599975585938,
@@ -171,7 +171,7 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 525000.0,
+   "last": 529000.0,
    "last_date": "2026-11-12",
    "buy_date": "2026-07-28",
    "day_range": [
@@ -749,7 +749,7 @@
    "path": "reports/2026-11-10/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 162500.0,
+   "last": 162800.0,
    "last_date": "2026-11-12",
    "stop": 133311.0,
    "hold_days": 180,
@@ -841,12 +841,17 @@
    "buy_high": 116.71,
    "path": "reports/2026-11-12/US_picks.html#s-TPR",
    "slot": "장기",
-   "status": "wait",
+   "status": "nofill",
    "stop": 103.35,
    "hold_days": 450,
    "alt": null,
-   "last": 133.33999633789062,
-   "last_date": "2026-11-11"
+   "last": 132.6300048828125,
+   "last_date": "2026-11-12",
+   "buy_date": "2026-11-12",
+   "day_range": [
+    132.05999755859375,
+    135.42999267578125
+   ]
   },
   "reports/2026-11-12/KR_picks.html#s-005830": {
    "date": "2026-11-12",
@@ -859,14 +864,31 @@
    "path": "reports/2026-11-12/KR_picks.html#s-005830",
    "slot": "장기",
    "status": "wait",
-   "last": 162500.0,
+   "last": 162800.0,
    "last_date": "2026-11-12",
    "stop": 128367.0,
    "hold_days": 450,
    "alt": null
+  },
+  "reports/2026-11-13/US_picks.html#s-TPR": {
+   "date": "2026-11-13",
+   "market": "US",
+   "ticker": "TPR",
+   "name": "Tapestry, Inc.",
+   "target": 151.71,
+   "buy_low": 115.39,
+   "buy_high": 117.33,
+   "path": "reports/2026-11-13/US_picks.html#s-TPR",
+   "slot": "장기",
+   "status": "wait",
+   "last": 132.6300048828125,
+   "last_date": "2026-11-12",
+   "stop": 107.09,
+   "hold_days": 360,
+   "alt": null
   }
  },
- "updated": "2026-11-12 16:10",
- "fx_now": 1333.280029296875,
+ "updated": "2026-11-13 07:01",
+ "fx_now": 1334.949951171875,
  "fx_date": "2026-11-12"
 }

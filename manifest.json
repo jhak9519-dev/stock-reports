@@ -713,5 +713,27 @@
    "reason": "PBR 0.7배대·배당 4.7%로 구조적 저평가, 재평가에 시간 필요"
   },
   "path": "reports/2026-11-12/KR_picks.html#s-005830"
+ },
+ {
+  "date": "2026-11-13",
+  "market": "US",
+  "ticker": "TPR",
+  "name": "Tapestry, Inc.",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 151.71,
+  "upside": 14.4,
+  "target_12m": 151.71,
+  "upside_12m": 14.4,
+  "buy": 116.36,
+  "buy_low": 115.39,
+  "buy_high": 117.33,
+  "stop": 107.09,
+  "position": {
+   "type": "장기",
+   "horizon": "12개월 이상",
+   "reason": "이익 개선과 가이던스 상향이 이어지고 목표가 대비 상승여력이 14%대여서"
+  },
+  "path": "reports/2026-11-13/US_picks.html#s-TPR"
  }
 ]
