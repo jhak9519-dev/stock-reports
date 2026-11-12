@@ -171,8 +171,8 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 568000.0,
-   "last_date": "2026-11-11",
+   "last": 525000.0,
+   "last_date": "2026-11-12",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -749,8 +749,8 @@
    "path": "reports/2026-11-10/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 168000.0,
-   "last_date": "2026-11-11",
+   "last": 162500.0,
+   "last_date": "2026-11-12",
    "stop": 133311.0,
    "hold_days": 180,
    "alt": {
@@ -797,12 +797,17 @@
    "buy_high": 179232.0,
    "path": "reports/2026-11-11/KR_picks.html#s-086280",
    "slot": "중기",
-   "status": "wait",
-   "last": 200500.0,
-   "last_date": "2026-11-11",
+   "status": "nofill",
+   "last": 203000.0,
+   "last_date": "2026-11-12",
    "stop": 146361.0,
    "hold_days": 180,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-12",
+   "day_range": [
+    199200.0,
+    205500.0
+   ]
   },
   "reports/2026-11-11/KR_picks.html#s-021240": {
    "date": "2026-11-11",
@@ -814,12 +819,17 @@
    "buy_high": 95528.0,
    "path": "reports/2026-11-11/KR_picks.html#s-021240",
    "slot": "장기",
-   "status": "wait",
-   "last": 101500.0,
-   "last_date": "2026-11-11",
+   "status": "nofill",
+   "last": 101700.0,
+   "last_date": "2026-11-12",
    "stop": 76931.0,
    "hold_days": 360,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-12",
+   "day_range": [
+    98200.0,
+    101800.0
+   ]
   },
   "reports/2026-11-12/US_picks.html#s-TPR": {
    "date": "2026-11-12",
@@ -834,10 +844,29 @@
    "status": "wait",
    "stop": 103.35,
    "hold_days": 450,
+   "alt": null,
+   "last": 133.33999633789062,
+   "last_date": "2026-11-11"
+  },
+  "reports/2026-11-12/KR_picks.html#s-005830": {
+   "date": "2026-11-12",
+   "market": "KR",
+   "ticker": "005830",
+   "name": "DB손해보험",
+   "target": 195810.25,
+   "buy_low": 143266.0,
+   "buy_high": 152510.0,
+   "path": "reports/2026-11-12/KR_picks.html#s-005830",
+   "slot": "장기",
+   "status": "wait",
+   "last": 162500.0,
+   "last_date": "2026-11-12",
+   "stop": 128367.0,
+   "hold_days": 450,
    "alt": null
   }
  },
- "updated": "2026-11-12 07:00",
- "fx_now": 1338.4300537109375,
- "fx_date": "2026-11-11"
+ "updated": "2026-11-12 16:10",
+ "fx_now": 1332.97998046875,
+ "fx_date": "2026-11-12"
 }

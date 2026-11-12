@@ -691,5 +691,27 @@
    "reason": "전망 상향과 브랜드 리레이팅이 이익에 반영되기까지 1년 안팎 소요"
   },
   "path": "reports/2026-11-12/US_picks.html#s-TPR"
+ },
+ {
+  "date": "2026-11-12",
+  "market": "KR",
+  "ticker": "005830",
+  "name": "DB손해보험",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 195810.25,
+  "upside": 20.5,
+  "target_12m": 195810.25,
+  "upside_12m": 20.5,
+  "buy": 147888.0,
+  "buy_low": 143266.0,
+  "buy_high": 152510.0,
+  "stop": 128367.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12~15개월",
+   "reason": "PBR 0.7배대·배당 4.7%로 구조적 저평가, 재평가에 시간 필요"
+  },
+  "path": "reports/2026-11-12/KR_picks.html#s-005830"
  }
 ]
