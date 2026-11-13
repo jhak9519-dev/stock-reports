@@ -172,7 +172,7 @@
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
    "last": 529000.0,
-   "last_date": "2026-11-12",
+   "last_date": "2026-11-13",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -183,8 +183,11 @@
    "stop": 534600.0,
    "hold_days": null,
    "alt": {
-    "status": "hold",
-    "expire": null
+    "status": "sold",
+    "expire": null,
+    "reason": "손절",
+    "sell_date": "2026-11-13",
+    "sell_price": 531000.0
    },
    "slot": null
   },
@@ -749,8 +752,8 @@
    "path": "reports/2026-11-10/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 162800.0,
-   "last_date": "2026-11-12",
+   "last": 163500.0,
+   "last_date": "2026-11-13",
    "stop": 133311.0,
    "hold_days": 180,
    "alt": {
@@ -863,12 +866,17 @@
    "buy_high": 152510.0,
    "path": "reports/2026-11-12/KR_picks.html#s-005830",
    "slot": "장기",
-   "status": "wait",
-   "last": 162800.0,
-   "last_date": "2026-11-12",
+   "status": "nofill",
+   "last": 163500.0,
+   "last_date": "2026-11-13",
    "stop": 128367.0,
    "hold_days": 450,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-13",
+   "day_range": [
+    156100.0,
+    165400.0
+   ]
   },
   "reports/2026-11-13/US_picks.html#s-TPR": {
    "date": "2026-11-13",
@@ -888,7 +896,7 @@
    "alt": null
   }
  },
- "updated": "2026-11-13 07:01",
- "fx_now": 1334.97998046875,
- "fx_date": "2026-11-12"
+ "updated": "2026-11-13 16:13",
+ "fx_now": 1335.31005859375,
+ "fx_date": "2026-11-13"
 }
