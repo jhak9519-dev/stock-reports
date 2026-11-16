@@ -171,8 +171,8 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 528000.0,
-   "last_date": "2026-11-13",
+   "last": 540000.0,
+   "last_date": "2026-11-16",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -752,8 +752,8 @@
    "path": "reports/2026-11-10/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 163500.0,
-   "last_date": "2026-11-13",
+   "last": 172600.0,
+   "last_date": "2026-11-16",
    "stop": 133311.0,
    "hold_days": 180,
    "alt": {
@@ -899,9 +899,26 @@
     130.64999389648438,
     133.19000244140625
    ]
+  },
+  "reports/2026-11-16/KR_picks.html#s-005830": {
+   "date": "2026-11-16",
+   "market": "KR",
+   "ticker": "005830",
+   "name": "DB손해보험",
+   "target": 195810.0,
+   "buy_low": 154732.0,
+   "buy_high": 164715.0,
+   "path": "reports/2026-11-16/KR_picks.html#s-005830",
+   "slot": "중기",
+   "status": "wait",
+   "last": 172600.0,
+   "last_date": "2026-11-16",
+   "stop": 138481.0,
+   "hold_days": 180,
+   "alt": null
   }
  },
- "updated": "2026-11-14 07:02",
- "fx_now": 1335.1099853515625,
- "fx_date": "2026-11-13"
+ "updated": "2026-11-16 16:18",
+ "fx_now": 1334.3199462890625,
+ "fx_date": "2026-11-16"
 }

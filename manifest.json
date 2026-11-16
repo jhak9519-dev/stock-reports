@@ -735,5 +735,27 @@
    "reason": "이익 개선과 가이던스 상향이 이어지고 목표가 대비 상승여력이 14%대여서"
   },
   "path": "reports/2026-11-13/US_picks.html#s-TPR"
+ },
+ {
+  "date": "2026-11-16",
+  "market": "KR",
+  "ticker": "005830",
+  "name": "DB손해보험",
+  "slot": "중기",
+  "opinion": "매수",
+  "target": 195810.0,
+  "upside": 11.5,
+  "target_12m": 211935.8,
+  "upside_12m": 20.7,
+  "buy": 159723.5,
+  "buy_low": 154732.0,
+  "buy_high": 164715.0,
+  "stop": 138481.0,
+  "position": {
+   "type": "중기",
+   "horizon": "3~6개월",
+   "reason": "보험손익 개선과 포테그라 연결 효과가 실적에 반영되는 데 수개월이 필요함"
+  },
+  "path": "reports/2026-11-16/KR_picks.html#s-005830"
  }
 ]
