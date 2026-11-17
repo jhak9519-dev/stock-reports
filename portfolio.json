@@ -171,8 +171,8 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 543000.0,
-   "last_date": "2026-11-16",
+   "last": 524000.0,
+   "last_date": "2026-11-17",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -752,8 +752,8 @@
    "path": "reports/2026-11-10/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 173100.0,
-   "last_date": "2026-11-16",
+   "last": 166600.0,
+   "last_date": "2026-11-17",
    "stop": 133311.0,
    "hold_days": 180,
    "alt": {
@@ -910,15 +910,59 @@
    "buy_high": 164715.0,
    "path": "reports/2026-11-16/KR_picks.html#s-005830",
    "slot": "중기",
-   "status": "wait",
-   "last": 173100.0,
-   "last_date": "2026-11-16",
+   "status": "hold",
+   "last": 166600.0,
+   "last_date": "2026-11-17",
    "stop": 138481.0,
    "hold_days": 180,
+   "alt": {
+    "status": "hold",
+    "expire": "2027-05-16"
+   },
+   "buy_date": "2026-11-17",
+   "day_range": [
+    164500.0,
+    175600.0
+   ],
+   "buy_price": 164715.0,
+   "shares": 1
+  },
+  "reports/2026-11-17/KR_picks.html#s-161390": {
+   "date": "2026-11-17",
+   "market": "KR",
+   "ticker": "161390",
+   "name": "한국타이어앤테크놀로지",
+   "target": 70387.0,
+   "buy_low": 51171.0,
+   "buy_high": 57080.0,
+   "path": "reports/2026-11-17/KR_picks.html#s-161390",
+   "slot": "중기",
+   "status": "wait",
+   "last": 63200.0,
+   "last_date": "2026-11-17",
+   "stop": 45746.0,
+   "hold_days": 180,
+   "alt": null
+  },
+  "reports/2026-11-17/KR_picks.html#s-086280": {
+   "date": "2026-11-17",
+   "market": "KR",
+   "ticker": "086280",
+   "name": "현대글로비스",
+   "target": 236302.0,
+   "buy_low": 162800.0,
+   "buy_high": 182828.0,
+   "path": "reports/2026-11-17/KR_picks.html#s-086280",
+   "slot": "장기",
+   "status": "wait",
+   "last": 199900.0,
+   "last_date": "2026-11-17",
+   "stop": 146497.0,
+   "hold_days": 360,
    "alt": null
   }
  },
- "updated": "2026-11-17 07:00",
- "fx_now": 1335.3900146484375,
+ "updated": "2026-11-17 16:25",
+ "fx_now": 1336.97998046875,
  "fx_date": "2026-11-17"
 }

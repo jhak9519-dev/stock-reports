@@ -757,5 +757,49 @@
    "reason": "보험손익 개선과 포테그라 연결 효과가 실적에 반영되는 데 수개월이 필요함"
   },
   "path": "reports/2026-11-16/KR_picks.html#s-005830"
+ },
+ {
+  "date": "2026-11-17",
+  "market": "KR",
+  "ticker": "161390",
+  "name": "한국타이어앤테크놀로지",
+  "slot": "중기",
+  "opinion": "매수",
+  "target": 70387.0,
+  "upside": 10.7,
+  "target_12m": 74785.72,
+  "upside_12m": 17.6,
+  "buy": 54125.5,
+  "buy_low": 51171.0,
+  "buy_high": 57080.0,
+  "stop": 45746.0,
+  "position": {
+   "type": "중기",
+   "horizon": "3~6개월",
+   "reason": "PBR 0.58배 저평가, 4분기 실적·관세 변수 확인에 3~6개월 필요"
+  },
+  "path": "reports/2026-11-17/KR_picks.html#s-161390"
+ },
+ {
+  "date": "2026-11-17",
+  "market": "KR",
+  "ticker": "086280",
+  "name": "현대글로비스",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 236302.0,
+  "upside": 17.6,
+  "target_12m": 236302.0,
+  "upside_12m": 17.6,
+  "buy": 172814.0,
+  "buy_low": 162800.0,
+  "buy_high": 182828.0,
+  "stop": 146497.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12개월 이상",
+   "reason": "PER 9.8배·배당 2.9% 저평가에 운반선 호황 지속, 12개월 목표가까지 보유"
+  },
+  "path": "reports/2026-11-17/KR_picks.html#s-086280"
  }
 ]
