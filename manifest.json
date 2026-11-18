@@ -823,5 +823,49 @@
    "reason": "영업이익률 확대·2027 예약 호조가 12/18 실적에서 확인될 수 있는 기간"
   },
   "path": "reports/2026-11-18/US_picks.html#s-CCL"
+ },
+ {
+  "date": "2026-11-18",
+  "market": "KR",
+  "ticker": "005830",
+  "name": "DB손해보험",
+  "slot": "중기",
+  "opinion": "매수",
+  "target": 189800.0,
+  "upside": 12.0,
+  "target_12m": 208251.9,
+  "upside_12m": 22.9,
+  "buy": 149025.5,
+  "buy_low": 139792.0,
+  "buy_high": 158259.0,
+  "stop": 124042.0,
+  "position": {
+   "type": "중기",
+   "horizon": "3~6개월",
+   "reason": "4분기 실적·배당정책 발표가 환원 우려 해소 여부를 가르는 기간"
+  },
+  "path": "reports/2026-11-18/KR_picks.html#s-005830"
+ },
+ {
+  "date": "2026-11-18",
+  "market": "KR",
+  "ticker": "086280",
+  "name": "현대글로비스",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 246576.0,
+  "upside": 20.9,
+  "target_12m": 246576.0,
+  "upside_12m": 20.9,
+  "buy": 174560.5,
+  "buy_low": 165317.0,
+  "buy_high": 183804.0,
+  "stop": 148855.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12개월 이상",
+   "reason": "PER 9.9배 저평가와 이익률 개선·대형선 투입 효과가 1년 단위로 반영"
+  },
+  "path": "reports/2026-11-18/KR_picks.html#s-086280"
  }
 ]

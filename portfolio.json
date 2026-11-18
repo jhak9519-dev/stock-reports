@@ -171,8 +171,8 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 522000.0,
-   "last_date": "2026-11-17",
+   "last": 539000.0,
+   "last_date": "2026-11-18",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -752,8 +752,8 @@
    "path": "reports/2026-11-10/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 165600.0,
-   "last_date": "2026-11-17",
+   "last": 168700.0,
+   "last_date": "2026-11-18",
    "stop": 133311.0,
    "hold_days": 180,
    "alt": {
@@ -911,8 +911,8 @@
    "path": "reports/2026-11-16/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 165600.0,
-   "last_date": "2026-11-17",
+   "last": 168700.0,
+   "last_date": "2026-11-18",
    "stop": 138481.0,
    "hold_days": 180,
    "alt": {
@@ -937,12 +937,17 @@
    "buy_high": 57080.0,
    "path": "reports/2026-11-17/KR_picks.html#s-161390",
    "slot": "중기",
-   "status": "wait",
-   "last": 62900.0,
-   "last_date": "2026-11-17",
+   "status": "nofill",
+   "last": 61600.0,
+   "last_date": "2026-11-18",
    "stop": 45746.0,
    "hold_days": 180,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-18",
+   "day_range": [
+    61000.0,
+    63400.0
+   ]
   },
   "reports/2026-11-17/KR_picks.html#s-086280": {
    "date": "2026-11-17",
@@ -954,12 +959,17 @@
    "buy_high": 182828.0,
    "path": "reports/2026-11-17/KR_picks.html#s-086280",
    "slot": "장기",
-   "status": "wait",
-   "last": 199800.0,
-   "last_date": "2026-11-17",
+   "status": "nofill",
+   "last": 202500.0,
+   "last_date": "2026-11-18",
    "stop": 146497.0,
    "hold_days": 360,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-18",
+   "day_range": [
+    198700.0,
+    204500.0
+   ]
   },
   "reports/2026-11-18/US_picks.html#s-CCL": {
    "date": "2026-11-18",
@@ -974,10 +984,46 @@
    "status": "wait",
    "stop": 21.91,
    "hold_days": 180,
+   "alt": null,
+   "last": 28.15999984741211,
+   "last_date": "2026-11-17"
+  },
+  "reports/2026-11-18/KR_picks.html#s-005830": {
+   "date": "2026-11-18",
+   "market": "KR",
+   "ticker": "005830",
+   "name": "DB손해보험",
+   "target": 189800.0,
+   "buy_low": 139792.0,
+   "buy_high": 158259.0,
+   "path": "reports/2026-11-18/KR_picks.html#s-005830",
+   "slot": "중기",
+   "status": "wait",
+   "last": 168700.0,
+   "last_date": "2026-11-18",
+   "stop": 124042.0,
+   "hold_days": 180,
+   "alt": null
+  },
+  "reports/2026-11-18/KR_picks.html#s-086280": {
+   "date": "2026-11-18",
+   "market": "KR",
+   "ticker": "086280",
+   "name": "현대글로비스",
+   "target": 246576.0,
+   "buy_low": 165317.0,
+   "buy_high": 183804.0,
+   "path": "reports/2026-11-18/KR_picks.html#s-086280",
+   "slot": "장기",
+   "status": "wait",
+   "last": 202500.0,
+   "last_date": "2026-11-18",
+   "stop": 148855.0,
+   "hold_days": 360,
    "alt": null
   }
  },
- "updated": "2026-11-18 07:41",
- "fx_now": 1334.699951171875,
- "fx_date": "2026-11-17"
+ "updated": "2026-11-18 16:46",
+ "fx_now": 1330.9200439453125,
+ "fx_date": "2026-11-18"
 }
