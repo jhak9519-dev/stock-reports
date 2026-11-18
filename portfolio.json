@@ -139,8 +139,8 @@
    "buy_high": 961.11,
    "path": "reports/2026-07-22/US_MU.html",
    "status": "hold",
-   "last": 712.4199829101562,
-   "last_date": "2026-11-17",
+   "last": 699.0,
+   "last_date": "2026-11-18",
    "buy_date": "2026-07-22",
    "day_range": [
     936.0599975585938,
@@ -171,7 +171,7 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 539000.0,
+   "last": 538000.0,
    "last_date": "2026-11-18",
    "buy_date": "2026-07-28",
    "day_range": [
@@ -752,7 +752,7 @@
    "path": "reports/2026-11-10/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 168700.0,
+   "last": 168100.0,
    "last_date": "2026-11-18",
    "stop": 133311.0,
    "hold_days": 180,
@@ -911,7 +911,7 @@
    "path": "reports/2026-11-16/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 168700.0,
+   "last": 168100.0,
    "last_date": "2026-11-18",
    "stop": 138481.0,
    "hold_days": 180,
@@ -981,12 +981,17 @@
    "buy_high": 26.69,
    "path": "reports/2026-11-18/US_picks.html#s-CCL",
    "slot": "중기",
-   "status": "wait",
+   "status": "nofill",
    "stop": 21.91,
    "hold_days": 180,
    "alt": null,
-   "last": 28.15999984741211,
-   "last_date": "2026-11-17"
+   "last": 28.68000030517578,
+   "last_date": "2026-11-18",
+   "buy_date": "2026-11-18",
+   "day_range": [
+    28.030000686645508,
+    29.0
+   ]
   },
   "reports/2026-11-18/KR_picks.html#s-005830": {
    "date": "2026-11-18",
@@ -999,7 +1004,7 @@
    "path": "reports/2026-11-18/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "wait",
-   "last": 168700.0,
+   "last": 168100.0,
    "last_date": "2026-11-18",
    "stop": 124042.0,
    "hold_days": 180,
@@ -1016,14 +1021,14 @@
    "path": "reports/2026-11-18/KR_picks.html#s-086280",
    "slot": "장기",
    "status": "wait",
-   "last": 202500.0,
+   "last": 202000.0,
    "last_date": "2026-11-18",
    "stop": 148855.0,
    "hold_days": 360,
    "alt": null
   }
  },
- "updated": "2026-11-18 16:47",
- "fx_now": 1330.6800537109375,
+ "updated": "2026-11-19 07:34",
+ "fx_now": 1332.3199462890625,
  "fx_date": "2026-11-18"
 }
