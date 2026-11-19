@@ -933,5 +933,27 @@
    "reason": "본업 이익이 늘고 있는데도 PER 11배대로 저평가, 12개월 목표가까지 보유"
   },
   "path": "reports/2026-11-19/KR_picks.html#s-271560"
+ },
+ {
+  "date": "2026-11-20",
+  "market": "US",
+  "ticker": "CCL",
+  "name": "Carnival Corporation Ltd.",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 31.78,
+  "upside": 15.3,
+  "target_12m": 31.78,
+  "upside_12m": 15.3,
+  "buy": 24.71,
+  "buy_low": 23.39,
+  "buy_high": 26.03,
+  "stop": 21.22,
+  "position": {
+   "type": "장기",
+   "horizon": "12개월 이상",
+   "reason": "이익·현금흐름 개선으로 목표가 대비 저평가, 단기 변동성은 분할로 흡수"
+  },
+  "path": "reports/2026-11-20/US_picks.html#s-CCL"
  }
 ]
