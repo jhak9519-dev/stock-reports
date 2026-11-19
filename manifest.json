@@ -867,5 +867,71 @@
    "reason": "PER 9.9배 저평가와 이익률 개선·대형선 투입 효과가 1년 단위로 반영"
   },
   "path": "reports/2026-11-18/KR_picks.html#s-086280"
+ },
+ {
+  "date": "2026-11-19",
+  "market": "KR",
+  "ticker": "028050",
+  "name": "삼성E&A",
+  "slot": "단기",
+  "opinion": "매수",
+  "target": 69400.0,
+  "upside": 10.2,
+  "target_12m": 81282.0,
+  "upside_12m": 29.0,
+  "buy": 56851.5,
+  "buy_low": 55075.0,
+  "buy_high": 58628.0,
+  "stop": 48466.0,
+  "position": {
+   "type": "스윙",
+   "horizon": "2~6주",
+   "reason": "추세는 견조하나 지수 약세로 조정 후 직전 고점까지 왕복 구간 공략"
+  },
+  "path": "reports/2026-11-19/KR_picks.html#s-028050"
+ },
+ {
+  "date": "2026-11-19",
+  "market": "KR",
+  "ticker": "161390",
+  "name": "한국타이어앤테크놀로지",
+  "slot": "중기",
+  "opinion": "매수",
+  "target": 70000.0,
+  "upside": 10.9,
+  "target_12m": 75715.3,
+  "upside_12m": 20.0,
+  "buy": 55300.0,
+  "buy_low": 53608.0,
+  "buy_high": 56992.0,
+  "stop": 47600.0,
+  "position": {
+   "type": "중기",
+   "horizon": "3~6개월",
+   "reason": "추세는 혼조지만 저PBR과 관세 방어력이 실적에 반영될 기간"
+  },
+  "path": "reports/2026-11-19/KR_picks.html#s-161390"
+ },
+ {
+  "date": "2026-11-19",
+  "market": "KR",
+  "ticker": "271560",
+  "name": "오리온",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 143127.0,
+  "upside": 20.6,
+  "target_12m": 143127.0,
+  "upside_12m": 20.6,
+  "buy": 107495.0,
+  "buy_low": 104170.0,
+  "buy_high": 110820.0,
+  "stop": 97087.0,
+  "position": {
+   "type": "장기",
+   "horizon": "12~18개월",
+   "reason": "본업 이익이 늘고 있는데도 PER 11배대로 저평가, 12개월 목표가까지 보유"
+  },
+  "path": "reports/2026-11-19/KR_picks.html#s-271560"
  }
 ]
