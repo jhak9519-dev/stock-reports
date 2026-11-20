@@ -955,5 +955,49 @@
    "reason": "이익·현금흐름 개선으로 목표가 대비 저평가, 단기 변동성은 분할로 흡수"
   },
   "path": "reports/2026-11-20/US_picks.html#s-CCL"
+ },
+ {
+  "date": "2026-11-20",
+  "market": "KR",
+  "ticker": "028050",
+  "name": "삼성E&A",
+  "slot": "단기",
+  "opinion": "매수",
+  "target": 63905.0,
+  "upside": 7.0,
+  "target_12m": 68020.0,
+  "upside_12m": 13.9,
+  "buy": 52207.5,
+  "buy_low": 48858.0,
+  "buy_high": 55557.0,
+  "stop": 42995.0,
+  "position": {
+   "type": "스윙",
+   "horizon": "3~8주",
+   "reason": "추세 강도 6·하단밴드 근접, 급락장 속 20일선 회귀 반등 노림"
+  },
+  "path": "reports/2026-11-20/KR_picks.html#s-028050"
+ },
+ {
+  "date": "2026-11-20",
+  "market": "KR",
+  "ticker": "271560",
+  "name": "오리온",
+  "slot": "중기",
+  "opinion": "매수",
+  "target": 131000.0,
+  "upside": 11.6,
+  "target_12m": 140985.0,
+  "upside_12m": 20.1,
+  "buy": 105930.0,
+  "buy_low": 100751.0,
+  "buy_high": 111109.0,
+  "stop": 93873.0,
+  "position": {
+   "type": "중기",
+   "horizon": "3~6개월",
+   "reason": "증설·해외 성장의 이익 반영을 기다리는 구간, 추세는 중립"
+  },
+  "path": "reports/2026-11-20/KR_picks.html#s-271560"
  }
 ]

@@ -171,8 +171,8 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 528000.0,
-   "last_date": "2026-11-19",
+   "last": 512000.0,
+   "last_date": "2026-11-20",
    "buy_date": "2026-07-28",
    "day_range": [
     607000.0,
@@ -752,8 +752,8 @@
    "path": "reports/2026-11-10/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 168900.0,
-   "last_date": "2026-11-19",
+   "last": 164000.0,
+   "last_date": "2026-11-20",
    "stop": 133311.0,
    "hold_days": 180,
    "alt": {
@@ -911,8 +911,8 @@
    "path": "reports/2026-11-16/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 168900.0,
-   "last_date": "2026-11-19",
+   "last": 164000.0,
+   "last_date": "2026-11-20",
    "stop": 138481.0,
    "hold_days": 180,
    "alt": {
@@ -1047,12 +1047,17 @@
    "buy_high": 58628.0,
    "path": "reports/2026-11-19/KR_picks.html#s-028050",
    "slot": "단기",
-   "status": "wait",
-   "last": 63400.0,
-   "last_date": "2026-11-19",
+   "status": "nofill",
+   "last": 59900.0,
+   "last_date": "2026-11-20",
    "stop": 48466.0,
    "hold_days": 42,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-20",
+   "day_range": [
+    59100.0,
+    62200.0
+   ]
   },
   "reports/2026-11-19/KR_picks.html#s-161390": {
    "date": "2026-11-19",
@@ -1064,12 +1069,17 @@
    "buy_high": 56992.0,
    "path": "reports/2026-11-19/KR_picks.html#s-161390",
    "slot": "중기",
-   "status": "wait",
-   "last": 62500.0,
-   "last_date": "2026-11-19",
+   "status": "nofill",
+   "last": 61200.0,
+   "last_date": "2026-11-20",
    "stop": 47600.0,
    "hold_days": 180,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-20",
+   "day_range": [
+    61100.0,
+    64200.0
+   ]
   },
   "reports/2026-11-19/KR_picks.html#s-271560": {
    "date": "2026-11-19",
@@ -1081,12 +1091,17 @@
    "buy_high": 110820.0,
    "path": "reports/2026-11-19/KR_picks.html#s-271560",
    "slot": "장기",
-   "status": "wait",
-   "last": 118500.0,
-   "last_date": "2026-11-19",
+   "status": "nofill",
+   "last": 116800.0,
+   "last_date": "2026-11-20",
    "stop": 97087.0,
    "hold_days": 540,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-20",
+   "day_range": [
+    116600.0,
+    121100.0
+   ]
   },
   "reports/2026-11-20/US_picks.html#s-CCL": {
    "date": "2026-11-20",
@@ -1104,9 +1119,43 @@
    "stop": 21.22,
    "hold_days": 360,
    "alt": null
+  },
+  "reports/2026-11-20/KR_picks.html#s-028050": {
+   "date": "2026-11-20",
+   "market": "KR",
+   "ticker": "028050",
+   "name": "삼성E&A",
+   "target": 63905.0,
+   "buy_low": 48858.0,
+   "buy_high": 55557.0,
+   "path": "reports/2026-11-20/KR_picks.html#s-028050",
+   "slot": "단기",
+   "status": "wait",
+   "last": 59900.0,
+   "last_date": "2026-11-20",
+   "stop": 42995.0,
+   "hold_days": 56,
+   "alt": null
+  },
+  "reports/2026-11-20/KR_picks.html#s-271560": {
+   "date": "2026-11-20",
+   "market": "KR",
+   "ticker": "271560",
+   "name": "오리온",
+   "target": 131000.0,
+   "buy_low": 100751.0,
+   "buy_high": 111109.0,
+   "path": "reports/2026-11-20/KR_picks.html#s-271560",
+   "slot": "중기",
+   "status": "wait",
+   "last": 116800.0,
+   "last_date": "2026-11-20",
+   "stop": 93873.0,
+   "hold_days": 180,
+   "alt": null
   }
  },
- "updated": "2026-11-20 07:05",
- "fx_now": 1333.3299560546875,
- "fx_date": "2026-11-19"
+ "updated": "2026-11-20 16:21",
+ "fx_now": 1334.5999755859375,
+ "fx_date": "2026-11-20"
 }
