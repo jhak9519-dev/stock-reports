@@ -999,5 +999,27 @@
    "reason": "증설·해외 성장의 이익 반영을 기다리는 구간, 추세는 중립"
   },
   "path": "reports/2026-11-20/KR_picks.html#s-271560"
+ },
+ {
+  "date": "2026-11-21",
+  "market": "US",
+  "ticker": "APP",
+  "name": "AppLovin Corporation",
+  "slot": "장기",
+  "opinion": "매수",
+  "target": 408.32,
+  "upside": 17.2,
+  "target_12m": 408.32,
+  "upside_12m": 17.2,
+  "buy": 295.51,
+  "buy_low": 275.85,
+  "buy_high": 315.17,
+  "stop": 242.74,
+  "position": {
+   "type": "장기",
+   "horizon": "12개월",
+   "reason": "영업이익률 75%·FCF 급증의 구조적 성장, 선행 PER 18.8배로 부담 완화"
+  },
+  "path": "reports/2026-11-21/US_picks.html#s-APP"
  }
 ]

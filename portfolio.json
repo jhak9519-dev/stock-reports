@@ -139,8 +139,8 @@
    "buy_high": 961.11,
    "path": "reports/2026-07-22/US_MU.html",
    "status": "hold",
-   "last": 690.4400024414062,
-   "last_date": "2026-11-19",
+   "last": 594.510009765625,
+   "last_date": "2026-11-20",
    "buy_date": "2026-07-22",
    "day_range": [
     936.0599975585938,
@@ -171,7 +171,7 @@
    "buy_high": 641050.0,
    "path": "reports/2026-07-27/KR_000810.html",
    "status": "hold",
-   "last": 512000.0,
+   "last": 507000.0,
    "last_date": "2026-11-20",
    "buy_date": "2026-07-28",
    "day_range": [
@@ -752,7 +752,7 @@
    "path": "reports/2026-11-10/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 164000.0,
+   "last": 164500.0,
    "last_date": "2026-11-20",
    "stop": 133311.0,
    "hold_days": 180,
@@ -911,7 +911,7 @@
    "path": "reports/2026-11-16/KR_picks.html#s-005830",
    "slot": "중기",
    "status": "hold",
-   "last": 164000.0,
+   "last": 164500.0,
    "last_date": "2026-11-20",
    "stop": 138481.0,
    "hold_days": 180,
@@ -1113,12 +1113,17 @@
    "buy_high": 26.03,
    "path": "reports/2026-11-20/US_picks.html#s-CCL",
    "slot": "장기",
-   "status": "wait",
-   "last": 27.56999969482422,
-   "last_date": "2026-11-19",
+   "status": "nofill",
+   "last": 26.59000015258789,
+   "last_date": "2026-11-20",
    "stop": 21.22,
    "hold_days": 360,
-   "alt": null
+   "alt": null,
+   "buy_date": "2026-11-20",
+   "day_range": [
+    26.4950008392334,
+    27.90999984741211
+   ]
   },
   "reports/2026-11-20/KR_picks.html#s-028050": {
    "date": "2026-11-20",
@@ -1131,7 +1136,7 @@
    "path": "reports/2026-11-20/KR_picks.html#s-028050",
    "slot": "단기",
    "status": "wait",
-   "last": 59900.0,
+   "last": 58800.0,
    "last_date": "2026-11-20",
    "stop": 42995.0,
    "hold_days": 56,
@@ -1148,14 +1153,29 @@
    "path": "reports/2026-11-20/KR_picks.html#s-271560",
    "slot": "중기",
    "status": "wait",
-   "last": 116800.0,
+   "last": 116500.0,
    "last_date": "2026-11-20",
    "stop": 93873.0,
    "hold_days": 180,
    "alt": null
+  },
+  "reports/2026-11-21/US_picks.html#s-APP": {
+   "date": "2026-11-21",
+   "market": "US",
+   "ticker": "APP",
+   "name": "AppLovin Corporation",
+   "target": 408.32,
+   "buy_low": 275.85,
+   "buy_high": 315.17,
+   "path": "reports/2026-11-21/US_picks.html#s-APP",
+   "slot": "장기",
+   "status": "wait",
+   "stop": 242.74,
+   "hold_days": 360,
+   "alt": null
   }
  },
- "updated": "2026-11-20 16:22",
- "fx_now": 1335.0999755859375,
+ "updated": "2026-11-21 07:01",
+ "fx_now": 1346.1300048828125,
  "fx_date": "2026-11-20"
 }
